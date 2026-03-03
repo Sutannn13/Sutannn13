@@ -14,7 +14,7 @@
 - 💼 **Internship Goals:** Siap berkontribusi di bidang Frontend (React.js, Tailwind CSS) atau Backend (Laravel, PostgreSQL, MySQL).
 - 🏆 **Highlight:** - Pemegang Hak Cipta (HKI) dari Kemenkumham RI untuk Web App "Trash Point".
   - Juara 2 IT Bootcamp Software Development For Industry di UBSI.
-  - Skor TOEFL ITP 577.
+  - Skor TOEFL ITP 515.
 - 📫 **Reach me at:** sutanarliejohan@gmail.com atau melalui [Portofolio Saya](https://portofolio-sutan.vercel.app/)
 
 ---

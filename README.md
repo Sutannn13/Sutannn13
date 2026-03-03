@@ -9,9 +9,9 @@
 ---
 
 ## 👨‍💻 About Me & What I'm Up To
-- 🔭 **Current Focus:** Frontend & Backend Web Development, sambil mendalami Machine Learning.
+- 🔭 **Current Focus:** Frontend & Backend Web Development (Laravel, React, Node.js).
 - 🎓 **Education:** Information Technology, Universitas BSI Kampus Margonda (Semester 6).
-- 💼 **Internship Goals:** Siap berkontribusi di bidang Frontend (React.js, Node.js) atau Backend (Laravel, PostgreSQL, MySQL).
+- 💼 **Internship Goals:** Siap berkontribusi di bidang Frontend (React.js, Tailwind CSS) atau Backend (Laravel, PostgreSQL, MySQL).
 - 🏆 **Highlight:** - Pemegang Hak Cipta (HKI) dari Kemenkumham RI untuk Web App "Trash Point".
   - Juara 2 IT Bootcamp Software Development For Industry di UBSI.
   - Skor TOEFL ITP 577.
@@ -43,7 +43,6 @@
 ### Tools & Lainnya
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
   <img src="https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=mqtt&logoColor=white" />
 </p>
@@ -53,7 +52,7 @@
 ## 🚀 Proyek Unggulan
 * ♻️ **Trash Point:** Platform manajemen sampah berbasis IoT dengan sistem poin insentif. (Tersertifikasi HKI).
 * 🐟 **FishMarket:** E-commerce jual beli ikan segar (Laravel 12, Real-time Chat, PDF Reports).
-* 🤖 **ML Research:** Komparasi algoritma BPNN & LSTM untuk prediksi cuaca.
+* 🏢 **Web HMTI Margonda:** Portal web resmi untuk Himpunan Mahasiswa Teknologi Informasi Margonda, dilengkapi fitur manajemen anggota, kas, pendaftaran *event*, dan kolaborasi proker. Dibangun menggunakan **Laravel 12, Tailwind CSS 4, Alpine.js, dan Laravel Reverb** untuk *real-time features*.
 
 ---
 

@@ -1,6 +1,4 @@
-<h1 align="center">Hi there, I'm Sutan Arlie Johan 👋</h1>
-
-<h3 align="center">Mahasiswa Teknologi Informasi (Semester 6) di UBSI Margonda & Pengembang Web</h3>
+<img src="link-gambar-banner-lu.png" alt="Sutan Arlie Johan Banner" width="100%">
 
 <p align="center">
   Membangun solusi digital yang inovatif dan fungsional, dari ide hingga implementasi. Bersemangat dalam menciptakan teknologi yang memecahkan masalah nyata. Saat ini sedang aktif mencari kesempatan magang untuk mengaplikasikan ilmu dalam lingkungan profesional.

@@ -15,7 +15,7 @@
 - 🏆 **Highlight:** - Pemegang Hak Cipta (HKI) dari Kemenkumham RI untuk Web App "Trash Point".
   - Juara 2 IT Bootcamp Software Development For Industry di UBSI.
   - Skor TOEFL ITP 577.
-- 📫 **Reach me at:** sutanarliejohan@gmail.com atau melalui [Portofolio Saya](https://portofolio-sutan.vercel.app/)
+- 📫 **Reach me at:** sutanarliejohan@gmail.com atau melalui [Portofolio Saya](https://portfolio-v2-zeta-eight-52.vercel.app/)
 
 ---
 

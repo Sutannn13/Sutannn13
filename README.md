@@ -5,7 +5,7 @@
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Sutannn13&color=6366f1&style=flat-square&label=Profile+Views)](https://github.com/Sutannn13)
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-6366F1?style=flat-square&logoColor=white)](https://portofolio-sutan.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-6366F1?style=flat-square&logoColor=white)](https://clone-porto-v2.vercel.app/)
 [![Email](https://img.shields.io/badge/📧_Email-EA4335?style=flat-square&logoColor=white)](mailto:sutanarliejohan@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sutanarliejohan)
 
@@ -57,11 +57,6 @@ Saya adalah mahasiswa **Teknologi Informasi Semester 6** di Universitas Bina Sar
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white)
 ![Pusher](https://img.shields.io/badge/Pusher-300D4F?style=for-the-badge&logo=pusher&logoColor=white)
-
-**Networking & Certifications**
-
-![MikroTik](https://img.shields.io/badge/MikroTik_MTCNA-293239?style=for-the-badge&logo=mikrotik&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 
 ---
 
@@ -160,7 +155,7 @@ Saya adalah mahasiswa **Teknologi Informasi Semester 6** di Universitas Bina Sar
 
 [![Email](https://img.shields.io/badge/sutanarliejohan@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sutanarliejohan@gmail.com)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-6366F1?style=for-the-badge)](https://portofolio-sutan.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-6366F1?style=for-the-badge)](https://clone-porto-v2.vercel.app/)
 
 <br/>
 

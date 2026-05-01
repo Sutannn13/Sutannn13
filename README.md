@@ -21,7 +21,7 @@ Saya adalah mahasiswa **Teknologi Informasi Semester 6** di Universitas Bina Sar
 
 - 🚀 **Backend Engineer Intern** di [Connextion](https://connextion.tech) — membangun REST API scalable & arsitektur backend untuk product founders
 - 🔬 **Peneliti & Developer** — co-created **SALI App**, aplikasi mobile gamifikasi pencegahan kekerasan seksual anak (terbit di JITK)
-- 🏆 **Juara 2** UBSI Jawa Barat IT Bootcamp — *Trash Point* (IoT + Web, HKI Certified)
+- 🏆 **Juara 2** UBSI Jawa Barat IT Bootcamp — *Trash Point* ( + Web, HKI Certified)
 - 📜 Terdaftar sebagai **Inventor & Pemegang HKI** di Direktorat Jenderal Kekayaan Intelektual RI
 - 🌐 Bersertifikasi: **MikroTik MTCNA** & **Cisco Networking**
 - 📍 Depok, Jawa Barat, Indonesia
@@ -66,7 +66,7 @@ Saya adalah mahasiswa **Teknologi Informasi Semester 6** di Universitas Bina Sar
   <tr>
     <td width="50%" valign="top">
       <h3>🗑️ Trash Point <sub><a href="#">HKI ✓</a></sub></h3>
-      <p>Platform manajemen sampah berbasis IoT dengan sistem poin insentif, pelacakan lokasi titik sampah, dan dashboard analitik real-time.</p>
+      <p>Platform manajemen sampah berbasis web dengan sistem poin insentif, pelacakan lokasi titik sampah, dan dashboard analitik real-time.</p>
       <p><strong>🏆 Juara 2 — UBSI Jawa Barat IT Bootcamp</strong></p>
       <p>
         <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/>

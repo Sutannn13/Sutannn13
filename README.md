@@ -403,46 +403,89 @@ Contributed to research and development of **SALI App**, an educational applicat
 
 ## ⚡ Live Coding Pulse
 
-> This section is prepared for realtime coding activity using WakaTime / GitHub Actions.  
-> Once connected, it can automatically show weekly coding time, languages, and editor activity.
+> My coding activity is automatically updated from WakaTime using GitHub Actions.
+
+<div align="center">
 
 <!--START_SECTION:waka-->
-```txt
-Laravel / PHP      ███████████████░░░░░░   backend focus
-React / TS         ████████░░░░░░░░░░░░░   frontend support
-MySQL / SQL        ███████░░░░░░░░░░░░░░   database design
-Postman / API      ██████░░░░░░░░░░░░░░░   API testing
 <!--END_SECTION:waka-->
-🧠 What I Can Help Build
-<table> <tr> <td width="33%" valign="top">
-🔌 Backend System
-RESTful API
-Authentication
-Role-based access
-Database migration
-Payment integration
-Admin dashboard backend
-</td> <td width="33%" valign="top">
-⚡ Realtime Features
-Realtime chat
-Broadcasting
-Notification system
-Event monitoring
-Dashboard updates
-WebSocket-based flow
-</td> <td width="33%" valign="top">
-🧩 Product Support
-API documentation
-Postman testing
-Database schema
-Feature planning
-Bug fixing
-Deployment preparation
-</td> </tr> </table>
-📚 Currently Learning
-<div align="center"> <img src="https://img.shields.io/badge/Advanced_Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/System_Design-0F172A?style=for-the-badge&logo=diagramsdotnet&logoColor=22D3EE" /> <img src="https://img.shields.io/badge/API_Security-8B5CF6?style=for-the-badge&logo=auth0&logoColor=white" /> <img src="https://img.shields.io/badge/Realtime_Backend-10B981?style=for-the-badge&logo=socketdotio&logoColor=white" /> <img src="https://img.shields.io/badge/Product_Engineering-F97316?style=for-the-badge&logo=producthunt&logoColor=white" /> </div>
-🤝 Let's Connect & Build Something Together
-<div align="center"> <a href="mailto:sutanarliejohan@gmail.com"> <img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" /> </a> <a href="https://clone-porto-v2.vercel.app/"> <img src="https://img.shields.io/badge/Visit%20Portfolio-6366F1?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /> </a> <a href="https://linkedin.com/in/sutanarliejohan"> <img src="https://img.shields.io/badge/Connect%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a>
+
+</div>
+
+---
+
+## 🧠 What I Can Help Build
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🔌 Backend System
+
+- RESTful API
+- Authentication
+- Role-based access
+- Database migration
+- Payment integration
+- Admin dashboard backend
+
+</td>
+<td width="33%" valign="top">
+
+### ⚡ Realtime Features
+
+- Realtime chat
+- Broadcasting
+- Notification system
+- Event monitoring
+- Dashboard updates
+- WebSocket-based flow
+
+</td>
+<td width="33%" valign="top">
+
+### 🧩 Product Support
+
+- API documentation
+- Postman testing
+- Database schema
+- Feature planning
+- Bug fixing
+- Deployment preparation
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📚 Currently Learning
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Advanced_Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/System_Design-0F172A?style=for-the-badge&logo=diagramsdotnet&logoColor=22D3EE" />
+<img src="https://img.shields.io/badge/API_Security-8B5CF6?style=for-the-badge&logo=auth0&logoColor=white" />
+<img src="https://img.shields.io/badge/Realtime_Backend-10B981?style=for-the-badge&logo=socketdotio&logoColor=white" />
+<img src="https://img.shields.io/badge/Product_Engineering-F97316?style=for-the-badge&logo=producthunt&logoColor=white" />
+
+</div>
+
+---
+
+## 🤝 Let's Connect & Build Something Together
+
+<div align="center">
+
+<a href="mailto:sutanarliejohan@gmail.com">
+  <img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
+</a>
+<a href="https://clone-porto-v2.vercel.app/">
+  <img src="https://img.shields.io/badge/Visit%20Portfolio-6366F1?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+</a>
+<a href="https://linkedin.com/in/sutanarliejohan">
+  <img src="https://img.shields.io/badge/Connect%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
 
 <br/><br/>
 
@@ -451,6 +494,14 @@ Deployment preparation
 <br/><br/>
 
 <b>“Bridging technical engineering with real-world impact — one commit at a time.”</b> 🚀
+
+</div>
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:4F46E5,100:020617&height=130&section=footer" alt="Footer Banner" />
 
 </div>
 <div align="center"> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:4F46E5,100:020617&height=130&section=footer" alt="Footer Banner" /> </div> ```

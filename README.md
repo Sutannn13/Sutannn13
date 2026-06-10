@@ -5,9 +5,9 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:1E1B4B,70:4F46E5,100:22D3EE&height=230&section=header&text=Sutan%20Arlie%20Johan&fontSize=48&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20Intern%20%7C%20Laravel%20%7C%20React%20%7C%20Realtime%20Systems&descAlignY=58&descSize=16" alt="Header Banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:1E1B4B,70:4F46E5,100:22D3EE&height=230&section=header&text=Sutan%20Arlie%20Johan&fontSize=48&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20Intern%20%7C%20Laravel%20%7C%20REST%20API%20%7C%20MySQL&descAlignY=58&descSize=16" alt="Header Banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=900&color=22D3EE&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Sutan+Arlie+Johan+%F0%9F%91%8B;Backend+Developer+Intern+%40+Connextion+Tech;Laravel+12+%7C+REST+API+%7C+Realtime+Backend;Currently+Migrating+AFK+Event+Platform;Open+for+Internship+%2F+Junior+Backend+Roles" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=900&color=22D3EE&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Sutan+Arlie+Johan+%F0%9F%91%8B;Backend+Developer+Intern+%40+Connextion+Tech;Laravel+%7C+PHP+%7C+MySQL+%7C+REST+API;Currently+Migrating+AFK+Event+Platform;Open+for+Internship+%2F+Junior+Backend+Roles" alt="Typing Animation" />
 
 <br/>
 
@@ -32,10 +32,10 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/STATUS-Backend%20Engineer%20Intern-22D3EE?style=for-the-badge&labelColor=0F172A" alt="Status" />
+<img src="https://img.shields.io/badge/STATUS-Backend%20Developer%20Intern-22D3EE?style=for-the-badge&labelColor=0F172A" alt="Status" />
 <img src="https://img.shields.io/badge/CURRENT-Connextion%20Tech-8B5CF6?style=for-the-badge&labelColor=0F172A" alt="Current Internship" />
 <img src="https://img.shields.io/badge/BUILDING-AFK%20Event%20Migration-F97316?style=for-the-badge&labelColor=0F172A" alt="Building AFK" />
-<img src="https://img.shields.io/badge/HIRING-Open%20for%20Internship%20%2F%20Junior%20Backend-10B981?style=for-the-badge&labelColor=0F172A" alt="Hiring Status" />
+<img src="https://img.shields.io/badge/OPEN-Internship%20%2F%20Junior%20Backend-10B981?style=for-the-badge&labelColor=0F172A" alt="Open for Opportunity" />
 
 </div>
 
@@ -46,14 +46,14 @@
 > **"I build backend systems that turn ideas into reliable, usable, and real-world digital products."**
 
 Halo, saya **Sutan Arlie Johan**, mahasiswa **Teknologi Informasi Semester 6** di **Universitas Bina Sarana Informatika (UBSI) Margonda**.  
-Saya fokus di **Back-End Development**, **Full-stack Web Development**, **REST API**, **database design**, dan **realtime application**.
+Saya fokus pada **Back-End Development**, **REST API**, **database design**, dan pengembangan aplikasi web berbasis **Laravel**.
 
-Saat ini saya sedang menjalani program magang sebagai **Backend Developer Intern di Connextion Tech**. Saya juga sedang terlibat dalam migrasi dan pengembangan project event **AFK / Away From Keyboard**, dengan fokus pada backend, struktur data, integrasi sistem, dan kesiapan produk untuk kebutuhan event nyata.
+Saat ini saya sedang menjalani program magang sebagai **Backend Developer Intern di Connextion Tech**. Saya juga sedang terlibat dalam migrasi dan pengembangan project event **AFK / Away From Keyboard**, dengan fokus pada backend, struktur data, API flow, dan kesiapan sistem untuk kebutuhan event nyata.
 
 - 🚀 **Backend Developer Intern** at **Connextion Tech**
 - 🧩 Currently building and migrating **AFK Event Platform**
-- 🛠️ Main stack: **Laravel 12, PHP, MySQL, PostgreSQL, React, TypeScript, Tailwind CSS**
-- ⚡ Interested in **REST API, Realtime Backend, Payment Gateway, Admin Dashboard, SaaS-like Systems**
+- 🛠️ Main stack: **PHP, Laravel, MySQL, JavaScript, Tailwind CSS**
+- ⚡ Currently focused on **REST API, database design, API testing, admin dashboard, and payment integration basics**
 - 🏆 **Juara 2 UBSI Jawa Barat IT Bootcamp** — Trash Point Web App
 - 📜 Registered **HKI holder / inventor** for Trash Point
 - 📚 Research contributor for **SALI App**, published in **JITK SINTA 2**
@@ -73,10 +73,10 @@ Saat ini saya sedang menjalani program magang sebagai **Backend Developer Intern
 
 - Backend internship at **Connextion Tech**
 - Migrating and improving **AFK Event Platform**
-- Building scalable **REST API**
+- Building REST API with Laravel
 - Designing relational database structure
-- Testing APIs using **Postman**
-- Improving realtime product workflows
+- Testing APIs using Postman
+- Supporting backend feature development
 
 </td>
 <td width="50%" valign="top">
@@ -102,52 +102,50 @@ Saat ini saya sedang menjalani program magang sebagai **Backend Developer Intern
 
 ### Frontend
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,bootstrap,vite&theme=dark" alt="Frontend Skills" />
+<img src="https://skillicons.dev/icons?i=html,css,js,tailwind,bootstrap&theme=dark" alt="Frontend Skills" />
 
 <br/><br/>
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpinedotjs&logoColor=black" />
 <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
 
 <br/><br/>
 
 ### Backend & Database
 
-<img src="https://skillicons.dev/icons?i=php,laravel,nodejs,mysql,postgres,firebase,supabase&theme=dark" alt="Backend Skills" />
+<img src="https://skillicons.dev/icons?i=php,laravel,mysql&theme=dark" alt="Backend Skills" />
 
 <br/><br/>
 
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-<img src="https://img.shields.io/badge/Laravel_12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
 <img src="https://img.shields.io/badge/REST_API-0F172A?style=for-the-badge&logo=fastapi&logoColor=22D3EE" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
 
 <br/><br/>
 
-### Tools, DevOps & Services
+### Tools I Use
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm,vercel,figma&theme=dark" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm&theme=dark" alt="Tools" />
 
 <br/><br/>
 
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-<img src="https://img.shields.io/badge/Midtrans-00A2FF?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/Laravel_Reverb-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/Pusher-300D4F?style=for-the-badge&logo=pusher&logoColor=white" />
-<img src="https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=eclipsemosquitto&logoColor=white" />
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+
+<br/><br/>
+
+### Familiar / Project Exposure
+
+<img src="https://img.shields.io/badge/Midtrans-Basic%20Integration-00A2FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Laravel_Reverb-Learning-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/Pusher-Project%20Exposure-300D4F?style=for-the-badge&logo=pusher&logoColor=white" />
 
 </div>
 
@@ -164,8 +162,8 @@ Saat ini saya sedang menjalani program magang sebagai **Backend Developer Intern
 Backend migration and system improvement for **AFK / Away From Keyboard** event platform during internship work.
 
 **Focus Area:**
-- Backend architecture improvement
-- Event data structure
+- Backend structure improvement
+- Event data flow
 - API flow and integration
 - Database preparation
 - Product migration support
@@ -182,11 +180,11 @@ Backend migration and system improvement for **AFK / Away From Keyboard** event 
 
 ### 🐟 FishMarket E-Commerce Platform
 
-E-commerce platform for fresh fish transactions with realtime chat, payment integration, stock management, and automatic PDF reports.
+E-commerce platform for fresh fish transactions with chat feature, payment integration, stock management, and automatic PDF reports.
 
 **Key Features:**
-- Real-time chat using Pusher
-- Midtrans payment gateway
+- Chat feature using Pusher
+- Midtrans payment gateway integration
 - PDF transaction reports
 - Low-stock alerts
 - Multi-product transaction flow
@@ -232,15 +230,15 @@ Official organization website for Himpunan Mahasiswa Teknologi Informasi UBSI Ma
 - Member management
 - Transparent finance / cash management
 - Internal announcements
-- Real-time broadcasting with Laravel Reverb
 - Organization activity documentation
+- Admin dashboard support
 
 **Tech Stack:**
 
 <img src="https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square&logo=alpinedotjs&logoColor=black" />
-<img src="https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Laravel_Reverb-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 
 </td>
 </tr>
@@ -263,9 +261,9 @@ E-commerce platform for electrical products with product management, cart, check
 **Tech Stack:**
 
 <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square&logo=alpinedotjs&logoColor=black" />
-<img src="https://img.shields.io/badge/AI_Assistant-8B5CF6?style=flat-square" />
+<img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square" />
 
 </td>
 <td width="50%" valign="top">
@@ -353,7 +351,7 @@ Contributed to research and development of **SALI App**, an educational applicat
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Sutannn13&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=21600" alt="Sutan Arlie Johan GitHub Stats" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sutannn13&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&cache_seconds=21600" alt="Most Used Languages" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sutannn13&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=21600" alt="Most Used Languages" />
 
 <br/><br/>
 
@@ -420,38 +418,38 @@ Contributed to research and development of **SALI App**, an educational applicat
 <tr>
 <td width="33%" valign="top">
 
-### 🔌 Backend System
+### 🔌 Backend Basics
 
 - RESTful API
 - Authentication
+- CRUD features
 - Role-based access
 - Database migration
-- Payment integration
 - Admin dashboard backend
 
 </td>
 <td width="33%" valign="top">
 
-### ⚡ Realtime Features
+### 🗄️ Database & API
 
-- Realtime chat
-- Broadcasting
-- Notification system
-- Event monitoring
-- Dashboard updates
-- WebSocket-based flow
+- MySQL database design
+- Laravel migration
+- API endpoint planning
+- Postman API testing
+- Basic query optimization
+- Error handling flow
 
 </td>
 <td width="33%" valign="top">
 
 ### 🧩 Product Support
 
-- API documentation
-- Postman testing
-- Database schema
-- Feature planning
+- Feature documentation
 - Bug fixing
-- Deployment preparation
+- Payment integration support
+- Project report writing
+- Backend flow testing
+- Deployment preparation basics
 
 </td>
 </tr>
@@ -463,11 +461,11 @@ Contributed to research and development of **SALI App**, an educational applicat
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Advanced_Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/System_Design-0F172A?style=for-the-badge&logo=diagramsdotnet&logoColor=22D3EE" />
-<img src="https://img.shields.io/badge/API_Security-8B5CF6?style=for-the-badge&logo=auth0&logoColor=white" />
-<img src="https://img.shields.io/badge/Realtime_Backend-10B981?style=for-the-badge&logo=socketdotio&logoColor=white" />
-<img src="https://img.shields.io/badge/Product_Engineering-F97316?style=for-the-badge&logo=producthunt&logoColor=white" />
+<img src="https://img.shields.io/badge/Laravel_REST_API-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/Database_Design-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/API_Testing-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/Git_Workflow-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/React_Basics-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 
 </div>
 
@@ -504,4 +502,3 @@ Contributed to research and development of **SALI App**, an educational applicat
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:4F46E5,100:020617&height=130&section=footer" alt="Footer Banner" />
 
 </div>
-<div align="center"> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:4F46E5,100:020617&height=130&section=footer" alt="Footer Banner" /> </div> ```

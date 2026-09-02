@@ -1,109 +1,116 @@
 <div align="center">
-  <img src="./assets/hero.gif" width="100%" alt="Animated banner introducing Sutan Arlie Johan as a backend-focused full-stack developer." />
+  <img src="./assets/hero.gif" width="100%" alt="Neon Observatory: an animated introduction to Sutan Arlie Johan and his work in backend systems, full-stack products, and automation." />
 
   <br />
 
-  <a href="https://sutan.dev"><strong>Portfolio</strong></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:sutanarliejohan@gmail.com"><strong>Email</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/sutanarliejohan"><strong>LinkedIn</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Sutannn13?tab=repositories"><strong>Repositories</strong></a>
+  <a href="https://sutan.dev"><strong>PORTFOLIO</strong></a>
+  &nbsp;&nbsp;／&nbsp;&nbsp;
+  <a href="https://github.com/Sutannn13?tab=repositories"><strong>PROJECTS</strong></a>
+  &nbsp;&nbsp;／&nbsp;&nbsp;
+  <a href="mailto:sutanarliejohan@gmail.com"><strong>EMAIL</strong></a>
+  &nbsp;&nbsp;／&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/sutanarliejohan"><strong>LINKEDIN</strong></a>
 </div>
 
-## Profile
+## `01 / PROFILE`
 
-I am a seventh-semester **Information Technology student at UBSI Margonda** and a backend-focused full-stack developer based in Depok, Indonesia.
+I am **Sutan Arlie Johan**, an Information Technology student and backend-focused full-stack developer based in Depok, Indonesia.
 
-I like work where the input is messy—manual processes, scattered data, or an unclear system flow—and the result needs to feel simple for the person using it. My recent projects cover operational tools, REST APIs, community platforms, and interactive web experiences.
-
-- Building with **Laravel, PHP, TypeScript, JavaScript, MySQL, and Tailwind CSS**.
-- Comfortable moving from **data model → API → interface → deployment**.
-- Currently improving practical skills in API design, database structure, testing, and product-oriented UI.
-- Open to junior developer opportunities, internships, and focused project collaborations.
-
-## Current work
-
-| Project | What I am solving | Main tools |
-|---|---|---|
-| **Mau's Kitchen** | A clearer customer and operations flow for a family food business. | TypeScript, web operations |
-| **Press Release Generator** | Turning structured 5W+1H field notes into a usable first draft for communications work. | TypeScript, workflow design |
-| **Jakarta Tech Expo** | A responsive event experience built within a strict static-web stack. | HTML, Tailwind CSS, JavaScript |
-
-## Selected projects
+I turn rough ideas, manual processes, and scattered data into systems that feel clear to the people using them. My work sits between **backend engineering, product thinking, automation, and interface execution**—from data model and API to deployment.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Skill Path AI</h3>
-      <p>A career-planning product that turns a user's current profile into a skill roadmap and relevant job direction.</p>
-      <p><code>TypeScript</code> <code>Product workflow</code> <code>GitHub data</code></p>
-      <a href="https://github.com/Sutannn13/Skill-Path-AI">Repository</a> ·
-      <a href="https://skill-path-ai-kappa.vercel.app">Live product</a>
+    <td width="33%" valign="top">
+      <strong>NOW / BUILDING</strong><br /><br />
+      Operational tools, REST APIs, and useful web products.
     </td>
-    <td width="50%" valign="top">
-      <h3>Mau's Kitchen</h3>
-      <p>A customer and admin web experience for menu discovery, ordering, and day-to-day small-business operations.</p>
-      <p><code>TypeScript</code> <code>Full-stack</code> <code>Product UI</code></p>
-      <a href="https://github.com/Sutannn13/mau-s-kitchen">Repository</a> ·
-      <a href="https://maus-kitchen.pages.dev">Live product</a>
+    <td width="33%" valign="top">
+      <strong>NEXT / IMPROVING</strong><br /><br />
+      Testing, system design, realtime data, and deployment workflows.
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Press Release Generator</h3>
-      <p>A structured writing workflow for producing consistent press-release drafts from event facts and quotations.</p>
-      <p><code>TypeScript</code> <code>Automation</code> <code>Content workflow</code></p>
-      <a href="https://github.com/Sutannn13/press-release-auto-generate">Repository</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Solar System AR</h3>
-      <p>An interactive browser-based solar-system learning experience that combines web UI with augmented reality.</p>
-      <p><code>TypeScript</code> <code>A-Frame</code> <code>AR.js</code></p>
-      <a href="https://github.com/Sutannn13/solar-system-ar">Repository</a> ·
-      <a href="https://solar-system-ar-sigma.vercel.app">Live demo</a>
+    <td width="34%" valign="top">
+      <strong>OPEN / OPPORTUNITIES</strong><br /><br />
+      Junior roles, internships, and focused product collaborations.
     </td>
   </tr>
 </table>
 
-## Working stack
+## `02 / SELECTED SYSTEMS`
 
-| Area | Tools I use |
-|---|---|
-| **Backend** | `Laravel` `PHP` `REST API` `MySQL` |
-| **Frontend** | `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind CSS` |
-| **Product & testing** | `Postman` `GitHub` `Git` `Figma` `API testing` |
-| **Currently extending** | `Supabase` `Realtime systems` `Deployment workflows` |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Sutannn13/Skill-Path-AI"><img src="./assets/projects/skill-path-ai.svg" width="100%" alt="Live project card for Skill Path AI." /></a>
+      <br />
+      <a href="https://github.com/Sutannn13/Skill-Path-AI"><strong>Source</strong></a> · <a href="https://skill-path-ai-kappa.vercel.app"><strong>Live product ↗</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Sutannn13/mau-s-kitchen"><img src="./assets/projects/maus-kitchen.svg" width="100%" alt="Live project card for Mau's Kitchen." /></a>
+      <br />
+      <a href="https://github.com/Sutannn13/mau-s-kitchen"><strong>Source</strong></a> · <a href="https://maus-kitchen.pages.dev"><strong>Live product ↗</strong></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Sutannn13/press-release-auto-generate"><img src="./assets/projects/press-release.svg" width="100%" alt="Live project card for Press Release Generator." /></a>
+      <br />
+      <a href="https://github.com/Sutannn13/press-release-auto-generate"><strong>Source ↗</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Sutannn13/solar-system-ar"><img src="./assets/projects/solar-system-ar.svg" width="100%" alt="Live project card for Solar System AR." /></a>
+      <br />
+      <a href="https://github.com/Sutannn13/solar-system-ar"><strong>Source</strong></a> · <a href="https://solar-system-ar-sigma.vercel.app"><strong>Live demo ↗</strong></a>
+    </td>
+  </tr>
+</table>
 
-## Evidence, not decoration
+> Each card is generated from live repository metadata. Language, stars, and last update refresh automatically through GitHub Actions.
 
-- **2nd place, UBSI West Java IT Bootcamp** for the Trash Point web application.
-- Registered **HKI inventor** for Trash Point.
-- Research contributor to the **SALI App** publication in JITK, accredited **SINTA 2**.
-- Certified in **MikroTik MTCNA** and **Cisco Networking** fundamentals.
-
-## Live GitHub snapshot
+## `03 / ACTIVITY OBSERVATORY`
 
 <div align="center">
-  <img src="./assets/live-stats.svg" width="100%" alt="Automatically updated statistics for Sutan's public GitHub repositories and primary languages." />
+  <img src="./assets/live-stats.svg" width="100%" alt="Automatically refreshed repository totals, stars, and primary languages." />
+  <br /><br />
+  <img src="./assets/activity-loop.gif" width="100%" alt="Animated one-year GitHub contribution calendar generated from Sutan's real contribution data." />
 </div>
 
 <details>
-  <summary><strong>Weekly coding pulse</strong> — WakaTime, when connected</summary>
+  <summary><strong>Open weekly coding telemetry / WakaTime</strong></summary>
 
   <br />
 
 <!--START_SECTION:waka-->
-The workflow is ready. This block will populate automatically when the repository's `WAKATIME_API_KEY` secret is available.
+WakaTime telemetry is ready to go live when the repository secret is connected. The rest of this profile keeps updating independently.
 <!--END_SECTION:waka-->
 
 </details>
 
-## Let's build something useful
+## `04 / WORKING STACK`
 
-The best way to understand my work is to open a project, follow the problem it solves, and inspect how the pieces connect. If you are working on a practical web product, backend system, or operational tool, reach me through [email](mailto:sutanarliejohan@gmail.com) or [LinkedIn](https://www.linkedin.com/in/sutanarliejohan).
+| Layer | Tools and focus |
+|---|---|
+| **Backend systems** | `Laravel` `PHP` `REST API` `MySQL` `API testing` |
+| **Product interface** | `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind CSS` |
+| **Workflow** | `Git` `GitHub Actions` `Postman` `Figma` `Deployment` |
+| **Currently extending** | `Supabase` `Realtime systems` `Automated testing` `System design` |
+
+## `05 / PROOF OF WORK`
+
+- **2nd place — UBSI West Java IT Bootcamp**, building the Trash Point web application.
+- Registered **HKI inventor** for Trash Point.
+- Research contributor to the **SALI App** publication in JITK, accredited **SINTA 2**.
+- Certified in **MikroTik MTCNA** and **Cisco Networking** fundamentals.
+
+## `06 / CONTACT`
+
+If you are building a practical web product, backend system, or operational tool, I would like to hear about the problem behind it.
 
 <div align="center">
-  <sub>I care about software that survives contact with real users.</sub>
+  <a href="mailto:sutanarliejohan@gmail.com"><strong>START A CONVERSATION</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/sutanarliejohan"><strong>VIEW LINKEDIN</strong></a>
+
+  <br /><br />
+
+  <sub>Observe the problem · Design the flow · Ship the system</sub>
 </div>

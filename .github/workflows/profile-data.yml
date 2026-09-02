@@ -20,15 +20,18 @@ concurrency:
 
 jobs:
   refresh:
-    name: Refresh GitHub and WakaTime snapshot
+    name: Refresh GitHub, contributions, projects, and WakaTime
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
 
     steps:
       - name: Check out profile repository
         uses: actions/checkout@v4
 
-      - name: Build profile data
+      - name: Install animation renderer
+        run: python3 -m pip install --disable-pip-version-check Pillow==12.3.0 || echo "Pillow unavailable; the previous contribution animation will be preserved."
+
+      - name: Build self-hosted profile data
         env:
           GITHUB_TOKEN: ${{ github.token }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -37,13 +40,13 @@ jobs:
       - name: Commit changed data only
         shell: bash
         run: |
-          if git diff --quiet -- README.md assets/live-stats.svg; then
+          if git diff --quiet -- README.md assets/live-stats.svg assets/activity-loop.gif assets/projects; then
             echo "Profile data is already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/live-stats.svg
+          git add README.md assets/live-stats.svg assets/activity-loop.gif assets/projects
           git commit -m "chore(profile): refresh public activity data"
           git push

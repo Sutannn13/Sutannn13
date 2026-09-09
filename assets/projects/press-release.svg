@@ -6,6 +6,6 @@
   <text x="34" y="43" class="over">03 / WORKFLOW AUTOMATION</text><circle cx="528" cy="38" r="14" fill="#0D2436" stroke="#22D3EE"/><circle cx="528" cy="38" r="4" fill="#22D3EE"/>
   <text x="34" y="87" class="name">Press Release Generator</text>
   <text x="34" y="121" class="body">Turns structured 5W+1H field notes into consistent, usable communicati</text><text x="34" y="143" class="body">on drafts.</text>
-  <line x1="34" y1="169" x2="546" y2="169" stroke="#263B55"/><circle cx="40" cy="198" r="5" fill="#5EA2EF"/><text x="53" y="203" class="meta">TypeScript</text><text x="208" y="203" class="meta">★ 0</text><text x="284" y="203" class="meta">UPDATED AUG 2026</text>
+  <line x1="34" y1="169" x2="546" y2="169" stroke="#263B55"/><circle cx="40" cy="198" r="5" fill="#5EA2EF"/><text x="53" y="203" class="meta">TypeScript</text><text x="208" y="203" class="meta">★ 1</text><text x="284" y="203" class="meta">UPDATED AUG 2026</text>
   <rect x="34" y="218" width="145" height="2" rx="1" fill="url(#line)"/><text x="401" y="224" class="status">SOURCE AVAILABLE</text>
 </svg>

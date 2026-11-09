@@ -40,26 +40,26 @@ I turn rough ideas, manual processes, and scattered data into systems that feel 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/Skill-Path-AI"><img src="./assets/projects/skill-path-ai.svg" width="100%" alt="Live project card for Skill Path AI." /></a>
+      <a href="https://github.com/Sutannn13/Skill-Path-AI"><img src="./assets/projects/skill-path-ai.svg" width="100%" alt="Skill Path AI: Transforms a user’s current profile into a practical skill roadmap and career direction." /></a>
       <br />
-      <a href="https://github.com/Sutannn13/Skill-Path-AI"><strong>Source</strong></a> · <a href="https://skill-path-ai-kappa.vercel.app"><strong>Live product ↗</strong></a>
+      <a href="https://github.com/Sutannn13/Skill-Path-AI"><strong>Skill Path AI source ↗</strong></a> · <span>Demo currently unavailable</span>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/mau-s-kitchen"><img src="./assets/projects/maus-kitchen.svg" width="100%" alt="Live project card for Mau's Kitchen." /></a>
+      <a href="https://github.com/Sutannn13/mau-s-kitchen"><img src="./assets/projects/maus-kitchen.svg" width="100%" alt="Mau's Kitchen: A customer and admin experience for menu discovery, ordering, and daily operations." /></a>
       <br />
-      <a href="https://github.com/Sutannn13/mau-s-kitchen"><strong>Source</strong></a> · <a href="https://maus-kitchen.pages.dev"><strong>Live product ↗</strong></a>
+      <a href="https://github.com/Sutannn13/mau-s-kitchen"><strong>Mau's Kitchen source ↗</strong></a> · <span>Demo currently unavailable</span>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/press-release-auto-generate"><img src="./assets/projects/press-release.svg" width="100%" alt="Live project card for Press Release Generator." /></a>
+      <a href="https://github.com/Sutannn13/press-release-auto-generate"><img src="./assets/projects/press-release.svg" width="100%" alt="Press Release Generator: Turns structured 5W+1H field notes into consistent, usable communication drafts." /></a>
       <br />
-      <a href="https://github.com/Sutannn13/press-release-auto-generate"><strong>Source ↗</strong></a>
+      <a href="https://github.com/Sutannn13/press-release-auto-generate"><strong>Press Release Generator source ↗</strong></a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/solar-system-ar"><img src="./assets/projects/solar-system-ar.svg" width="100%" alt="Live project card for Solar System AR." /></a>
+      <img src="./assets/projects/solar-system-ar.svg" width="100%" alt="Solar System AR: An interactive browser learning experience combining product UI and augmented reality." />
       <br />
-      <a href="https://github.com/Sutannn13/solar-system-ar"><strong>Source</strong></a> · <a href="https://solar-system-ar-sigma.vercel.app"><strong>Live demo ↗</strong></a>
+      <strong>Solar System AR</strong> · <span>Source and demo currently unavailable</span>
     </td>
   </tr>
 </table>

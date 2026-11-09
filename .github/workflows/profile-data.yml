@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - scripts/update_profile.py
+      - tests/test_update_profile.py
       - .github/workflows/profile-data.yml
   schedule:
     - cron: "17 2 * * *"
@@ -27,6 +28,9 @@ jobs:
     steps:
       - name: Check out profile repository
         uses: actions/checkout@v4
+
+      - name: Test profile refresh behavior
+        run: python3 -m unittest discover -s tests -v
 
       - name: Install animation renderer
         run: python3 -m pip install --disable-pip-version-check Pillow==12.3.0 || echo "Pillow unavailable; the previous contribution animation will be preserved."

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="A winding trail through the forest floor">
+  <rect width="1200" height="140" fill="#08170f"/>
+  <g fill="#0b1f16">
+    <path d="M0,118 L1200,118 L1200,140 L0,140 Z"/>
+  </g>
+  <!-- winding trail, slowly marching dashes -->
+  <path d="M-20,72 C150,42 250,102 400,72 C550,42 650,102 800,72 C950,42 1050,102 1220,72" fill="none" stroke="#74c69d" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 16" opacity="0.85">
+    <animate attributeName="stroke-dashoffset" values="0;-180" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <!-- paw prints along the trail -->
+  <g fill="#d49b35" opacity="0.55">
+    <ellipse cx="180" cy="66" rx="5" ry="7" transform="rotate(-18 180 66)"/>
+    <ellipse cx="212" cy="80" rx="5" ry="7" transform="rotate(14 212 80)"/>
+    <ellipse cx="560" cy="64" rx="5" ry="7" transform="rotate(-14 560 64)"/>
+    <ellipse cx="592" cy="80" rx="5" ry="7" transform="rotate(16 592 80)"/>
+    <ellipse cx="950" cy="66" rx="5" ry="7" transform="rotate(-16 950 66)"/>
+    <ellipse cx="982" cy="80" rx="5" ry="7" transform="rotate(12 982 80)"/>
+  </g>
+  <text x="600" y="34" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="1" fill="#b7c9bc">Observe the problem · Design the flow · Ship the system</text>
+</svg>

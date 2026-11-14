@@ -65,7 +65,7 @@ PROJECTS = [
         "label": "01 / AI CAREER PRODUCT",
         "title": "Skill Path AI",
         "description": "Transforms a user's current profile into a practical skill roadmap and career direction.",
-        "live": "https://skill-path-ai-kappa.vercel.app",
+        "live": "",
     },
     {
         "repo": "mau-s-kitchen",
@@ -73,7 +73,7 @@ PROJECTS = [
         "label": "02 / BUSINESS OPERATIONS",
         "title": "Mau's Kitchen",
         "description": "A customer and admin experience for menu discovery, ordering, and daily operations.",
-        "live": "https://maus-kitchen.pages.dev",
+        "live": "https://maukitchen.my.id",
     },
     {
         "repo": "press-release-auto-generate",
@@ -84,12 +84,12 @@ PROJECTS = [
         "live": "",
     },
     {
-        "repo": "solar-system-ar",
+        "repo": "ar-tata-surya",
         "file": "solar-system-ar.svg",
         "label": "04 / IMMERSIVE WEB",
         "title": "Solar System AR",
         "description": "An interactive browser learning experience combining product UI and augmented reality.",
-        "live": "https://solar-system-ar-sigma.vercel.app",
+        "live": "",
     },
 ]
 

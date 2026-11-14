@@ -48,26 +48,26 @@ I turn rough ideas, manual processes, and scattered data into systems that feel 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/Skill-Path-AI"><img src="./assets/projects/skill-path-ai.svg" width="100%" alt="Skill Path AI: turns a current profile into a practical skill roadmap and career direction. TypeScript, Vercel. Live product." /></a>
+      <a href="https://github.com/Sutannn13/Skill-Path-AI"><img src="./assets/projects/skill-path-ai.svg" width="100%" alt="Skill Path AI: turns a current profile into a practical skill roadmap and career direction. TypeScript, Vercel. Source available." /></a>
       <br />
-      <a href="https://github.com/Sutannn13/Skill-Path-AI">Source</a> · <a href="https://skill-path-ai-kappa.vercel.app">Live product ↗</a>
+      <a href="https://github.com/Sutannn13/Skill-Path-AI">Skill Path AI source ↗</a> · <span>Demo currently unavailable</span>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Sutannn13/mau-s-kitchen"><img src="./assets/projects/maus-kitchen.svg" width="100%" alt="Mau's Kitchen: menu discovery, ordering, and daily operations for a real kitchen. TypeScript. Live product." /></a>
       <br />
-      <a href="https://github.com/Sutannn13/mau-s-kitchen">Source</a> · <a href="https://maukitchen.my.id">Live product ↗</a>
+      <a href="https://github.com/Sutannn13/mau-s-kitchen">Mau's Kitchen source ↗</a> · <a href="https://maukitchen.my.id">Live product ↗</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Sutannn13/press-release-auto-generate"><img src="./assets/projects/press-release.svg" width="100%" alt="Press Release Generator: structured field notes into consistent, usable communication. TypeScript." /></a>
       <br />
-      <a href="https://github.com/Sutannn13/press-release-auto-generate">Source ↗</a>
+      <a href="https://github.com/Sutannn13/press-release-auto-generate">Press Release Generator source ↗</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/ar-tata-surya"><img src="./assets/projects/solar-system-ar.svg" width="100%" alt="Solar System AR: interactive learning combining product UI and augmented reality. TypeScript, A-Frame and AR.js. Live demo." /></a>
+      <a href="https://github.com/Sutannn13/ar-tata-surya"><img src="./assets/projects/solar-system-ar.svg" width="100%" alt="Solar System AR: interactive learning combining product UI and augmented reality. TypeScript, A-Frame and AR.js. Source available." /></a>
       <br />
-      <a href="https://github.com/Sutannn13/ar-tata-surya">Source</a> · <a href="https://solar-system-ar-sigma.vercel.app">Live demo ↗</a>
+      <a href="https://github.com/Sutannn13/ar-tata-surya">Solar System AR source ↗</a> · <span>Demo currently unavailable</span>
     </td>
   </tr>
   <tr>

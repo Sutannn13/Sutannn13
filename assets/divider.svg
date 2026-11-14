@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="56" viewBox="0 0 1200 56" role="img" aria-label="A thin forest trail divider">
+  <path d="M0,28 C300,10 600,46 900,18 C1050,6 1150,26 1200,28" fill="none" stroke="#2d6a4f" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 10">
+    <animate attributeName="stroke-dashoffset" values="0;-120" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <rect x="594" y="22" width="12" height="12" fill="#d49b35" transform="rotate(45 600 28)"/>
+  <g fill="#e9c46a">
+    <circle cx="240" cy="22" r="2.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="34" r="2.4"><animate attributeName="opacity" values="1;0.2;1" dur="4.6s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

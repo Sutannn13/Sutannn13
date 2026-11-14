@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="Typing: Operational tools, REST APIs, useful web products. From data model and API to deployment. Junior roles, internships, focused collaborations.">
+  <defs>
+    <clipPath id="clip1"><rect x="64" y="28" width="0" height="52"><animate attributeName="width" values="0;655;655" keyTimes="0;0.18;0.32" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip2"><rect x="64" y="28" width="0" height="52"><animate attributeName="width" values="0;0;479;479" keyTimes="0;0.35;0.53;0.67" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip3"><rect x="64" y="28" width="0" height="52"><animate attributeName="width" values="0;0;630;630" keyTimes="0;0.68;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <rect width="1200" height="110" rx="12" fill="#0b1f16" stroke="#1b4332"/>
+  <text x="30" y="68" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="21" fill="#d49b35">›</text>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.30;0.34;1" dur="12s" repeatCount="indefinite"/>
+    <text x="64" y="68" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="21" fill="#f1efe6" clip-path="url(#clip1)">Operational tools, REST APIs, useful web products.</text>
+    <rect x="728" y="44" width="11" height="26" fill="#d49b35"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.35;0.63;0.67" dur="12s" repeatCount="indefinite"/>
+    <text x="64" y="68" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="21" fill="#f1efe6" clip-path="url(#clip2)">From data model and API to deployment.</text>
+    <rect x="552" y="44" width="11" height="26" fill="#d49b35"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.68;0.96;1" dur="12s" repeatCount="indefinite"/>
+    <text x="64" y="68" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="21" fill="#f1efe6" clip-path="url(#clip3)">Junior roles, internships, focused collaborations.</text>
+    <rect x="703" y="44" width="11" height="26" fill="#d49b35"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

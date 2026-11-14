@@ -3,6 +3,10 @@
 
   <br />
 
+  <img src="./assets/typing.svg" width="100%" alt="Typing: Operational tools, REST APIs, useful web products. From data model and API to deployment. Junior roles, internships, focused collaborations." />
+
+  <br />
+
   <a href="https://sutan.dev"><strong>PORTFOLIO</strong></a>
   &nbsp;&nbsp;／&nbsp;&nbsp;
   <a href="https://github.com/Sutannn13?tab=repositories"><strong>PROJECTS</strong></a>
@@ -17,6 +21,10 @@
 I am **Sutan Arlie Johan**, an Information Technology student and backend-focused full-stack developer based in Depok, Indonesia.
 
 I turn rough ideas, manual processes, and scattered data into systems that feel clear to the people using them. My work sits between **backend engineering, product thinking, automation, and interface execution** — from data model and API to deployment.
+
+<div align="center">
+  <img src="./assets/trail.svg" width="100%" alt="Trail map with three stops: Now building, Next improving, Open for opportunities" />
+</div>
 
 <table>
   <tr>
@@ -40,47 +48,45 @@ I turn rough ideas, manual processes, and scattered data into systems that feel 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/Skill-Path-AI"><strong>Skill Path AI</strong></a><br />
-      Turns a current profile into a practical skill roadmap and career direction.<br />
-      <sub>TypeScript · live product</sub><br />
+      <a href="https://github.com/Sutannn13/Skill-Path-AI"><img src="./assets/projects/skill-path-ai.svg" width="100%" alt="Skill Path AI: turns a current profile into a practical skill roadmap and career direction. TypeScript, Vercel. Live product." /></a>
+      <br />
       <a href="https://github.com/Sutannn13/Skill-Path-AI">Source</a> · <a href="https://skill-path-ai-kappa.vercel.app">Live product ↗</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/mau-s-kitchen"><strong>Mau's Kitchen</strong></a><br />
-      A customer-facing experience for menu discovery, ordering, and daily operations.<br />
-      <sub>TypeScript · live product</sub><br />
+      <a href="https://github.com/Sutannn13/mau-s-kitchen"><img src="./assets/projects/maus-kitchen.svg" width="100%" alt="Mau's Kitchen: menu discovery, ordering, and daily operations for a real kitchen. TypeScript. Live product." /></a>
+      <br />
       <a href="https://github.com/Sutannn13/mau-s-kitchen">Source</a> · <a href="https://maukitchen.my.id">Live product ↗</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/press-release-auto-generate"><strong>Press Release Generator</strong></a><br />
-      Turns structured field notes into consistent, usable communication on drafts.<br />
-      <sub>TypeScript</sub><br />
+      <a href="https://github.com/Sutannn13/press-release-auto-generate"><img src="./assets/projects/press-release.svg" width="100%" alt="Press Release Generator: structured field notes into consistent, usable communication. TypeScript." /></a>
+      <br />
       <a href="https://github.com/Sutannn13/press-release-auto-generate">Source ↗</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/ar-tata-surya"><strong>Solar System AR</strong></a><br />
-      An interactive learning experience combining product UI and augmented reality.<br />
-      <sub>TypeScript · A-Frame / AR.js · live demo</sub><br />
+      <a href="https://github.com/Sutannn13/ar-tata-surya"><img src="./assets/projects/solar-system-ar.svg" width="100%" alt="Solar System AR: interactive learning combining product UI and augmented reality. TypeScript, A-Frame and AR.js. Live demo." /></a>
+      <br />
       <a href="https://github.com/Sutannn13/ar-tata-surya">Source</a> · <a href="https://solar-system-ar-sigma.vercel.app">Live demo ↗</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions"><strong>Fresh Fish E-Commerce</strong></a><br />
-      An e-commerce platform for selling fresh fish — Laravel, Blade, MySQL.<br />
-      <sub>PHP · Laravel · Blade</sub><br />
+      <a href="https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions"><img src="./assets/projects/fresh-fish.svg" width="100%" alt="Fresh Fish E-Commerce: selling fresh fish online with Laravel, Blade, and MySQL. PHP, Laravel, Blade." /></a>
+      <br />
       <a href="https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions">Source ↗</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/HMTI-MARGONDA"><strong>HMTI Margonda</strong></a><br />
-      Website for Himpunan Mahasiswa Teknologi Informasi, UBSI Margonda.<br />
-      <sub>TypeScript</sub><br />
+      <a href="https://github.com/Sutannn13/HMTI-MARGONDA"><img src="./assets/projects/hmti.svg" width="100%" alt="HMTI Margonda: website for the Informatics student association, UBSI Margonda. TypeScript." /></a>
+      <br />
       <a href="https://github.com/Sutannn13/HMTI-MARGONDA">Source ↗</a>
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="A thin forest trail divider" />
+</div>
 
 ## `03 / FOOTPRINTS`
 
@@ -98,6 +104,14 @@ The snake above is drawn from real contribution data and refreshes daily through
 | **Product interface** | `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind CSS` |
 | **Workflow** | `Git` `GitHub Actions` `Postman` `Figma` `Deployment` |
 | **Currently extending** | `Supabase` `Realtime systems` `Automated testing` `System design` |
+
+<div align="center">
+  <img src="./assets/langs.svg" width="100%" alt="Field mix: primary language by repository. TypeScript 9, JavaScript 5, CSS 2, PHP 1, Blade 1, HTML 1, Python 1, of 22 public repositories." />
+</div>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="A thin forest trail divider" />
+</div>
 
 ## `05 / PROOF OF WORK`
 

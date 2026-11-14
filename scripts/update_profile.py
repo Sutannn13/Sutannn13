@@ -73,7 +73,7 @@ PROJECTS = [
         "label": "02 / BUSINESS OPERATIONS",
         "title": "Mau's Kitchen",
         "description": "A customer and admin experience for menu discovery, ordering, and daily operations.",
-        "live": "",
+        "live": "https://maukitchen.my.id",
     },
     {
         "repo": "press-release-auto-generate",
@@ -84,8 +84,7 @@ PROJECTS = [
         "live": "",
     },
     {
-        "repo": "solar-system-ar",
-        "source_available": False,
+        "repo": "ar-tata-surya",
         "file": "solar-system-ar.svg",
         "label": "04 / IMMERSIVE WEB",
         "title": "Solar System AR",
@@ -280,13 +279,11 @@ def human_date(value: str) -> str:
         return "LIVE METADATA"
 
 
-def render_project_svg(project: dict[str, Any], metadata: dict[str, Any]) -> str:
+def render_project_svg(project: dict[str, str], metadata: dict[str, Any]) -> str:
     language = svg_text(metadata.get("language") or "Multi-stack")
     stars = int(metadata.get("stars") or 0)
     updated = human_date(str(metadata.get("pushed_at") or ""))
-    deployment = "SOURCE AVAILABLE" if project.get("source_available", True) else "SOURCE UNAVAILABLE"
-    if project["live"]:
-        deployment = "DEPLOYMENT LINKED"
+    deployment = "DEPLOYMENT LINKED" if project["live"] else "SOURCE AVAILABLE"
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="580" height="245" viewBox="0 0 580 245" role="img" aria-labelledby="title desc">
   <title id="title">{svg_text(project['title'])}</title><desc id="desc">{svg_text(project['description'])}</desc>
   <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071322"/><stop offset=".58" stop-color="#0C1730"/><stop offset="1" stop-color="#171238"/></linearGradient><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset=".52" stop-color="#6366F1"/><stop offset="1" stop-color="#A855F7"/></linearGradient></defs>

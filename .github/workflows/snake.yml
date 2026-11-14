@@ -1,0 +1,34 @@
+# Generates ./assets/snake.svg from real contribution data.
+# Add this file to the Sutannn13/Sutannn13 repo at
+# .github/workflows/snake.yml, then delete the old
+# .github/workflows/profile-data.yml (its stats have been
+# frozen since the workflow started failing on 1 Nov 2026).
+# The README in this folder references ./assets/snake.svg.
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Sutannn13
+          outputs: |
+            assets/snake.svg
+            assets/snake-dark.svg?palette=github-dark
+
+      - name: Commit snake
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/snake.svg assets/snake-dark.svg
+          git diff --cached --quiet || git commit -m "chore: refresh contribution snake"
+          git push

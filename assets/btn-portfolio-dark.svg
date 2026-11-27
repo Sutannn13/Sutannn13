@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="250" height="68" viewBox="0 0 250 68" role="img" aria-label="Portfolio: sutan.dev">
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="74" viewBox="0 0 260 74" role="img" aria-label="Portfolio: sutan.dev">
   <style>
     @keyframes sweep {
-      0%, 72% { transform: translateX(-280px); opacity: 0; }
+      0%, 72% { transform: translateX(-290px); opacity: 0; }
       82% { opacity: 0.45; }
       94% { opacity: 0.45; }
-      100% { transform: translateX(280px); opacity: 0; }
+      100% { transform: translateX(290px); opacity: 0; }
     }
     @keyframes glyphBob {
       0%, 100% { transform: translateY(0px); }
@@ -17,20 +17,19 @@
     }
   </style>
   <defs>
-    <clipPath id="tc"><rect x="1" y="1" width="248" height="66" rx="8"/></clipPath>
+    <clipPath id="tc"><rect x="1" y="1" width="258" height="72" rx="8"/></clipPath>
     <linearGradient id="sg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#e57a52" stop-opacity="0"/>
       <stop offset="50%" stop-color="#e57a52" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="0.75" y="0.75" width="248.5" height="66.5" rx="8" fill="#14171c" stroke="#2c323c" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="258.5" height="72.5" rx="8" fill="#14171c" stroke="#2c323c" stroke-width="1.5"/>
   <g clip-path="url(#tc)">
-    <rect x="0" y="0" width="90" height="68" fill="url(#sg)" class="sheen"/>
+    <rect x="0" y="0" width="96" height="74" fill="url(#sg)" class="sheen"/>
   </g>
-  <!-- Small top registration tick -->
-  <rect x="16" y="12" width="22" height="2.5" fill="#e57a52"/>
-  <g class="gbob"><polygon points="22.0,35.0 34.0,40.5 34.0,53.5 22.0,48.0" fill="#d46840" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="46.0,35.0 34.0,40.5 34.0,53.5 46.0,48.0" fill="#9c4727" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="34.0,29.5 46.0,35.0 34.0,40.5 22.0,35.0" fill="#f0936f" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-  <text x="64" y="34" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" font-weight="700" fill="#f3efe6">Portfolio</text>
-  <text x="64" y="53" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#969187">sutan.dev</text>
+  <rect x="18" y="13" width="24" height="2.5" fill="#e57a52"/>
+  <g class="gbob"><polygon points="24.5,38.0 37.0,43.8 37.0,57.8 24.5,52.0" fill="#d46840" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="49.5,38.0 37.0,43.8 37.0,57.8 49.5,52.0" fill="#9c4727" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="37.0,32.2 49.5,38.0 37.0,43.8 24.5,38.0" fill="#f0936f" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
+  <text x="68" y="37" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#f3efe6">Portfolio</text>
+  <text x="68" y="57" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#969187">sutan.dev</text>
 </svg>

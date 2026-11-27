@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="68" viewBox="0 0 1200 68" role="img" aria-label="Activity &amp; stack: DAILY CONTRIBUTION GRAPH · 20 ORIGINAL REPOS">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="62" viewBox="0 0 1200 62" role="img" aria-label="Activity &amp; stack: DAILY CONTRIBUTION GRAPH · 20 ORIGINAL REPOS">
   <style>
     @keyframes vernier {
       0% { transform: translateX(0px); }
@@ -8,9 +8,9 @@
     .vn { animation: vernier 8.5s ease-in-out infinite; }
     @media (prefers-reduced-motion: reduce) { .vn { animation: none !important; } }
   </style>
-  <line x1="0" y1="54" x2="1200" y2="54" stroke="#2c323c" stroke-width="1.5"/>
-  <rect x="0" y="52.5" width="76" height="3" fill="#e57a52" class="vn"/>
-  <text x="0" y="38" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="14" font-weight="700" fill="#e57a52">03</text>
-  <text x="44" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#f3efe6">Activity &amp; stack</text>
-  <text x="1200" y="38" text-anchor="end" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13" fill="#969187">DAILY CONTRIBUTION GRAPH · 20 ORIGINAL REPOS</text>
+  <line x1="0" y1="50" x2="1200" y2="50" stroke="#2c323c" stroke-width="1.5"/>
+  <rect x="0" y="48.5" width="76" height="3" fill="#e57a52" class="vn"/>
+  <text x="0" y="34" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="14" font-weight="700" fill="#e57a52">03</text>
+  <text x="44" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#f3efe6">Activity &amp; stack</text>
+  <text x="1200" y="34" text-anchor="end" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13" fill="#969187">DAILY CONTRIBUTION GRAPH · 20 ORIGINAL REPOS</text>
 </svg>

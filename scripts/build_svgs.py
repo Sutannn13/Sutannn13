@@ -118,16 +118,16 @@ def corner_ticks(w: int, h: int, color: str, inset: int = 16, arm: int = 10) -> 
 
 
 def build_action_tile(t: dict, title: str, subtitle: str, glyph: str, accent_bar: bool = False, delay: float = 0.0) -> str:
-    """Clickable animated architectural action tile (250x68, >=44px tap target at width=168)."""
-    w, h = 250, 68
+    """Clickable animated architectural action tile (260x74, sharp across laptop and desktop)."""
+    w, h = 260, 74
     bar_col = t["accent"] if accent_bar else t["brass"]
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{html.escape(title)}: {html.escape(subtitle)}">
   <style>
     @keyframes sweep {{
-      0%, 72% {{ transform: translateX(-280px); opacity: 0; }}
+      0%, 72% {{ transform: translateX(-290px); opacity: 0; }}
       82% {{ opacity: 0.45; }}
       94% {{ opacity: 0.45; }}
-      100% {{ transform: translateX(280px); opacity: 0; }}
+      100% {{ transform: translateX(290px); opacity: 0; }}
     }}
     @keyframes glyphBob {{
       0%, 100% {{ transform: translateY(0px); }}
@@ -149,29 +149,28 @@ def build_action_tile(t: dict, title: str, subtitle: str, glyph: str, accent_bar
   </defs>
   <rect x="0.75" y="0.75" width="{w-1.5}" height="{h-1.5}" rx="8" fill="{t['surface']}" stroke="{t['border']}" stroke-width="1.5"/>
   <g clip-path="url(#tc)">
-    <rect x="0" y="0" width="90" height="{h}" fill="url(#sg)" class="sheen"/>
+    <rect x="0" y="0" width="96" height="{h}" fill="url(#sg)" class="sheen"/>
   </g>
-  <!-- Small top registration tick -->
-  <rect x="16" y="12" width="22" height="2.5" fill="{bar_col}"/>
+  <rect x="18" y="13" width="24" height="2.5" fill="{bar_col}"/>
   <g class="gbob">{glyph}</g>
-  <text x="64" y="34" font-family="{SANS}" font-size="16" font-weight="700" fill="{t['text_primary']}">{html.escape(title)}</text>
-  <text x="64" y="53" font-family="{MONO}" font-size="12" fill="{t['text_muted']}">{html.escape(subtitle)}</text>
+  <text x="68" y="37" font-family="{SANS}" font-size="17.5" font-weight="700" fill="{t['text_primary']}">{html.escape(title)}</text>
+  <text x="68" y="57" font-family="{MONO}" font-size="12.5" fill="{t['text_muted']}">{html.escape(subtitle)}</text>
 </svg>
 """
 
 
 def build_action_tiles(t: dict) -> dict[str, str]:
     # Bespoke miniature 3D isometric glyphs for each destination (not generic library icons)
-    g_port = iso_prism(34, 48, 12, 5.5, 13, t["accent_top"], t["accent_left"], t["accent_right"], t["border"])
+    g_port = iso_prism(37, 52, 12.5, 5.8, 14, t["accent_top"], t["accent_left"], t["accent_right"], t["border"])
     g_repo = (
-        iso_prism(34, 51, 12, 5.5, 6, t["facet_top"], t["facet_left"], t["facet_right"], t["border"])
-        + iso_prism(34, 41, 12, 5.5, 6, t["brass_top"], t["brass_left"], t["brass_right"], t["border"])
+        iso_prism(37, 55, 12.5, 5.8, 6.5, t["facet_top"], t["facet_left"], t["facet_right"], t["border"])
+        + iso_prism(37, 44, 12.5, 5.8, 6.5, t["brass_top"], t["brass_left"], t["brass_right"], t["border"])
     )
     g_link = (
-        iso_prism(29, 49, 8.5, 4, 12, t["facet_top"], t["facet_left"], t["facet_right"], t["border"])
-        + iso_prism(41, 45, 8.5, 4, 12, t["accent_top"], t["accent_left"], t["accent_right"], t["border"])
+        iso_prism(31, 53, 9, 4.2, 13, t["facet_top"], t["facet_left"], t["facet_right"], t["border"])
+        + iso_prism(44, 49, 9, 4.2, 13, t["accent_top"], t["accent_left"], t["accent_right"], t["border"])
     )
-    g_mail = iso_prism(34, 47, 13, 6, 9, t["brass_top"], t["brass_left"], t["brass_right"], t["border"])
+    g_mail = iso_prism(37, 51, 13.5, 6.2, 10, t["brass_top"], t["brass_left"], t["brass_right"], t["border"])
     return {
         "btn-portfolio": build_action_tile(t, "Portfolio", "sutan.dev", g_port, accent_bar=True, delay=0.0),
         "btn-repos": build_action_tile(t, "Repositories", "22 public", g_repo, accent_bar=False, delay=0.8),
@@ -181,30 +180,50 @@ def build_action_tiles(t: dict) -> dict[str, str]:
 
 
 def build_inline_pill_btn(t: dict, label: str, sub: str, primary: bool = True) -> str:
-    """Compact clickable architectural action button (280x56 -> 45px tall at width=225)."""
-    w, h = 280, 56
+    """Half-width clickable architectural action bar (580x58, locks to 2-up 49% project grid)."""
+    w, h = 580, 58
     stroke = t["accent"] if primary else t["border_strong"]
     fg = t["accent"] if primary else t["text_primary"]
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{html.escape(label)} {html.escape(sub)}">
+    tag_bg = t["live_bg"] if primary else t["raised"]
+    tag_fg = t["live"] if primary else t["text_secondary"]
+    tag_stroke = t["live"] if primary else t["border"]
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{html.escape(label)}: {html.escape(sub)}">
   <style>
     @keyframes scanBtn {{
       0%, 100% {{ transform: translateX(0px); }}
-      50% {{ transform: translateX(18px); }}
+      50% {{ transform: translateX(22px); }}
     }}
-    .scan {{ animation: scanBtn 3.8s ease-in-out infinite; }}
-    @media (prefers-reduced-motion: reduce) {{ .scan {{ animation: none !important; }} }}
+    @keyframes barSweep {{
+      0%, 74% {{ transform: translateX(-600px); opacity: 0; }}
+      84% {{ opacity: 0.35; }}
+      94% {{ opacity: 0.35; }}
+      100% {{ transform: translateX(600px); opacity: 0; }}
+    }}
+    .scan {{ animation: scanBtn 4.0s ease-in-out infinite; }}
+    .bsweep {{ animation: barSweep 7.2s ease-in-out infinite; }}
+    @media (prefers-reduced-motion: reduce) {{ .scan, .bsweep {{ animation: none !important; }} }}
   </style>
-  <rect x="0.75" y="0.75" width="{w-1.5}" height="{h-1.5}" rx="6" fill="{t['raised']}" stroke="{stroke}" stroke-width="1.3"/>
-  <rect x="14" y="24" width="10" height="8" rx="1.5" fill="{fg}" class="scan"/>
-  <text x="48" y="33" font-family="{SANS}" font-size="14.5" font-weight="700" fill="{t['text_primary']}">{html.escape(label)}</text>
-  <text x="{w-16}" y="33" text-anchor="end" font-family="{MONO}" font-size="11.5" fill="{fg}">{html.escape(sub)}</text>
+  <defs>
+    <clipPath id="bc"><rect x="1" y="1" width="{w-2}" height="{h-2}" rx="8"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="{fg}" stop-opacity="0"/>
+      <stop offset="50%" stop-color="{fg}" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="{fg}" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="{w-1.5}" height="{h-1.5}" rx="8" fill="{t['surface']}" stroke="{stroke}" stroke-width="1.4"/>
+  <g clip-path="url(#bc)"><rect x="0" y="0" width="160" height="{h}" fill="url(#bg)" class="bsweep"/></g>
+  <rect x="22" y="25" width="12" height="8" rx="1.5" fill="{fg}" class="scan"/>
+  <text x="64" y="35" font-family="{SANS}" font-size="16.5" font-weight="700" fill="{t['text_primary']}">{html.escape(label)}</text>
+  <rect x="{w-146}" y="15" width="124" height="28" rx="4" fill="{tag_bg}" stroke="{tag_stroke}" stroke-width="1"/>
+  <text x="{w-84}" y="33" text-anchor="middle" font-family="{MONO}" font-size="12" font-weight="700" fill="{tag_fg}">{html.escape(sub)}</text>
 </svg>
 """
 
 
 def build_section_strip(t: dict, index: str, title: str, meta: str) -> str:
     """Custom animated architectural section divider replacing plain Markdown headings."""
-    w, h = 1200, 68
+    w, h = 1200, 62
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{html.escape(title)}: {html.escape(meta)}">
   <style>
     @keyframes vernier {{
@@ -215,11 +234,11 @@ def build_section_strip(t: dict, index: str, title: str, meta: str) -> str:
     .vn {{ animation: vernier 8.5s ease-in-out infinite; }}
     @media (prefers-reduced-motion: reduce) {{ .vn {{ animation: none !important; }} }}
   </style>
-  <line x1="0" y1="54" x2="{w}" y2="54" stroke="{t['border']}" stroke-width="1.5"/>
-  <rect x="0" y="52.5" width="76" height="3" fill="{t['accent']}" class="vn"/>
-  <text x="0" y="38" font-family="{MONO}" font-size="14" font-weight="700" fill="{t['accent']}">{html.escape(index)}</text>
-  <text x="44" y="40" font-family="{SERIF}" font-size="28" font-weight="700" fill="{t['text_primary']}">{html.escape(title)}</text>
-  <text x="{w}" y="38" text-anchor="end" font-family="{MONO}" font-size="13" fill="{t['text_muted']}">{html.escape(meta)}</text>
+  <line x1="0" y1="50" x2="{w}" y2="50" stroke="{t['border']}" stroke-width="1.5"/>
+  <rect x="0" y="48.5" width="76" height="3" fill="{t['accent']}" class="vn"/>
+  <text x="0" y="34" font-family="{MONO}" font-size="14" font-weight="700" fill="{t['accent']}">{html.escape(index)}</text>
+  <text x="44" y="36" font-family="{SERIF}" font-size="28" font-weight="700" fill="{t['text_primary']}">{html.escape(title)}</text>
+  <text x="{w}" y="34" text-anchor="end" font-family="{MONO}" font-size="13" fill="{t['text_muted']}">{html.escape(meta)}</text>
 </svg>
 """
 
@@ -922,8 +941,8 @@ def build_all() -> None:
     for mode, theme in THEMES.items():
         outputs: dict[str, str] = {
             **build_action_tiles(theme),
-            "btn-maus-live": build_inline_pill_btn(theme, "Open Mau's Kitchen", "LIVE", primary=True),
-            "btn-maus-source": build_inline_pill_btn(theme, "Mau's Kitchen Code", "GITHUB", primary=False),
+            "btn-maus-live": build_inline_pill_btn(theme, "Open maukitchen.my.id", "LIVE SITE", primary=True),
+            "btn-maus-source": build_inline_pill_btn(theme, "Inspect Mau's Kitchen Source", "GITHUB REPO", primary=False),
             "section-work": build_section_strip(theme, "02", "Selected work", "06 VERIFIED BUILDS · 1 LIVE PRODUCTION"),
             "section-activity": build_section_strip(theme, "03", "Activity & stack", "DAILY CONTRIBUTION GRAPH · 20 ORIGINAL REPOS"),
             "section-record": build_section_strip(theme, "04", "Track record", "BOOTCAMP · HKI · SINTA 2 · CERTIFICATIONS"),

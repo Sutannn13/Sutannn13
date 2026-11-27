@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="68" viewBox="0 0 250 68" role="img" aria-label="Email: Direct mail">
+  <style>
+    @keyframes sweep {
+      0%, 72% { transform: translateX(-280px); opacity: 0; }
+      82% { opacity: 0.45; }
+      94% { opacity: 0.45; }
+      100% { transform: translateX(280px); opacity: 0; }
+    }
+    @keyframes glyphBob {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-2.5px); }
+    }
+    .sheen { animation: sweep 6.4s ease-in-out 2.40s infinite; }
+    .gbob { animation: glyphBob 4.2s ease-in-out 2.40s infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .sheen, .gbob { animation: none !important; }
+    }
+  </style>
+  <defs>
+    <clipPath id="tc"><rect x="1" y="1" width="248" height="66" rx="8"/></clipPath>
+    <linearGradient id="sg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#e57a52" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="248.5" height="66.5" rx="8" fill="#14171c" stroke="#2c323c" stroke-width="1.5"/>
+  <g clip-path="url(#tc)">
+    <rect x="0" y="0" width="90" height="68" fill="url(#sg)" class="sheen"/>
+  </g>
+  <!-- Small top registration tick -->
+  <rect x="16" y="12" width="22" height="2.5" fill="#e57a52"/>
+  <g class="gbob"><polygon points="21.0,38.0 34.0,44.0 34.0,53.0 21.0,47.0" fill="#c28e46" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="47.0,38.0 34.0,44.0 34.0,53.0 47.0,47.0" fill="#8f652c" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="34.0,32.0 47.0,38.0 34.0,44.0 21.0,38.0" fill="#e6b877" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
+  <text x="64" y="34" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" font-weight="700" fill="#f3efe6">Email</text>
+  <text x="64" y="53" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#969187">Direct mail</text>
+</svg>

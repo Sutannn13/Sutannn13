@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="252" viewBox="0 0 380 252" role="img" aria-label="HMTI Margonda: TypeScript public organization website for the Informatics Student Association at UBSI Margonda.">
+  <style>
+    @keyframes hubFloat { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-7px); } }
+    @keyframes linkPulse { from { stroke-dashoffset: 24; } to { stroke-dashoffset: 0; } }
+    .hf { animation: hubFloat 4.6s ease-in-out infinite; }
+    .lp { stroke-dasharray: 4 5; animation: linkPulse 2s linear infinite; }
+    @media (prefers-reduced-motion: reduce) { .hf, .lp { animation: none !important; } }
+  </style>
+  <rect x="0.75" y="0.75" width="378.5" height="250.5" rx="10" fill="#14171c" stroke="#2c323c" stroke-width="1.5"/>
+  <g stroke="#5b6575" stroke-width="1.15" opacity="0.65" fill="none"><path d="M14,22 L14,14 L22,14"/><path d="M358,14 L366,14 L366,22"/><path d="M14,230 L14,238 L22,238"/><path d="M358,238 L366,238 L366,230"/></g>
+  <text x="26" y="38" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#969187">ORGANIZATION WEB</text>
+  <text x="26" y="76" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#f3efe6">HMTI</text>
+  <text x="26" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#f3efe6">Margonda</text>
+  <rect x="26" y="114" width="32" height="2.5" fill="#e57a52"/>
+  <text x="26" y="146" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">Public website for the Informatics</text>
+  <text x="26" y="168" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">Student Association, UBSI Margonda.</text>
+  <rect x="26" y="182" width="96" height="24" rx="4" fill="#1c2028" stroke="#2c323c"/>
+  <text x="74" y="198" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#f3efe6">TypeScript</text>
+  <text x="28" y="227" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#e57a52">VIEW REPOSITORY</text>
+
+  <ellipse cx="306" cy="126" rx="50" ry="12" fill="#090b0e" opacity="0.35"/>
+  <line x1="266" y1="108" x2="306" y2="92" stroke="#e57a52" stroke-width="1.6" class="lp"/>
+  <line x1="344" y1="108" x2="306" y2="92" stroke="#d9a45b" stroke-width="1.6" class="lp"/>
+  <polygon points="252.0,100.0 266.0,106.5 266.0,120.5 252.0,114.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="280.0,100.0 266.0,106.5 266.0,120.5 280.0,114.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="266.0,93.5 280.0,100.0 266.0,106.5 252.0,100.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="330.0,100.0 344.0,106.5 344.0,120.5 330.0,114.0" fill="#c28e46" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="358.0,100.0 344.0,106.5 344.0,120.5 358.0,114.0" fill="#8f652c" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="344.0,93.5 358.0,100.0 344.0,106.5 330.0,100.0" fill="#e6b877" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/>
+  <g class="hf"><polygon points="284.0,72.0 306.0,82.0 306.0,108.0 284.0,98.0" fill="#d46840" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="328.0,72.0 306.0,82.0 306.0,108.0 328.0,98.0" fill="#9c4727" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="306.0,62.0 328.0,72.0 306.0,82.0 284.0,72.0" fill="#f0936f" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
+</svg>

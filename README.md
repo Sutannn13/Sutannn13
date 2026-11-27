@@ -6,23 +6,30 @@
   </picture>
 </div>
 
-<p align="center"><a href="https://sutan.dev"><strong>Visit sutan.dev</strong></a> &nbsp;&middot;&nbsp; <a href="https://github.com/Sutannn13?tab=repositories"><strong>Browse repositories</strong></a> &nbsp;&middot;&nbsp; <a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><strong>Connect on LinkedIn</strong></a> &nbsp;&middot;&nbsp; <a href="mailto:sutanarliejohan@gmail.com"><strong>Email me</strong></a></p>
-
-### How I build
-
-I am Sutan Arlie Johan, an Information Technology student and backend-focused full-stack developer based in Depok, Indonesia. I turn manual processes and scattered operational data into dependable backend systems, APIs, and web interfaces from database schema to deployment.
+<p align="center">
+  <a href="https://sutan.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-portfolio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-portfolio-light.svg" /><img src="./assets/btn-portfolio-dark.svg" width="202" alt="Portfolio: sutan.dev" /></picture></a>
+  <a href="https://github.com/Sutannn13?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-repos-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-repos-light.svg" /><img src="./assets/btn-repos-dark.svg" width="202" alt="Repositories: 22 public repositories" /></picture></a>
+  <a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-linkedin-light.svg" /><img src="./assets/btn-linkedin-dark.svg" width="202" alt="LinkedIn: Connect with Sutan Arlie Johan" /></picture></a>
+  <a href="mailto:sutanarliejohan@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-email-light.svg" /><img src="./assets/btn-email-dark.svg" width="202" alt="Email: sutanarliejohan@gmail.com" /></picture></a>
+</p>
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/architecture-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/architecture-light.svg" />
-    <img src="./assets/architecture-dark.svg" width="100%" alt="3D isometric architecture pipeline connecting Data and Domain (MySQL, Supabase), API and Automation (Laravel, PHP, REST), and Product Interface (TypeScript, Next.js, Tailwind CSS)." />
+    <img src="./assets/architecture-dark.svg" width="100%" alt="Engineering scope and 3D isometric system architecture pipeline connecting Data and Domain, API and Automation, and Product Interface." />
   </picture>
 </div>
 
 <br />
 
-### Selected work
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/section-work-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-work-light.svg" />
+    <img src="./assets/section-work-dark.svg" width="100%" alt="Section 02: Selected work, 6 verified builds including 1 live production product." />
+  </picture>
+</div>
 
 <div align="center">
   <a href="https://maukitchen.my.id">
@@ -34,46 +41,31 @@ I am Sutan Arlie Johan, an Information Technology student and backend-focused fu
   </a>
 </div>
 
-<p align="right"><a href="https://maukitchen.my.id"><strong>Open maukitchen.my.id</strong></a> &nbsp;&middot;&nbsp; <a href="https://github.com/Sutannn13/mau-s-kitchen">View source</a></p>
+<p align="right">
+  <a href="https://maukitchen.my.id"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-maus-live-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-maus-live-light.svg" /><img src="./assets/btn-maus-live-dark.svg" width="225" alt="Open Mau's Kitchen live site" /></picture></a>
+  <a href="https://github.com/Sutannn13/mau-s-kitchen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-maus-source-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-maus-source-light.svg" /><img src="./assets/btn-maus-source-dark.svg" width="225" alt="Inspect Mau's Kitchen GitHub repository" /></picture></a>
+</p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/Skill-Path-AI">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-skill-path-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="./assets/project-skill-path-light.svg" />
-          <img src="./assets/project-skill-path-dark.svg" width="100%" alt="Skill Path AI: TypeScript application turning an existing profile into a practical skill roadmap and career direction." />
-        </picture>
-      </a>
-      <br />
-      <a href="https://github.com/Sutannn13/Skill-Path-AI"><strong>Inspect Skill Path AI repository</strong></a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/ar-tata-surya">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-solar-ar-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="./assets/project-solar-ar-light.svg" />
-          <img src="./assets/project-solar-ar-dark.svg" width="100%" alt="Solar System AR: interactive WebAR learning experience built with TypeScript, A-Frame, and AR.js." />
-        </picture>
-      </a>
-      <br />
-      <a href="https://github.com/Sutannn13/ar-tata-surya"><strong>Inspect Solar System AR repository</strong></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Sutannn13/Skill-Path-AI"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-skill-path-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-skill-path-light.svg" /><img src="./assets/project-skill-path-dark.svg" width="412" alt="Skill Path AI: TypeScript application turning an existing profile into a practical skill roadmap and career direction." /></picture></a>
+  <a href="https://github.com/Sutannn13/ar-tata-surya"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-solar-ar-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-solar-ar-light.svg" /><img src="./assets/project-solar-ar-dark.svg" width="412" alt="Solar System AR: interactive WebAR learning experience built with TypeScript, A-Frame, and AR.js." /></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Sutannn13/press-release-auto-generate"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-press-release-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-press-release-light.svg" /><img src="./assets/project-press-release-dark.svg" width="272" alt="Press Release Generator: TypeScript tool converting structured 5W+1H field notes into consistent press release drafts." /></picture></a>
+  <a href="https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-fresh-fish-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-fresh-fish-light.svg" /><img src="./assets/project-fresh-fish-dark.svg" width="272" alt="Fresh Fish E-Commerce: PHP, Laravel, Blade, and MySQL storefront and order transaction workflow." /></picture></a>
+  <a href="https://github.com/Sutannn13/HMTI-MARGONDA"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-hmti-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-hmti-light.svg" /><img src="./assets/project-hmti-dark.svg" width="272" alt="HMTI Margonda: TypeScript organization website for the Informatics Student Association at UBSI Margonda." /></picture></a>
+</p>
 
 <br />
 
-| Repository | Stack | What it solves |
-|---|---|---|
-| [Press Release Generator](https://github.com/Sutannn13/press-release-auto-generate) | `TypeScript` | Converts structured 5W+1H field notes into consistent press release drafts. |
-| [Fresh Fish E-Commerce](https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions) | `PHP` `Laravel` `Blade` `MySQL` | Online storefront and order transaction workflow for fresh fish sales. |
-| [HMTI Margonda](https://github.com/Sutannn13/HMTI-MARGONDA) | `TypeScript` | Public organization website for the Informatics Student Association at UBSI Margonda. |
-
-<br />
-
-### Activity & stack
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/section-activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-activity-light.svg" />
+    <img src="./assets/section-activity-dark.svg" width="100%" alt="Section 03: Activity and stack, live daily contribution graph and 20 original repositories." />
+  </picture>
+</div>
 
 <div align="center">
   <picture>
@@ -95,18 +87,21 @@ I am Sutan Arlie Johan, an Information Technology student and backend-focused fu
 
 <br />
 
-### Track record
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/section-record-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-record-light.svg" />
+    <img src="./assets/section-record-dark.svg" width="100%" alt="Section 04: Track record covering Bootcamp, HKI Copyright, SINTA 2 publication, and certifications." />
+  </picture>
+</div>
 
-- **2nd Place, UBSI West Java IT Bootcamp:** Built the Trash Point web application.
-- **Registered HKI Copyright Inventor:** Recorded intellectual property registration for Trash Point.
-- **SINTA 2 Research Contributor:** Co-authored the SALI App publication in JITK.
-- **Networking Certifications:** MikroTik MTCNA and Cisco Networking fundamentals.
-
-<br />
-
-### Work together
-
-I am open to junior backend or full-stack engineering roles, internships, and focused product collaborations. If you have an operational workflow or web system to build, reach out directly: [sutanarliejohan@gmail.com](mailto:sutanarliejohan@gmail.com) or [LinkedIn](https://www.linkedin.com/in/sutan-arlie-johan-38877635b).
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/track-record-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/track-record-light.svg" />
+    <img src="./assets/track-record-dark.svg" width="100%" alt="3D isometric credentials showcase: 2nd Place UBSI West Java IT Bootcamp, Registered HKI Copyright Inventor, SINTA 2 Research Contributor in JITK, MikroTik MTCNA and Cisco Networking." />
+  </picture>
+</div>
 
 <br />
 
@@ -114,6 +109,12 @@ I am open to junior backend or full-stack engineering roles, internships, and fo
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
-    <img src="./assets/footer-dark.svg" width="100%" alt="Architectural horizon closing banner: Observe the problem, Design the flow, Ship the system." />
+    <img src="./assets/footer-dark.svg" width="100%" alt="Closing invitation and 3D perspective architectural horizon: Observe the problem, Design the flow, Ship the system." />
   </picture>
 </div>
+
+<p align="center">
+  <a href="mailto:sutanarliejohan@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-email-light.svg" /><img src="./assets/btn-email-dark.svg" width="272" alt="Email sutanarliejohan@gmail.com" /></picture></a>
+  <a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-linkedin-light.svg" /><img src="./assets/btn-linkedin-dark.svg" width="272" alt="Connect on LinkedIn" /></picture></a>
+  <a href="https://sutan.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-portfolio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-portfolio-light.svg" /><img src="./assets/btn-portfolio-dark.svg" width="272" alt="Visit sutan.dev" /></picture></a>
+</p>

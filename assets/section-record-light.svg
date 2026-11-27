@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="68" viewBox="0 0 1200 68" role="img" aria-label="Track record: BOOTCAMP · HKI · SINTA 2 · CERTIFICATIONS">
+  <style>
+    @keyframes vernier {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(220px); }
+      100% { transform: translateX(0px); }
+    }
+    .vn { animation: vernier 8.5s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .vn { animation: none !important; } }
+  </style>
+  <line x1="0" y1="54" x2="1200" y2="54" stroke="#d6cfc2" stroke-width="1.5"/>
+  <rect x="0" y="52.5" width="76" height="3" fill="#b5451b" class="vn"/>
+  <text x="0" y="38" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="14" font-weight="700" fill="#b5451b">04</text>
+  <text x="44" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#161614">Track record</text>
+  <text x="1200" y="38" text-anchor="end" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13" fill="#5c5850">BOOTCAMP · HKI · SINTA 2 · CERTIFICATIONS</text>
+</svg>

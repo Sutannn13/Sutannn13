@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="268" viewBox="0 0 580 268" role="img" aria-label="Skill Path AI: maps an existing profile into a practical skill roadmap and career direction. Open source TypeScript repository.">
+  <style>
+    @keyframes climb {
+      0%, 10% { transform: translate(0px, 0px); }
+      26%, 32% { transform: translate(30px, -30px); }
+      48%, 54% { transform: translate(60px, -62px); }
+      70%, 76% { transform: translate(90px, -94px); }
+      90%, 100% { transform: translate(120px, -128px); }
+    }
+    .beacon { animation: climb 5.4s cubic-bezier(0.45, 0, 0.25, 1) infinite alternate; }
+    @media (prefers-reduced-motion: reduce) {
+      .beacon { animation: none !important; transform: translate(120px, -128px); }
+    }
+  </style>
+  <rect x="0.75" y="0.75" width="578.5" height="266.5" rx="10" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.5"/>
+  <g stroke="#766f64" stroke-width="1.15" opacity="0.65" fill="none"><path d="M16,26 L16,16 L26,16"/><path d="M554,16 L564,16 L564,26"/><path d="M16,242 L16,252 L26,252"/><path d="M554,252 L564,252 L564,242"/></g>
+
+  <text x="32" y="42" font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="12" fill="#5c5850">OPEN SOURCE · 3 STARS</text>
+  <text x="32" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#161614">Skill Path AI</text>
+  <rect x="32" y="100" width="36" height="2.5" fill="#b5451b"/>
+
+  <text x="32" y="134" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15.5" fill="#4a4741">Turns an existing profile into</text>
+  <text x="32" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15.5" fill="#4a4741">a practical skill roadmap and</text>
+  <text x="32" y="182" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15.5" fill="#4a4741">clear career direction.</text>
+
+  <g font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="12" fill="#161614">
+    <rect x="32" y="210" width="98" height="26" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
+    <text x="81" y="227" text-anchor="middle">TypeScript</text>
+    <rect x="140" y="210" width="98" height="26" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
+    <text x="189" y="227" text-anchor="middle">Roadmap AI</text>
+  </g>
+
+  <!-- 3D Isometric Ascending Roadmap Monument -->
+  <ellipse cx="458" cy="212" rx="92" ry="22" fill="#c9c1b2" opacity="0.42"/>
+  <polygon points="378.0,186.0 398.0,195.5 398.0,215.5 378.0,206.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="418.0,186.0 398.0,195.5 398.0,215.5 418.0,206.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="398.0,176.5 418.0,186.0 398.0,195.5 378.0,186.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="408.0,156.0 428.0,165.5 428.0,203.5 408.0,194.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="448.0,156.0 428.0,165.5 428.0,203.5 448.0,194.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="428.0,146.5 448.0,156.0 428.0,165.5 408.0,156.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="438.0,124.0 458.0,133.5 458.0,191.5 438.0,182.0" fill="#7d5318" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="478.0,124.0 458.0,133.5 458.0,191.5 478.0,182.0" fill="#5c3c0e" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="458.0,114.5 478.0,124.0 458.0,133.5 438.0,124.0" fill="#9c6d28" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="468.0,92.0 488.0,101.5 488.0,179.5 468.0,170.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="508.0,92.0 488.0,101.5 488.0,179.5 508.0,170.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="488.0,82.5 508.0,92.0 488.0,101.5 468.0,92.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="498.0,58.0 518.0,67.5 518.0,167.5 498.0,158.0" fill="#b5451b" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="538.0,58.0 518.0,67.5 518.0,167.5 538.0,158.0" fill="#873110" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="518.0,48.5 538.0,58.0 518.0,67.5 498.0,58.0" fill="#d46035" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/>
+  <g class="beacon"><polygon points="387.0,169.0 398.0,174.5 398.0,185.5 387.0,180.0" fill="#b5451b"/><polygon points="409.0,169.0 398.0,174.5 398.0,185.5 409.0,180.0" fill="#873110"/><polygon points="398.0,163.5 409.0,169.0 398.0,174.5 387.0,169.0" fill="#d46035"/></g>
+</svg>

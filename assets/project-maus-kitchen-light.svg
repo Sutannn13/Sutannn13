@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="256" viewBox="0 0 1200 256" role="img" aria-label="Flagship live product: Mau's Kitchen. Menu discovery, ordering, and daily operations for an active kitchen. Live at maukitchen.my.id.">
+  <style>
+    @keyframes liftA { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
+    @keyframes liftB { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-9px); } }
+    @keyframes orderFlow1 {
+      0% { transform: translate(0px, 0px); opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translate(126px, -16px); opacity: 0; }
+    }
+    @keyframes orderFlow2 {
+      0% { transform: translate(0px, 0px); opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translate(122px, 28px); opacity: 0; }
+    }
+    .la { animation: liftA 4.8s ease-in-out infinite; }
+    .lb { animation: liftB 4.8s ease-in-out 0.6s infinite; }
+    .lc { animation: liftA 4.8s ease-in-out 1.2s infinite; }
+    .of1 { animation: orderFlow1 3.2s ease-in-out infinite; }
+    .of2 { animation: orderFlow2 3.2s ease-in-out 1.6s infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .la, .lb, .lc, .of1, .of2 { animation: none !important; }
+    }
+  </style>
+  <rect x="0.75" y="0.75" width="1198.5" height="254.5" rx="10" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.5"/>
+  <g stroke="#766f64" stroke-width="1.15" opacity="0.65" fill="none"><path d="M16,26 L16,16 L26,16"/><path d="M1174,16 L1184,16 L1184,26"/><path d="M16,230 L16,240 L26,240"/><path d="M1174,240 L1184,240 L1184,230"/></g>
+
+  <!-- Editorial left region -->
+  <rect x="44" y="34" width="142" height="24" rx="4" fill="#e4f0e8" stroke="#1e6b43" stroke-width="1"/>
+  <text x="115" y="50" text-anchor="middle" font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#1e6b43">LIVE PRODUCTION</text>
+  <text x="202" y="50" font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="12.5" fill="#5c5850">maukitchen.my.id</text>
+
+  <text x="44" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#161614">Mau's Kitchen</text>
+  <rect x="44" y="116" width="44" height="2.5" fill="#b5451b"/>
+
+  <text x="44" y="150" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#4a4741">Customer menu discovery, structured ordering, and daily kitchen</text>
+  <text x="44" y="174" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#4a4741">admin operations running in production for an active food business.</text>
+
+  <!-- Architectural tags (4px radius, not pills) -->
+  <g font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="12" fill="#161614">
+    <rect x="44" y="198" width="98" height="26" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
+    <text x="93" y="215" text-anchor="middle">TypeScript</text>
+    <rect x="152" y="198" width="128" height="26" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
+    <text x="216" y="215" text-anchor="middle">Operations UI</text>
+    <rect x="290" y="198" width="114" height="26" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
+    <text x="347" y="215" text-anchor="middle">Order Flow</text>
+  </g>
+
+  <!-- Vertical separator -->
+  <line x1="716" y1="34" x2="716" y2="222" stroke="#d6cfc2" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- 3D Isometric Kitchen Operations Diorama -->
+  <ellipse cx="836" cy="186" rx="58" ry="17" fill="#c9c1b2" opacity="0.4"/>
+  <ellipse cx="962" cy="176" rx="64" ry="19" fill="#c9c1b2" opacity="0.45"/>
+  <ellipse cx="1084" cy="198" rx="58" ry="17" fill="#c9c1b2" opacity="0.4"/>
+
+  <line x1="836" y1="150" x2="962" y2="134" stroke="#766f64" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <line x1="962" y1="134" x2="1084" y2="162" stroke="#766f64" stroke-width="1.5" stroke-dasharray="4 5"/>
+
+  <g class="la"><polygon points="782.0,150.0 836.0,174.0 836.0,186.0 782.0,162.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="890.0,150.0 836.0,174.0 836.0,186.0 890.0,162.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="836.0,126.0 890.0,150.0 836.0,174.0 782.0,150.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+  <g class="lb"><polygon points="904.0,132.0 962.0,158.0 962.0,172.0 904.0,146.0" fill="#b5451b" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="1020.0,132.0 962.0,158.0 962.0,172.0 1020.0,146.0" fill="#873110" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="962.0,106.0 1020.0,132.0 962.0,158.0 904.0,132.0" fill="#d46035" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+  <g class="lc"><polygon points="1030.0,162.0 1084.0,186.0 1084.0,198.0 1030.0,174.0" fill="#7d5318" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="1138.0,162.0 1084.0,186.0 1084.0,198.0 1138.0,174.0" fill="#5c3c0e" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="1084.0,138.0 1138.0,162.0 1084.0,186.0 1030.0,162.0" fill="#9c6d28" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+
+  <!-- Animated order tokens moving along 3D workflow -->
+  <g class="of1">
+    <polygon points="823.0,124.0 836.0,130.0 836.0,140.0 823.0,134.0" fill="#7d5318"/><polygon points="849.0,124.0 836.0,130.0 836.0,140.0 849.0,134.0" fill="#5c3c0e"/><polygon points="836.0,118.0 849.0,124.0 836.0,130.0 823.0,124.0" fill="#9c6d28"/>
+  </g>
+  <g class="of2">
+    <polygon points="949.0,108.0 962.0,114.0 962.0,124.0 949.0,118.0" fill="#b5451b"/><polygon points="975.0,108.0 962.0,114.0 962.0,124.0 975.0,118.0" fill="#873110"/><polygon points="962.0,102.0 975.0,108.0 962.0,114.0 949.0,108.0" fill="#d46035"/>
+  </g>
+
+  <g text-anchor="middle" font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="600" fill="#4a4741">
+    <text x="836" y="222">MENU</text>
+    <text x="962" y="222">QUEUE</text>
+    <text x="1084" y="222">SERVED</text>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="315" viewBox="0 0 1200 315" role="img" aria-label="3D isometric system architecture pipeline: Data and Domain, API and Automation, Product Interface">
+  <style>
+    @keyframes floatA { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-7px); } }
+    @keyframes floatB { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
+    @keyframes floatC { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
+    @keyframes flowDash { from { stroke-dashoffset: 64; } to { stroke-dashoffset: 0; } }
+    @keyframes packet1 { 0% { transform: translateX(0px); opacity: 0; } 14% { opacity: 1; } 86% { opacity: 1; } 100% { transform: translateX(188px); opacity: 0; } }
+    @keyframes packet2 { 0% { transform: translateX(0px); opacity: 0; } 14% { opacity: 1; } 86% { opacity: 1; } 100% { transform: translateX(188px); opacity: 0; } }
+    @keyframes ringBreath { 0%, 100% { opacity: 0.55; } 50% { opacity: 0.95; } }
+    .f-a { animation: floatA 4.6s ease-in-out infinite; }
+    .f-b { animation: floatB 5.2s ease-in-out infinite; }
+    .f-c { animation: floatC 4.9s ease-in-out infinite; }
+    .f-b2 { animation: floatA 5.2s ease-in-out 0.6s infinite; }
+    .f-c2 { animation: floatB 4.9s ease-in-out 0.8s infinite; }
+    .conduit { stroke-dasharray: 6 10; animation: flowDash 2.6s linear infinite; }
+    .pkt1 { animation: packet1 2.8s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+    .pkt2 { animation: packet2 2.8s cubic-bezier(0.4, 0, 0.2, 1) 1.4s infinite; }
+    .ring { animation: ringBreath 4.6s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .f-a, .f-b, .f-c, .f-b2, .f-c2, .conduit, .pkt1, .pkt2, .ring { animation: none !important; }
+    }
+  </style>
+  <rect x="0.75" y="0.75" width="1198.5" height="313.5" rx="10" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.5"/>
+  <g stroke="#766f64" stroke-width="1.15" opacity="0.65" fill="none"><path d="M16,26 L16,16 L26,16"/><path d="M1174,16 L1184,16 L1184,26"/><path d="M16,289 L16,299 L26,299"/><path d="M1174,299 L1184,299 L1184,289"/></g>
+
+  <!-- Top architectural specification bar -->
+  <text x="44" y="42" font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="12" letter-spacing="1.4" fill="#5c5850">SYSTEM ARCHITECTURE</text>
+  <text x="1156" y="42" text-anchor="end" font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="12" fill="#5c5850">DATA MODEL -&gt; API ENGINE -&gt; PRODUCT UI</text>
+  <line x1="44" y1="56" x2="1156" y2="56" stroke="#d6cfc2" stroke-width="1"/>
+
+  <!-- Ground shadow ellipses -->
+  <ellipse cx="210" cy="206" rx="70" ry="20" fill="#c9c1b2" opacity="0.42"/>
+  <ellipse cx="600" cy="212" rx="82" ry="24" fill="#c9c1b2" opacity="0.46"/>
+  <ellipse cx="990" cy="206" rx="70" ry="20" fill="#c9c1b2" opacity="0.42"/>
+
+  <!-- Precision architectural data conduits between 3D stations -->
+  <g fill="none">
+    <line x1="306" y1="164" x2="494" y2="164" stroke="#d6cfc2" stroke-width="4" stroke-linecap="round"/>
+    <line x1="306" y1="164" x2="494" y2="164" stroke="#b5451b" stroke-width="1.6" class="conduit"/>
+    <line x1="706" y1="164" x2="894" y2="164" stroke="#d6cfc2" stroke-width="4" stroke-linecap="round"/>
+    <line x1="706" y1="164" x2="894" y2="164" stroke="#b5451b" stroke-width="1.6" class="conduit"/>
+  </g>
+  <!-- Gliding isometric data packets -->
+  <g class="pkt1">
+    <polygon points="306,158 318,164 306,170 294,164" fill="#b5451b"/>
+  </g>
+  <g class="pkt2">
+    <polygon points="706,158 718,164 706,170 694,164" fill="#b5451b"/>
+  </g>
+
+  <!-- Station 01: Data & Domain -->
+  <g>
+    <polygon points="154.0,170.0 210.0,196.0 210.0,212.0 154.0,186.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="266.0,170.0 210.0,196.0 210.0,212.0 266.0,186.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="210.0,144.0 266.0,170.0 210.0,196.0 154.0,170.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/>
+    <g class="f-a"><polygon points="154.0,144.0 210.0,170.0 210.0,186.0 154.0,160.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="266.0,144.0 210.0,170.0 210.0,186.0 266.0,160.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="210.0,118.0 266.0,144.0 210.0,170.0 154.0,144.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+    <g class="f-b"><polygon points="154.0,118.0 210.0,144.0 210.0,160.0 154.0,134.0" fill="#b5451b" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="266.0,118.0 210.0,144.0 210.0,160.0 266.0,134.0" fill="#873110" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="210.0,92.0 266.0,118.0 210.0,144.0 154.0,118.0" fill="#d46035" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+  </g>
+
+  <!-- Station 02: API & Automation -->
+  <g>
+    <polygon points="532.0,178.0 600.0,209.0 600.0,223.0 532.0,192.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="668.0,178.0 600.0,209.0 600.0,223.0 668.0,192.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="600.0,147.0 668.0,178.0 600.0,209.0 532.0,178.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/>
+    <ellipse cx="600" cy="158" rx="82" ry="32" fill="none" stroke="#7d5318" stroke-width="1.4" stroke-dasharray="10 6" class="ring"/>
+    <g class="f-a"><polygon points="562.0,128.0 600.0,146.0 600.0,192.0 562.0,174.0" fill="#b5451b" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="638.0,128.0 600.0,146.0 600.0,192.0 638.0,174.0" fill="#873110" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="600.0,110.0 638.0,128.0 600.0,146.0 562.0,128.0" fill="#d46035" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+    <g class="f-b2"><polygon points="554.0,110.0 600.0,131.0 600.0,143.0 554.0,122.0" fill="#7d5318" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="646.0,110.0 600.0,131.0 600.0,143.0 646.0,122.0" fill="#5c3c0e" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="600.0,89.0 646.0,110.0 600.0,131.0 554.0,110.0" fill="#9c6d28" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+  </g>
+
+  <!-- Station 03: Product Interface -->
+  <g>
+    <polygon points="930.0,178.0 990.0,205.0 990.0,215.0 930.0,188.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="1050.0,178.0 990.0,205.0 990.0,215.0 1050.0,188.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="990.0,151.0 1050.0,178.0 990.0,205.0 930.0,178.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/>
+    <g class="f-c"><polygon points="938.0,150.0 990.0,174.0 990.0,184.0 938.0,160.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="1042.0,150.0 990.0,174.0 990.0,184.0 1042.0,160.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="990.0,126.0 1042.0,150.0 990.0,174.0 938.0,150.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+    <g class="f-c2"><polygon points="948.0,122.0 990.0,141.0 990.0,151.0 948.0,132.0" fill="#7d5318" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="1032.0,122.0 990.0,141.0 990.0,151.0 1032.0,132.0" fill="#5c3c0e" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="990.0,103.0 1032.0,122.0 990.0,141.0 948.0,122.0" fill="#9c6d28" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+  </g>
+
+  <!-- Station labels -->
+  <g text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif">
+    <text x="210" y="252" font-size="20" font-weight="700" fill="#161614">Data &amp; Domain</text>
+    <text x="210" y="278" font-size="14.5" fill="#4a4741">MySQL · Supabase · Schema Design</text>
+
+    <text x="600" y="252" font-size="20" font-weight="700" fill="#161614">API &amp; Automation</text>
+    <text x="600" y="278" font-size="14.5" fill="#4a4741">Laravel · PHP · REST API · Workflows</text>
+
+    <text x="990" y="252" font-size="20" font-weight="700" fill="#161614">Product Interface</text>
+    <text x="990" y="278" font-size="14.5" fill="#4a4741">TypeScript · Next.js · Tailwind CSS</text>
+  </g>
+</svg>

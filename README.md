@@ -1,135 +1,119 @@
 <div align="center">
-  <img src="./assets/forest-header.svg" width="100%" alt="Forest at night: pine trees, a full moon, fireflies and birds over the name Sutan Arlie Johan" />
-
-  <br />
-
-  <img src="./assets/typing.svg" width="100%" alt="Typing: Operational tools, REST APIs, useful web products. From data model and API to deployment. Junior roles, internships, focused collaborations." />
-
-  <br />
-
-  <a href="https://sutan.dev"><strong>PORTFOLIO</strong></a>
-  &nbsp;&nbsp;／&nbsp;&nbsp;
-  <a href="https://github.com/Sutannn13?tab=repositories"><strong>PROJECTS</strong></a>
-  &nbsp;&nbsp;／&nbsp;&nbsp;
-  <a href="mailto:sutanarliejohan@gmail.com"><strong>EMAIL</strong></a>
-  &nbsp;&nbsp;／&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><strong>LINKEDIN</strong></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.png" />
+    <img src="./assets/hero-dark.png" width="100%" alt="Sutan Arlie Johan, backend-focused full-stack developer based in Depok, Indonesia, beside a rotating 3D architectural monolith and orbital rings." />
+  </picture>
 </div>
 
-## `01 / TRAILHEAD`
+<p align="center"><a href="https://sutan.dev"><strong>Visit sutan.dev</strong></a> &nbsp;&middot;&nbsp; <a href="https://github.com/Sutannn13?tab=repositories"><strong>Browse repositories</strong></a> &nbsp;&middot;&nbsp; <a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><strong>Connect on LinkedIn</strong></a> &nbsp;&middot;&nbsp; <a href="mailto:sutanarliejohan@gmail.com"><strong>Email me</strong></a></p>
 
-I am **Sutan Arlie Johan**, an Information Technology student and backend-focused full-stack developer based in Depok, Indonesia.
+### How I build
 
-I turn rough ideas, manual processes, and scattered data into systems that feel clear to the people using them. My work sits between **backend engineering, product thinking, automation, and interface execution** — from data model and API to deployment.
+I am Sutan Arlie Johan, an Information Technology student and backend-focused full-stack developer based in Depok, Indonesia. I turn manual processes and scattered operational data into dependable backend systems, APIs, and web interfaces from database schema to deployment.
 
 <div align="center">
-  <img src="./assets/trail.svg" width="100%" alt="Trail map with three stops: Now building, Next improving, Open for opportunities" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/architecture-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/architecture-light.svg" />
+    <img src="./assets/architecture-dark.svg" width="100%" alt="3D isometric architecture pipeline connecting Data and Domain (MySQL, Supabase), API and Automation (Laravel, PHP, REST), and Product Interface (TypeScript, Next.js, Tailwind CSS)." />
+  </picture>
 </div>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>NOW / BUILDING</strong><br /><br />
-      Operational tools, REST APIs, and useful web products.
-    </td>
-    <td width="33%" valign="top">
-      <strong>NEXT / IMPROVING</strong><br /><br />
-      Testing, system design, realtime data, and deployment workflows.
-    </td>
-    <td width="34%" valign="top">
-      <strong>OPEN / OPPORTUNITIES</strong><br /><br />
-      Junior roles, internships, and focused product collaborations.
-    </td>
-  </tr>
-</table>
+<br />
 
-## `02 / FIELD GUIDE — SELECTED PROJECTS`
+### Selected work
+
+<div align="center">
+  <a href="https://maukitchen.my.id">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-maus-kitchen-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/project-maus-kitchen-light.svg" />
+      <img src="./assets/project-maus-kitchen-dark.svg" width="100%" alt="Mau's Kitchen: live production web product for menu discovery, structured ordering, and daily kitchen operations at maukitchen.my.id." />
+    </picture>
+  </a>
+</div>
+
+<p align="right"><a href="https://maukitchen.my.id"><strong>Open maukitchen.my.id</strong></a> &nbsp;&middot;&nbsp; <a href="https://github.com/Sutannn13/mau-s-kitchen">View source</a></p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/Skill-Path-AI"><img src="./assets/projects/skill-path-ai.svg" width="100%" alt="Skill Path AI: turns a current profile into a practical skill roadmap and career direction. TypeScript, Vercel. Live product." /></a>
+      <a href="https://github.com/Sutannn13/Skill-Path-AI">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-skill-path-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-skill-path-light.svg" />
+          <img src="./assets/project-skill-path-dark.svg" width="100%" alt="Skill Path AI: TypeScript application turning an existing profile into a practical skill roadmap and career direction." />
+        </picture>
+      </a>
       <br />
-      <a href="https://github.com/Sutannn13/Skill-Path-AI">Source</a> · <a href="https://skill-path-ai-kappa.vercel.app">Live product ↗</a>
+      <a href="https://github.com/Sutannn13/Skill-Path-AI"><strong>Inspect Skill Path AI repository</strong></a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/mau-s-kitchen"><img src="./assets/projects/maus-kitchen.svg" width="100%" alt="Mau's Kitchen: menu discovery, ordering, and daily operations for a real kitchen. TypeScript. Live product." /></a>
+      <a href="https://github.com/Sutannn13/ar-tata-surya">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-solar-ar-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-solar-ar-light.svg" />
+          <img src="./assets/project-solar-ar-dark.svg" width="100%" alt="Solar System AR: interactive WebAR learning experience built with TypeScript, A-Frame, and AR.js." />
+        </picture>
+      </a>
       <br />
-      <a href="https://github.com/Sutannn13/mau-s-kitchen">Source</a> · <a href="https://maukitchen.my.id">Live product ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/press-release-auto-generate"><img src="./assets/projects/press-release.svg" width="100%" alt="Press Release Generator: structured field notes into consistent, usable communication. TypeScript." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/press-release-auto-generate">Source ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/ar-tata-surya"><img src="./assets/projects/solar-system-ar.svg" width="100%" alt="Solar System AR: interactive learning combining product UI and augmented reality. TypeScript, A-Frame and AR.js. Live demo." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/ar-tata-surya">Source</a> · <a href="https://solar-system-ar-sigma.vercel.app">Live demo ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions"><img src="./assets/projects/fresh-fish.svg" width="100%" alt="Fresh Fish E-Commerce: selling fresh fish online with Laravel, Blade, and MySQL. PHP, Laravel, Blade." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions">Source ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/HMTI-MARGONDA"><img src="./assets/projects/hmti.svg" width="100%" alt="HMTI Margonda: website for the Informatics student association, UBSI Margonda. TypeScript." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/HMTI-MARGONDA">Source ↗</a>
+      <a href="https://github.com/Sutannn13/ar-tata-surya"><strong>Inspect Solar System AR repository</strong></a>
     </td>
   </tr>
 </table>
 
+<br />
+
+| Repository | Stack | What it solves |
+|---|---|---|
+| [Press Release Generator](https://github.com/Sutannn13/press-release-auto-generate) | `TypeScript` | Converts structured 5W+1H field notes into consistent press release drafts. |
+| [Fresh Fish E-Commerce](https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions) | `PHP` `Laravel` `Blade` `MySQL` | Online storefront and order transaction workflow for fresh fish sales. |
+| [HMTI Margonda](https://github.com/Sutannn13/HMTI-MARGONDA) | `TypeScript` | Public organization website for the Informatics Student Association at UBSI Margonda. |
+
+<br />
+
+### Activity & stack
+
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="A thin forest trail divider" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg" />
+    <img src="./assets/snake-dark.svg" width="100%" alt="Animated snake traversing Sutannn13's GitHub contribution graph, refreshed daily via GitHub Actions." />
+  </picture>
 </div>
 
-## `03 / FOOTPRINTS`
+<br />
 
 <div align="center">
-  <img src="./assets/snake.svg" width="100%" alt="A snake winding through a year of GitHub contributions" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-monument-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stack-monument-light.svg" />
+    <img src="./assets/stack-monument-dark.svg" width="100%" alt="3D isometric language chart of 20 original public repositories (TypeScript 9, JavaScript 4, Python 2, CSS 2, PHP 1, Blade 1, HTML 1) alongside daily working stack." />
+  </picture>
 </div>
 
-The snake above is drawn from real contribution data and refreshes daily through GitHub Actions. No frozen counters — the trail speaks for itself.
+<br />
 
-## `04 / WORKING STACK`
+### Track record
 
-| Layer | Tools and focus |
-|---|---|
-| **Backend systems** | `Laravel` `PHP` `REST API` `MySQL` `API testing` |
-| **Product interface** | `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind CSS` |
-| **Workflow** | `Git` `GitHub Actions` `Postman` `Figma` `Deployment` |
-| **Currently extending** | `Supabase` `Realtime systems` `Automated testing` `System design` |
+- **2nd Place, UBSI West Java IT Bootcamp:** Built the Trash Point web application.
+- **Registered HKI Copyright Inventor:** Recorded intellectual property registration for Trash Point.
+- **SINTA 2 Research Contributor:** Co-authored the SALI App publication in JITK.
+- **Networking Certifications:** MikroTik MTCNA and Cisco Networking fundamentals.
 
-<div align="center">
-  <img src="./assets/langs.svg" width="100%" alt="Field mix: primary language by repository. TypeScript 9, JavaScript 5, CSS 2, PHP 1, Blade 1, HTML 1, Python 1, of 22 public repositories." />
-</div>
+<br />
 
-<div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="A thin forest trail divider" />
-</div>
+### Work together
 
-## `05 / PROOF OF WORK`
+I am open to junior backend or full-stack engineering roles, internships, and focused product collaborations. If you have an operational workflow or web system to build, reach out directly: [sutanarliejohan@gmail.com](mailto:sutanarliejohan@gmail.com) or [LinkedIn](https://www.linkedin.com/in/sutan-arlie-johan-38877635b).
 
-- **2nd place — UBSI West Java IT Bootcamp**, building the Trash Point web application.
-- Registered **HKI inventor** for Trash Point.
-- Research contributor to the **SALI App** publication in JITK, accredited **SINTA 2**.
-- Certified in **MikroTik MTCNA** and **Cisco Networking** fundamentals.
-
-## `06 / CONTACT`
-
-If you are building a practical web product, backend system, or operational tool, I would like to hear about the problem behind it.
+<br />
 
 <div align="center">
-  <a href="mailto:sutanarliejohan@gmail.com"><strong>START A CONVERSATION</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><strong>VIEW LINKEDIN</strong></a>
-</div>
-
-<div align="center">
-  <img src="./assets/forest-footer.svg" width="100%" alt="A winding trail through the forest floor" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
+    <img src="./assets/footer-dark.svg" width="100%" alt="Architectural horizon closing banner: Observe the problem, Design the flow, Ship the system." />
+  </picture>
 </div>

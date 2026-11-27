@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="268" viewBox="0 0 580 268" role="img" aria-label="Solar System AR: interactive browser learning combining product UI and WebAR with A-Frame and AR.js.">
+  <style>
+    @keyframes spinA { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes spinB { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    .orb1 { animation: spinA 7s linear infinite; }
+    .orb2 { animation: spinA 12s linear infinite; }
+    .orb3 { animation: spinB 17s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .orb1, .orb2, .orb3 { animation: none !important; }
+    }
+  </style>
+  <rect x="0.75" y="0.75" width="578.5" height="266.5" rx="10" fill="#14171c" stroke="#2c323c" stroke-width="1.5"/>
+  <g stroke="#5b6575" stroke-width="1.15" opacity="0.65" fill="none"><path d="M16,26 L16,16 L26,16"/><path d="M554,16 L564,16 L564,26"/><path d="M16,242 L16,252 L26,252"/><path d="M554,252 L564,252 L564,242"/></g>
+
+  <text x="32" y="42" font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="12" fill="#969187">IMMERSIVE WEB AR</text>
+  <text x="32" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#f3efe6">Solar System AR</text>
+  <rect x="32" y="100" width="36" height="2.5" fill="#e57a52"/>
+
+  <text x="32" y="134" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15.5" fill="#b6b1a6">Interactive browser learning</text>
+  <text x="32" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15.5" fill="#b6b1a6">experience uniting product UI</text>
+  <text x="32" y="182" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15.5" fill="#b6b1a6">with 3D augmented reality.</text>
+
+  <g font-family="Cascadia Mono, Consolas, ui-monospace, monospace" font-size="12" fill="#f3efe6">
+    <rect x="32" y="210" width="98" height="26" rx="4" fill="#1c2028" stroke="#2c323c"/>
+    <text x="81" y="227" text-anchor="middle">TypeScript</text>
+    <rect x="140" y="210" width="128" height="26" rx="4" fill="#1c2028" stroke="#2c323c"/>
+    <text x="204" y="227" text-anchor="middle">A-Frame / AR.js</text>
+  </g>
+
+  <!-- 3D Projected Tilted Planetary Orrery -->
+  <defs>
+    <radialGradient id="sunGrad" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#e6b877"/>
+      <stop offset="55%" stop-color="#e57a52"/>
+      <stop offset="100%" stop-color="#9c4727"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="456" cy="222" rx="74" ry="16" fill="#090b0e" opacity="0.35"/>
+
+  <!-- Tilted orbital plane 1 (outer) -->
+  <g transform="translate(456,144) rotate(-18) scale(1, 0.44)">
+    <circle cx="0" cy="0" r="96" fill="none" stroke="#5b6575" stroke-width="1.6" stroke-dasharray="6 6"/>
+    <g class="orb3">
+      <circle cx="96" cy="0" r="9" fill="#d9a45b"/>
+      <circle cx="93" cy="-3" r="3" fill="#e6b877"/>
+    </g>
+  </g>
+
+  <!-- Tilted orbital plane 2 (middle) -->
+  <g transform="translate(456,144) rotate(12) scale(1, 0.46)">
+    <circle cx="0" cy="0" r="68" fill="none" stroke="#5b6575" stroke-width="1.5"/>
+    <g class="orb2">
+      <circle cx="-68" cy="0" r="10.5" fill="#e57a52"/>
+      <circle cx="-71" cy="-3" r="3.5" fill="#f0936f"/>
+    </g>
+  </g>
+
+  <!-- Central 3D shaded sphere -->
+  <circle cx="456" cy="144" r="22" fill="url(#sunGrad)"/>
+
+  <!-- Tilted orbital plane 3 (inner fast ring) -->
+  <g transform="translate(456,144) rotate(-8) scale(1, 0.42)">
+    <circle cx="0" cy="0" r="44" fill="none" stroke="#e57a52" stroke-width="1.4" opacity="0.8"/>
+    <g class="orb1">
+      <circle cx="44" cy="0" r="7.5" fill="#f3efe6"/>
+    </g>
+  </g>
+</svg>

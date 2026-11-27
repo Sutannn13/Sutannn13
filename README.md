@@ -1,135 +1,101 @@
 <div align="center">
-  <img src="./assets/forest-header.svg" width="100%" alt="Forest at night: pine trees, a full moon, fireflies and birds over the name Sutan Arlie Johan" />
-
-  <br />
-
-  <img src="./assets/typing.svg" width="100%" alt="Typing: Operational tools, REST APIs, useful web products. From data model and API to deployment. Junior roles, internships, focused collaborations." />
-
-  <br />
-
-  <a href="https://sutan.dev"><strong>PORTFOLIO</strong></a>
-  &nbsp;&nbsp;／&nbsp;&nbsp;
-  <a href="https://github.com/Sutannn13?tab=repositories"><strong>PROJECTS</strong></a>
-  &nbsp;&nbsp;／&nbsp;&nbsp;
-  <a href="mailto:sutanarliejohan@gmail.com"><strong>EMAIL</strong></a>
-  &nbsp;&nbsp;／&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><strong>LINKEDIN</strong></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.png" />
+    <img src="./assets/hero-dark.png" width="100%" alt="Sutan Arlie Johan, backend-focused full-stack developer based in Depok, Indonesia, beside a rotating 3D architectural monolith and orbital rings." />
+  </picture>
 </div>
 
-## `01 / TRAILHEAD`
-
-I am **Sutan Arlie Johan**, an Information Technology student and backend-focused full-stack developer based in Depok, Indonesia.
-
-I turn rough ideas, manual processes, and scattered data into systems that feel clear to the people using them. My work sits between **backend engineering, product thinking, automation, and interface execution** — from data model and API to deployment.
+<p align="center"><a href="https://sutan.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-portfolio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-portfolio-light.svg" /><img src="./assets/btn-portfolio-dark.svg" width="24%" alt="Portfolio: sutan.dev" /></picture></a>&nbsp;<a href="https://github.com/Sutannn13?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-repos-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-repos-light.svg" /><img src="./assets/btn-repos-dark.svg" width="24%" alt="Repositories: 22 public repositories" /></picture></a>&nbsp;<a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-linkedin-light.svg" /><img src="./assets/btn-linkedin-dark.svg" width="24%" alt="LinkedIn: Connect with Sutan Arlie Johan" /></picture></a>&nbsp;<a href="mailto:sutanarliejohan@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-email-light.svg" /><img src="./assets/btn-email-dark.svg" width="24%" alt="Email: sutanarliejohan@gmail.com" /></picture></a></p>
 
 <div align="center">
-  <img src="./assets/trail.svg" width="100%" alt="Trail map with three stops: Now building, Next improving, Open for opportunities" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/architecture-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/architecture-light.svg" />
+    <img src="./assets/architecture-dark.svg" width="100%" alt="From database schema to deployed product: 3D isometric system architecture connecting Data and Domain, API and Automation, and Product Interface." />
+  </picture>
 </div>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>NOW / BUILDING</strong><br /><br />
-      Operational tools, REST APIs, and useful web products.
-    </td>
-    <td width="33%" valign="top">
-      <strong>NEXT / IMPROVING</strong><br /><br />
-      Testing, system design, realtime data, and deployment workflows.
-    </td>
-    <td width="34%" valign="top">
-      <strong>OPEN / OPPORTUNITIES</strong><br /><br />
-      Junior roles, internships, and focused product collaborations.
-    </td>
-  </tr>
-</table>
-
-## `02 / FIELD GUIDE — SELECTED PROJECTS`
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/Skill-Path-AI"><img src="./assets/projects/skill-path-ai.svg" width="100%" alt="Skill Path AI: turns a current profile into a practical skill roadmap and career direction. TypeScript, Vercel. Source available." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/Skill-Path-AI">Skill Path AI source ↗</a> · <span>Demo currently unavailable</span>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/mau-s-kitchen"><img src="./assets/projects/maus-kitchen.svg" width="100%" alt="Mau's Kitchen: menu discovery, ordering, and daily operations for a real kitchen. TypeScript. Live product." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/mau-s-kitchen">Mau's Kitchen source ↗</a> · <a href="https://maukitchen.my.id">Live product ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/press-release-auto-generate"><img src="./assets/projects/press-release.svg" width="100%" alt="Press Release Generator: structured field notes into consistent, usable communication. TypeScript." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/press-release-auto-generate">Press Release Generator source ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/ar-tata-surya"><img src="./assets/projects/solar-system-ar.svg" width="100%" alt="Solar System AR: interactive learning combining product UI and augmented reality. TypeScript, A-Frame and AR.js. Source available." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/ar-tata-surya">Solar System AR source ↗</a> · <span>Demo currently unavailable</span>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions"><img src="./assets/projects/fresh-fish.svg" width="100%" alt="Fresh Fish E-Commerce: selling fresh fish online with Laravel, Blade, and MySQL. PHP, Laravel, Blade." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions">Source ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sutannn13/HMTI-MARGONDA"><img src="./assets/projects/hmti.svg" width="100%" alt="HMTI Margonda: website for the Informatics student association, UBSI Margonda. TypeScript." /></a>
-      <br />
-      <a href="https://github.com/Sutannn13/HMTI-MARGONDA">Source ↗</a>
-    </td>
-  </tr>
-</table>
+<br />
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="A thin forest trail divider" />
-</div>
-
-## `03 / FOOTPRINTS`
-
-<div align="center">
-  <img src="./assets/snake.svg" width="100%" alt="A snake winding through a year of GitHub contributions" />
-</div>
-
-The snake above is drawn from real contribution data and refreshes daily through GitHub Actions. No frozen counters — the trail speaks for itself.
-
-## `04 / WORKING STACK`
-
-| Layer | Tools and focus |
-|---|---|
-| **Backend systems** | `Laravel` `PHP` `REST API` `MySQL` `API testing` |
-| **Product interface** | `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind CSS` |
-| **Workflow** | `Git` `GitHub Actions` `Postman` `Figma` `Deployment` |
-| **Currently extending** | `Supabase` `Realtime systems` `Automated testing` `System design` |
-
-<div align="center">
-  <img src="./assets/langs.svg" width="100%" alt="Field mix: primary language by repository. TypeScript 9, JavaScript 5, CSS 2, PHP 1, Blade 1, HTML 1, Python 1, of 22 public repositories." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/section-work-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-work-light.svg" />
+    <img src="./assets/section-work-dark.svg" width="100%" alt="Section 02: Selected work, 6 verified builds including 1 live production product." />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="A thin forest trail divider" />
+  <a href="https://maukitchen.my.id">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-maus-kitchen-dark.png" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/project-maus-kitchen-light.png" />
+      <img src="./assets/project-maus-kitchen-dark.png" width="100%" alt="Mau's Kitchen: live production web product for menu discovery, structured ordering, and daily kitchen operations at maukitchen.my.id, with a 3D PBR order-flow diorama." />
+    </picture>
+  </a>
 </div>
 
-## `05 / PROOF OF WORK`
+<p align="center"><a href="https://maukitchen.my.id"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-maus-live-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-maus-live-light.svg" /><img src="./assets/btn-maus-live-dark.svg" width="49%" alt="Open maukitchen.my.id live site" /></picture></a>&nbsp;<a href="https://github.com/Sutannn13/mau-s-kitchen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-maus-source-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-maus-source-light.svg" /><img src="./assets/btn-maus-source-dark.svg" width="49%" alt="Inspect Mau's Kitchen GitHub repository" /></picture></a></p>
 
-- **2nd place — UBSI West Java IT Bootcamp**, building the Trash Point web application.
-- Registered **HKI inventor** for Trash Point.
-- Research contributor to the **SALI App** publication in JITK, accredited **SINTA 2**.
-- Certified in **MikroTik MTCNA** and **Cisco Networking** fundamentals.
+<p align="center"><a href="https://github.com/Sutannn13/Skill-Path-AI"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-skill-path-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-skill-path-light.svg" /><img src="./assets/project-skill-path-dark.svg" width="57%" alt="Skill Path AI: 3-star TypeScript application turning an existing profile into a practical skill roadmap and career direction." /></picture></a>&nbsp;<a href="https://github.com/Sutannn13/ar-tata-surya"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-solar-ar-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-solar-ar-light.svg" /><img src="./assets/project-solar-ar-dark.svg" width="41.5%" alt="Solar System AR: interactive WebAR learning experience built with TypeScript, A-Frame, and AR.js." /></picture></a></p>
 
-## `06 / CONTACT`
+<p align="center"><a href="https://github.com/Sutannn13/press-release-auto-generate"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-press-release-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-press-release-light.svg" /><img src="./assets/project-press-release-dark.svg" width="32.2%" alt="Press Release Generator: TypeScript tool converting structured 5W+1H field notes into consistent press release drafts." /></picture></a>&nbsp;<a href="https://github.com/Sutannn13/E-commerce-platform-for-fresh-fish-transactions"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-fresh-fish-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-fresh-fish-light.svg" /><img src="./assets/project-fresh-fish-dark.svg" width="32.2%" alt="Fresh Fish E-Commerce: PHP, Laravel, Blade, and MySQL storefront and order transaction workflow." /></picture></a>&nbsp;<a href="https://github.com/Sutannn13/HMTI-MARGONDA"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-hmti-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-hmti-light.svg" /><img src="./assets/project-hmti-dark.svg" width="32.2%" alt="HMTI Margonda: TypeScript organization website for the Informatics Student Association at UBSI Margonda." /></picture></a></p>
 
-If you are building a practical web product, backend system, or operational tool, I would like to hear about the problem behind it.
+<br />
 
 <div align="center">
-  <a href="mailto:sutanarliejohan@gmail.com"><strong>START A CONVERSATION</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><strong>VIEW LINKEDIN</strong></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/section-activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-activity-light.svg" />
+    <img src="./assets/section-activity-dark.svg" width="100%" alt="Section 03: Activity and stack, live daily contribution graph and 20 original repositories." />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="./assets/forest-footer.svg" width="100%" alt="A winding trail through the forest floor" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg" />
+    <img src="./assets/snake-dark.svg" width="100%" alt="Animated snake traversing Sutannn13's GitHub contribution graph, refreshed daily via GitHub Actions." />
+  </picture>
 </div>
+
+<br />
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-monument-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stack-monument-light.svg" />
+    <img src="./assets/stack-monument-dark.svg" width="100%" alt="3D isometric language chart of 20 original public repositories (TypeScript 9, JavaScript 4, Python 2, CSS 2, PHP 1, Blade 1, HTML 1) alongside daily working stack." />
+  </picture>
+</div>
+
+<br />
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/section-record-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/section-record-light.svg" />
+    <img src="./assets/section-record-dark.svg" width="100%" alt="Section 04: Track record covering Bootcamp, HKI Copyright, SINTA 2 publication, and certifications." />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/track-record-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/track-record-light.svg" />
+    <img src="./assets/track-record-dark.svg" width="100%" alt="3D isometric credentials showcase: 2nd Place UBSI West Java IT Bootcamp, Registered HKI Copyright Inventor, SINTA 2 Research Contributor in JITK, MikroTik MTCNA and Cisco Networking." />
+  </picture>
+</div>
+
+<br />
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
+    <img src="./assets/footer-dark.svg" width="100%" alt="Closing invitation and 3D perspective architectural horizon: Observe the problem, Design the flow, Ship the system." />
+  </picture>
+</div>
+
+<p align="center"><a href="mailto:sutanarliejohan@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-contact-email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-contact-email-light.svg" /><img src="./assets/btn-contact-email-dark.svg" width="49%" alt="Start a conversation via email: sutanarliejohan@gmail.com" /></picture></a>&nbsp;<a href="https://www.linkedin.com/in/sutan-arlie-johan-38877635b"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-contact-linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/btn-contact-linkedin-light.svg" /><img src="./assets/btn-contact-linkedin-dark.svg" width="49%" alt="Connect on LinkedIn" /></picture></a></p>

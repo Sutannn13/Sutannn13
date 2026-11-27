@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="58" viewBox="0 0 1200 58" role="img" aria-label="Selected work: 6 verified builds · 1 live production">
+  <style>
+    @keyframes vernier { 0% { transform: translateX(0px); } 50% { transform: translateX(240px); } 100% { transform: translateX(0px); } }
+    .vn { animation: vernier 9s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    @media (prefers-reduced-motion: reduce) { .vn { animation: none !important; } }
+  </style>
+  <line x1="0" y1="48" x2="1200" y2="48" stroke="#d6cfc2" stroke-width="1.2"/>
+  <rect x="0" y="46.8" width="84" height="2.6" fill="#b5451b" class="vn"/>
+  <text x="0" y="34" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#b5451b">02</text>
+  <text x="38" y="36" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.6" fill="#161614">Selected work</text>
+  <text x="1200" y="34" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" fill="#5c5850">6 verified builds · 1 live production</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Repository language distribution and working stack: 20 original public repositories (22 total). TypeScript 9, JavaScript 4, Python 2, CSS 2, PHP 1, Blade 1, HTML 1.">
+  <style>
+    @keyframes barBreath { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
+    @keyframes datumSweep {
+      0% { transform: translateX(0px); opacity: 0.25; }
+      50% { transform: translateX(460px); opacity: 0.95; }
+      100% { transform: translateX(0px); opacity: 0.25; }
+    }
+    @keyframes rowGlide {
+      0% { transform: translateX(0px); opacity: 0.2; }
+      50% { transform: translateX(418px); opacity: 0.9; }
+      100% { transform: translateX(0px); opacity: 0.2; }
+    }
+    .bar-col { animation: barBreath 5.0s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .datum { animation: datumSweep 7.6s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .row-scan { animation: rowGlide 7.0s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    @media (prefers-reduced-motion: reduce) { .bar-col, .datum, .row-scan { animation: none !important; } }
+  </style>
+  <defs>
+    <filter id="sblur" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b4556"/><stop offset="100%" stop-color="#262d3a"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#262d3a"/><stop offset="100%" stop-color="#171c25"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#171c25"/><stop offset="100%" stop-color="#06080c"/></linearGradient>
+
+    <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f7a889"/><stop offset="100%" stop-color="#d96c43"/></linearGradient>
+    <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d96c43"/><stop offset="100%" stop-color="#8c3b1e"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8c3b1e"/><stop offset="100%" stop-color="#06080c"/></linearGradient>
+
+    <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f0cb8d"/><stop offset="100%" stop-color="#c48d44"/></linearGradient>
+    <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c48d44"/><stop offset="100%" stop-color="#7c5522"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c5522"/><stop offset="100%" stop-color="#06080c"/></linearGradient>
+
+    <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
+      <stop offset="0%" stop-color="#d9a45b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#d9a45b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-mini" cx="82%" cy="36%" r="36%">
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="12" fill="#11141a" stroke="#2b323f" stroke-width="1.15"/><line x1="16" y1="1.6" x2="1184" y2="1.6" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1"/>
+
+  <text x="48" y="46" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700" fill="#f3efe6">Language distribution</text>
+  <text x="614" y="46" text-anchor="end" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#969187">20 original repos (22 public)</text>
+  <line x1="48" y1="60" x2="614" y2="60" stroke="#2b323f" stroke-width="1"/>
+
+  <!-- Architectural elevation ticks behind the 3D prisms -->
+  <g stroke="#2b323f" stroke-width="1" stroke-dasharray="2 6" opacity="0.45">
+    <line x1="58" y1="120" x2="594" y2="120"/>
+    <line x1="58" y1="194" x2="594" y2="194"/>
+  </g>
+  <line x1="58" y1="272" x2="594" y2="272" stroke="#2b323f" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <rect x="58" y="271" width="76" height="2.4" fill="#e57a52" class="datum"/>
+  <g class="bar-col" style="animation-delay:0.00s"><ellipse cx="96" cy="280" rx="26" ry="8" fill="#06080c" opacity="0.56" filter="url(#sblur)"/><polygon points="74.0,116.0 96.0,126.0 96.0,272.0 74.0,262.0" fill="url(#ac-l)"/><polygon points="118.0,116.0 96.0,126.0 96.0,272.0 118.0,262.0" fill="url(#ac-r)"/><polygon points="96.0,106.0 118.0,116.0 96.0,126.0 74.0,116.0" fill="url(#ac-t)"/><polyline points="74.0,116.0 96.0,126.0 118.0,116.0" fill="none" stroke="#fff4e6" stroke-opacity="0.28" stroke-width="1.15" stroke-linejoin="round"/><line x1="96.0" y1="126.0" x2="96.0" y2="272.0" stroke="#fff4e6" stroke-opacity="0.15" stroke-width="0.95"/><text x="96" y="98.0" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#f3efe6">9</text><text x="96" y="302" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#b6b1a6">TS</text></g><g class="bar-col" style="animation-delay:0.24s"><ellipse cx="172" cy="280" rx="26" ry="8" fill="#06080c" opacity="0.56" filter="url(#sblur)"/><polygon points="150.0,197.1 172.0,207.1 172.0,272.0 150.0,262.0" fill="url(#br-l)"/><polygon points="194.0,197.1 172.0,207.1 172.0,272.0 194.0,262.0" fill="url(#br-r)"/><polygon points="172.0,187.1 194.0,197.1 172.0,207.1 150.0,197.1" fill="url(#br-t)"/><polyline points="150.0,197.1 172.0,207.1 194.0,197.1" fill="none" stroke="#fff4e6" stroke-opacity="0.28" stroke-width="1.15" stroke-linejoin="round"/><line x1="172.0" y1="207.1" x2="172.0" y2="272.0" stroke="#fff4e6" stroke-opacity="0.15" stroke-width="0.95"/><text x="172" y="179.1" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#f3efe6">4</text><text x="172" y="302" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#b6b1a6">JS</text></g><g class="bar-col" style="animation-delay:0.48s"><ellipse cx="248" cy="280" rx="26" ry="8" fill="#06080c" opacity="0.56" filter="url(#sblur)"/><polygon points="226.0,229.6 248.0,239.6 248.0,272.0 226.0,262.0" fill="url(#sl-l)"/><polygon points="270.0,229.6 248.0,239.6 248.0,272.0 270.0,262.0" fill="url(#sl-r)"/><polygon points="248.0,219.6 270.0,229.6 248.0,239.6 226.0,229.6" fill="url(#sl-t)"/><polyline points="226.0,229.6 248.0,239.6 270.0,229.6" fill="none" stroke="#fff4e6" stroke-opacity="0.28" stroke-width="1.15" stroke-linejoin="round"/><line x1="248.0" y1="239.6" x2="248.0" y2="272.0" stroke="#fff4e6" stroke-opacity="0.15" stroke-width="0.95"/><text x="248" y="211.6" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#f3efe6">2</text><text x="248" y="302" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#b6b1a6">PY</text></g><g class="bar-col" style="animation-delay:0.72s"><ellipse cx="324" cy="280" rx="26" ry="8" fill="#06080c" opacity="0.56" filter="url(#sblur)"/><polygon points="302.0,229.6 324.0,239.6 324.0,272.0 302.0,262.0" fill="url(#sl-l)"/><polygon points="346.0,229.6 324.0,239.6 324.0,272.0 346.0,262.0" fill="url(#sl-r)"/><polygon points="324.0,219.6 346.0,229.6 324.0,239.6 302.0,229.6" fill="url(#sl-t)"/><polyline points="302.0,229.6 324.0,239.6 346.0,229.6" fill="none" stroke="#fff4e6" stroke-opacity="0.28" stroke-width="1.15" stroke-linejoin="round"/><line x1="324.0" y1="239.6" x2="324.0" y2="272.0" stroke="#fff4e6" stroke-opacity="0.15" stroke-width="0.95"/><text x="324" y="211.6" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#f3efe6">2</text><text x="324" y="302" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#b6b1a6">CSS</text></g><g class="bar-col" style="animation-delay:0.96s"><ellipse cx="400" cy="280" rx="26" ry="8" fill="#06080c" opacity="0.56" filter="url(#sblur)"/><polygon points="378.0,238.0 400.0,248.0 400.0,272.0 378.0,262.0" fill="url(#sl-l)"/><polygon points="422.0,238.0 400.0,248.0 400.0,272.0 422.0,262.0" fill="url(#sl-r)"/><polygon points="400.0,228.0 422.0,238.0 400.0,248.0 378.0,238.0" fill="url(#sl-t)"/><polyline points="378.0,238.0 400.0,248.0 422.0,238.0" fill="none" stroke="#fff4e6" stroke-opacity="0.28" stroke-width="1.15" stroke-linejoin="round"/><line x1="400.0" y1="248.0" x2="400.0" y2="272.0" stroke="#fff4e6" stroke-opacity="0.15" stroke-width="0.95"/><text x="400" y="220.0" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#f3efe6">1</text><text x="400" y="302" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#b6b1a6">PHP</text></g><g class="bar-col" style="animation-delay:1.20s"><ellipse cx="476" cy="280" rx="26" ry="8" fill="#06080c" opacity="0.56" filter="url(#sblur)"/><polygon points="454.0,238.0 476.0,248.0 476.0,272.0 454.0,262.0" fill="url(#sl-l)"/><polygon points="498.0,238.0 476.0,248.0 476.0,272.0 498.0,262.0" fill="url(#sl-r)"/><polygon points="476.0,228.0 498.0,238.0 476.0,248.0 454.0,238.0" fill="url(#sl-t)"/><polyline points="454.0,238.0 476.0,248.0 498.0,238.0" fill="none" stroke="#fff4e6" stroke-opacity="0.28" stroke-width="1.15" stroke-linejoin="round"/><line x1="476.0" y1="248.0" x2="476.0" y2="272.0" stroke="#fff4e6" stroke-opacity="0.15" stroke-width="0.95"/><text x="476" y="220.0" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#f3efe6">1</text><text x="476" y="302" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#b6b1a6">BLD</text></g><g class="bar-col" style="animation-delay:1.44s"><ellipse cx="552" cy="280" rx="26" ry="8" fill="#06080c" opacity="0.56" filter="url(#sblur)"/><polygon points="530.0,238.0 552.0,248.0 552.0,272.0 530.0,262.0" fill="url(#sl-l)"/><polygon points="574.0,238.0 552.0,248.0 552.0,272.0 574.0,262.0" fill="url(#sl-r)"/><polygon points="552.0,228.0 574.0,238.0 552.0,248.0 530.0,238.0" fill="url(#sl-t)"/><polyline points="530.0,238.0 552.0,248.0 574.0,238.0" fill="none" stroke="#fff4e6" stroke-opacity="0.28" stroke-width="1.15" stroke-linejoin="round"/><line x1="552.0" y1="248.0" x2="552.0" y2="272.0" stroke="#fff4e6" stroke-opacity="0.15" stroke-width="0.95"/><text x="552" y="220.0" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#f3efe6">1</text><text x="552" y="302" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#b6b1a6">HTML</text></g>
+
+  <text x="48" y="334" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#969187">Source: github.com/Sutannn13 original public repositories · Nov 2026</text>
+
+  <line x1="646" y1="30" x2="646" y2="330" stroke="#2b323f" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <text x="680" y="46" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700" fill="#f3efe6">Working stack</text>
+  <text x="1152" y="46" text-anchor="end" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#e57a52">Daily tools</text>
+  <line x1="680" y1="60" x2="1152" y2="60" stroke="#2b323f" stroke-width="1"/>
+
+  <text x="680" y="104" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" font-weight="700" fill="#e57a52">01</text><text x="710" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.2" fill="#f3efe6">Backend systems</text><text x="710" y="126" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">Laravel · PHP · REST API · MySQL · API testing</text><line x1="680" y1="137" x2="1152" y2="137" stroke="#2b323f" stroke-width="1"/><rect x="680" y="136" width="54" height="2" fill="#e57a52" class="row-scan" style="animation-delay:0.0s"/><text x="680" y="163" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" font-weight="700" fill="#e57a52">02</text><text x="710" y="163" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.2" fill="#f3efe6">Product interface</text><text x="710" y="185" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">TypeScript · JavaScript · Next.js · Tailwind CSS</text><line x1="680" y1="196" x2="1152" y2="196" stroke="#2b323f" stroke-width="1"/><rect x="680" y="195" width="54" height="2" fill="#e57a52" class="row-scan" style="animation-delay:0.7s"/><text x="680" y="222" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" font-weight="700" fill="#e57a52">03</text><text x="710" y="222" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.2" fill="#f3efe6">Workflow &amp; ops</text><text x="710" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">Git · GitHub Actions · Postman · Figma · Deployment</text><line x1="680" y1="255" x2="1152" y2="255" stroke="#2b323f" stroke-width="1"/><rect x="680" y="254" width="54" height="2" fill="#e57a52" class="row-scan" style="animation-delay:1.4s"/><text x="680" y="281" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" font-weight="700" fill="#e57a52">04</text><text x="710" y="281" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.2" fill="#f3efe6">Extending next</text><text x="710" y="303" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">Supabase · Realtime data · Automated testing · System design</text>
+</svg>

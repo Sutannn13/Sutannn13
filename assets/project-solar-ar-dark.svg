@@ -2,85 +2,110 @@
   <style>
     @keyframes spinA { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     @keyframes spinB { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
-    @keyframes sunPulse { 0%, 100% { opacity: 0.20; } 50% { opacity: 0.42; } }
-    .orb1 { animation: spinA 6.4s linear infinite; }
-    .orb2 { animation: spinA 11s linear infinite; }
+    @keyframes sunPulse { 0%, 100% { opacity: 0.22; } 50% { opacity: 0.44; } }
+    .orb1 { animation: spinA 6.2s linear infinite; }
+    .orb2 { animation: spinA 10.8s linear infinite; }
     .orb3 { animation: spinB 16s linear infinite; }
     .halo { animation: sunPulse 4.8s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
     @media (prefers-reduced-motion: reduce) { .orb1, .orb2, .orb3, .halo { animation: none !important; } }
   </style>
   <defs>
-    <filter id="sblur" x="-40%" y="-40%" width="180%" height="180%">
+    <filter id="sblur" x="-45%" y="-45%" width="190%" height="190%">
       <feGaussianBlur stdDeviation="5.5"/>
     </filter>
     <filter id="grain">
       <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
     </filter>
-    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#394252"/><stop offset="100%" stop-color="#262d3a"/></linearGradient>
-    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#262d3a"/><stop offset="100%" stop-color="#181d26"/></linearGradient>
-    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#181d26"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b4556"/><stop offset="100%" stop-color="#262d3a"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#262d3a"/><stop offset="100%" stop-color="#171c25"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#171c25"/><stop offset="100%" stop-color="#06080c"/></linearGradient>
 
     <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f7a889"/><stop offset="100%" stop-color="#d96c43"/></linearGradient>
     <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d96c43"/><stop offset="100%" stop-color="#8c3b1e"/></linearGradient>
-    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8c3b1e"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8c3b1e"/><stop offset="100%" stop-color="#06080c"/></linearGradient>
 
     <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f0cb8d"/><stop offset="100%" stop-color="#c48d44"/></linearGradient>
     <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c48d44"/><stop offset="100%" stop-color="#7c5522"/></linearGradient>
-    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c5522"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c5522"/><stop offset="100%" stop-color="#06080c"/></linearGradient>
 
     <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
-      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.13"/>
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.14"/>
       <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
       <stop offset="0%" stop-color="#d9a45b" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#d9a45b" stop-opacity="0"/>
     </radialGradient>
-  </defs>
-  <defs>
-    <radialGradient id="sunGrad" cx="35%" cy="32%" r="65%">
-      <stop offset="0%" stop-color="#f0cb8d"/>
-      <stop offset="55%" stop-color="#e57a52"/>
-      <stop offset="100%" stop-color="#8c3b1e"/>
+    <radialGradient id="spot-mini" cx="82%" cy="36%" r="36%">
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect x="0.75" y="0.75" width="496.5" height="294.5" rx="12" fill="#11141a" stroke="#2a313d" stroke-width="1.15"/><rect x="1" y="1" width="496" height="294" rx="12" fill="url(#spot-warm)"/><line x1="16" y1="1.6" x2="482" y2="1.6" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1"/>
+  <defs>
+    <radialGradient id="sunGrad" cx="34%" cy="30%" r="68%">
+      <stop offset="0%" stop-color="#f0cb8d"/>
+      <stop offset="52%" stop-color="#e57a52"/>
+      <stop offset="100%" stop-color="#8c3b1e"/>
+    </radialGradient>
+    <radialGradient id="pAcc" cx="32%" cy="30%" r="68%">
+      <stop offset="0%" stop-color="#f7a889"/>
+      <stop offset="100%" stop-color="#8c3b1e"/>
+    </radialGradient>
+    <radialGradient id="pBrs" cx="32%" cy="30%" r="68%">
+      <stop offset="0%" stop-color="#f0cb8d"/>
+      <stop offset="100%" stop-color="#7c5522"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="496.5" height="294.5" rx="12" fill="#11141a" stroke="#2b323f" stroke-width="1.15"/><rect x="1" y="1" width="496" height="294" rx="12" fill="url(#spot-warm)"/><line x1="16" y1="1.6" x2="482" y2="1.6" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1"/>
 
-  <text x="32" y="72" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.6" fill="#f3efe6">Solar System AR</text>
-  <text x="32" y="100" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#d9a45b">WebAR · A-Frame · AR.js</text>
+  <text x="32" y="70" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.6" fill="#f3efe6">Solar System AR</text>
+  <text x="32" y="98" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#d9a45b">WebAR · A-Frame · AR.js</text>
 
-  <text x="32" y="142" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" fill="#b6b1a6">Browser learning tool</text>
-  <text x="32" y="166" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" fill="#b6b1a6">uniting product UI with</text>
-  <text x="32" y="190" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" fill="#b6b1a6">3D augmented reality.</text>
+  <text x="32" y="140" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" fill="#b6b1a6">Browser learning tool</text>
+  <text x="32" y="164" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" fill="#b6b1a6">uniting product UI with</text>
+  <text x="32" y="188" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" fill="#b6b1a6">3D augmented reality.</text>
 
   <g font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#f3efe6">
-    <rect x="32" y="216" width="102" height="26" rx="6" fill="#1d222c" stroke="#2a313d"/>
-    <text x="83" y="233" text-anchor="middle">TypeScript</text>
+    <rect x="32" y="212" width="102" height="26" rx="6" fill="#1e232d" stroke="#2b323f"/>
+    <text x="83" y="229" text-anchor="middle">TypeScript</text>
   </g>
-  <text x="32" y="268" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#e57a52">Inspect repository</text>
+  <text x="32" y="267" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#e57a52">Inspect repository</text>
+  <circle cx="170.0" cy="262.0" r="11.0" fill="#1e232d" stroke="#2b323f" stroke-width="1"/><path d="M167.4,257.8 L172.8,262.0 L167.4,266.2" fill="none" stroke="#e57a52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <ellipse cx="376" cy="238" rx="76" ry="17" fill="#07090d" opacity="0.52" filter="url(#sblur)"/>
+  <ellipse cx="374" cy="238" rx="78" ry="17" fill="#06080c" opacity="0.54" filter="url(#sblur)"/>
 
-  <g transform="translate(376,150) rotate(-18) scale(1, 0.44)">
-    <circle cx="0" cy="0" r="96" fill="none" stroke="#5b6575" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <!-- BACK half-arcs passing BEHIND the central 3D sun sphere -->
+  <g transform="translate(374,148) rotate(-18) scale(1, 0.44)">
+    <path d="M-96,0 A96,96 0 0,1 96,0" fill="none" stroke="#5b6575" stroke-width="1.4" stroke-dasharray="6 6" opacity="0.6"/>
+  </g>
+  <g transform="translate(374,148) rotate(12) scale(1, 0.46)">
+    <path d="M-68,0 A68,68 0 0,1 68,0" fill="none" stroke="#5b6575" stroke-width="1.3" opacity="0.55"/>
+  </g>
+  <g transform="translate(374,148) rotate(-8) scale(1, 0.42)">
+    <path d="M-44,0 A44,44 0 0,1 44,0" fill="none" stroke="#e57a52" stroke-width="1.3" opacity="0.55"/>
+  </g>
+
+  <!-- Central shaded 3D solar sphere with subtle specular rim -->
+  <circle cx="374" cy="148" r="33" fill="#e57a52" class="halo" filter="url(#sblur)"/>
+  <circle cx="374" cy="148" r="23" fill="url(#sunGrad)"/>
+  <ellipse cx="367" cy="140" rx="6" ry="3.8" fill="#fff4e6" opacity="0.45" transform="rotate(-28 367 140)"/>
+
+  <!-- FRONT half-arcs wrapping IN FRONT of the sun + shaded orbiting planets -->
+  <g transform="translate(374,148) rotate(-18) scale(1, 0.44)">
+    <path d="M-96,0 A96,96 0 0,0 96,0" fill="none" stroke="#5b6575" stroke-width="1.6" stroke-dasharray="6 6"/>
     <g class="orb3">
-      <circle cx="96" cy="0" r="9.5" fill="#d9a45b"/>
-      <circle cx="93" cy="-3" r="3" fill="#f0cb8d"/>
+      <ellipse cx="96" cy="0" rx="18" ry="8" fill="none" stroke="#f0cb8d" stroke-width="1.6" opacity="0.8"/>
+      <circle cx="96" cy="0" r="9.5" fill="url(#pBrs)"/>
     </g>
   </g>
-  <g transform="translate(376,150) rotate(12) scale(1, 0.46)">
-    <circle cx="0" cy="0" r="68" fill="none" stroke="#5b6575" stroke-width="1.4"/>
+  <g transform="translate(374,148) rotate(12) scale(1, 0.46)">
+    <path d="M-68,0 A68,68 0 0,0 68,0" fill="none" stroke="#5b6575" stroke-width="1.5"/>
     <g class="orb2">
-      <circle cx="-68" cy="0" r="10.5" fill="#e57a52"/>
-      <circle cx="-71" cy="-3" r="3.5" fill="#f7a889"/>
+      <circle cx="-68" cy="0" r="10.5" fill="url(#pAcc)"/>
     </g>
   </g>
-
-  <circle cx="376" cy="150" r="32" fill="#e57a52" class="halo" filter="url(#sblur)"/>
-  <circle cx="376" cy="150" r="22" fill="url(#sunGrad)"/>
-
-  <g transform="translate(376,150) rotate(-8) scale(1, 0.42)">
-    <circle cx="0" cy="0" r="44" fill="none" stroke="#e57a52" stroke-width="1.4" opacity="0.85"/>
+  <g transform="translate(374,148) rotate(-8) scale(1, 0.42)">
+    <path d="M-44,0 A44,44 0 0,0 44,0" fill="none" stroke="#e57a52" stroke-width="1.5" opacity="0.9"/>
     <g class="orb1"><circle cx="44" cy="0" r="7.5" fill="#f3efe6"/></g>
   </g>
 </svg>

@@ -29,9 +29,9 @@
 <div align="center">
   <a href="https://maukitchen.my.id">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-maus-kitchen-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/project-maus-kitchen-light.svg" />
-      <img src="./assets/project-maus-kitchen-dark.svg" width="100%" alt="Mau's Kitchen: live production web product for menu discovery, structured ordering, and daily kitchen operations at maukitchen.my.id." />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-maus-kitchen-dark.png" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/project-maus-kitchen-light.png" />
+      <img src="./assets/project-maus-kitchen-dark.png" width="100%" alt="Mau's Kitchen: live production web product for menu discovery, structured ordering, and daily kitchen operations at maukitchen.my.id, with a 3D PBR order-flow diorama." />
     </picture>
   </a>
 </div>

@@ -1,22 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="226" viewBox="0 0 1200 226" role="img" aria-label="Work together: Open to junior backend or full-stack engineering roles, internships, and focused product collaborations. Observe the problem, Design the flow, Ship the system.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Closing invitation: Observe the problem, Design the flow, Ship the system. Open for junior roles, internships, and product collaborations.">
   <style>
-    @keyframes driftA { 0%, 100% { transform: translateX(0px); } 50% { transform: translateX(-32px); } }
-    @keyframes driftB { 0%, 100% { transform: translateX(0px); } 50% { transform: translateX(32px); } }
-    .wave-a { animation: driftA 8.5s ease-in-out infinite; }
-    .wave-b { animation: driftB 10.5s ease-in-out infinite; }
-    @media (prefers-reduced-motion: reduce) {
-      .wave-a, .wave-b { animation: none !important; }
-    }
+    @keyframes driftA { 0%, 100% { transform: translateX(0px); } 50% { transform: translateX(-34px); } }
+    @keyframes driftB { 0%, 100% { transform: translateX(0px); } 50% { transform: translateX(34px); } }
+    .wave-a { animation: driftA 8.5s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .wave-b { animation: driftB 10.5s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    @media (prefers-reduced-motion: reduce) { .wave-a, .wave-b { animation: none !important; } }
   </style>
   <defs>
-    <clipPath id="fc"><rect x="1" y="1" width="1198" height="224" rx="10"/></clipPath>
-  </defs>
-  <rect x="0.75" y="0.75" width="1198.5" height="224.5" rx="10" fill="#14171c" stroke="#2c323c" stroke-width="1.5"/>
-  <g clip-path="url(#fc)"><path d="M-40,148.0 Q-40,148.0 10.0,150.0 Q60,152.0 110.0,153.0 Q160,153.9 210.0,153.5 Q260,153.0 310.0,151.3 Q360,149.6 410.0,147.4 Q460,145.3 510.0,143.9 Q560,142.5 610.0,142.4 Q660,142.3 710.0,143.7 Q760,145.0 810.0,147.1 Q860,149.2 910.0,151.0 Q960,152.8 1010.0,153.4 Q1060,154.0 1110.0,153.1 Q1160,152.2 1210.0,150.3 T1260,148.4" fill="none" stroke="#5b6575" stroke-width="1.1" opacity="0.22" class="wave-a"/><path d="M-40,165.7 Q-40,165.7 10.0,167.3 Q60,169.0 110.0,168.6 Q160,168.3 210.0,166.1 Q260,164.0 310.0,161.1 Q360,158.2 410.0,156.0 Q460,153.8 510.0,153.4 Q560,153.0 610.0,154.6 Q660,156.2 710.0,158.9 Q760,161.7 810.0,164.3 Q860,166.9 910.0,168.1 Q960,169.2 1010.0,168.3 Q1060,167.4 1110.0,164.9 Q1160,162.4 1210.0,159.6 T1260,156.7" fill="none" stroke="#5b6575" stroke-width="1.1" opacity="0.35" class="wave-b"/><path d="M-40,183.8 Q-40,183.8 10.0,183.7 Q60,183.7 110.0,181.2 Q160,178.8 210.0,175.1 Q260,171.5 310.0,168.5 Q360,165.5 410.0,164.6 Q460,163.7 510.0,165.3 Q560,167.0 610.0,170.4 Q660,173.8 710.0,177.3 Q760,180.7 810.0,182.5 Q860,184.3 910.0,183.5 Q960,182.8 1010.0,179.8 Q1060,176.9 1110.0,173.2 Q1160,169.6 1210.0,167.0 T1260,164.5" fill="none" stroke="#e57a52" stroke-width="1.8" opacity="0.48" class="wave-a"/><path d="M-40,199.2 Q-40,199.2 10.0,196.6 Q60,194.0 110.0,189.6 Q160,185.3 210.0,181.4 Q260,177.5 310.0,175.9 Q360,174.4 410.0,176.0 Q460,177.6 510.0,181.5 Q560,185.4 610.0,189.7 Q660,194.0 710.0,196.6 Q760,199.2 810.0,198.7 Q860,198.3 910.0,195.0 Q960,191.8 1010.0,187.3 Q1060,182.9 1110.0,179.5 Q1160,176.1 1210.0,175.4 T1260,174.7" fill="none" stroke="#5b6575" stroke-width="1.1" opacity="0.61" class="wave-b"/><path d="M-40,209.5 Q-40,209.5 10.0,204.5 Q60,199.6 110.0,194.8 Q160,190.0 210.0,187.6 Q260,185.3 310.0,186.6 Q360,187.9 410.0,192.2 Q460,196.6 510.0,201.7 Q560,206.9 610.0,210.4 Q660,213.8 710.0,213.9 Q760,213.9 810.0,210.5 Q860,207.1 910.0,201.9 Q960,196.7 1010.0,192.4 Q1060,188.0 1110.0,186.6 Q1160,185.3 1210.0,187.5 T1260,189.8" fill="none" stroke="#d9a45b" stroke-width="1.1" opacity="0.74" class="wave-a"/><path d="M-40,214.4 Q-40,214.4 10.0,208.6 Q60,202.9 110.0,199.6 Q160,196.4 210.0,197.3 Q260,198.1 310.0,202.7 Q360,207.3 410.0,213.3 Q460,219.3 510.0,223.7 Q560,228.1 610.0,228.8 Q660,229.5 710.0,226.1 Q760,222.7 810.0,216.9 Q860,211.0 910.0,205.7 Q960,200.4 1010.0,198.2 Q1060,196.0 1110.0,198.0 Q1160,200.0 1210.0,205.3 T1260,210.5" fill="none" stroke="#5b6575" stroke-width="1.1" opacity="0.87" class="wave-b"/></g>
-  <g stroke="#5b6575" stroke-width="1.15" opacity="0.65" fill="none"><path d="M16,26 L16,16 L26,16"/><path d="M1174,16 L1184,16 L1184,26"/><path d="M16,200 L16,210 L26,210"/><path d="M1174,210 L1184,210 L1184,200"/></g>
+    <filter id="sblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#394252"/><stop offset="100%" stop-color="#262d3a"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#262d3a"/><stop offset="100%" stop-color="#181d26"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#181d26"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
 
-  <text x="600" y="42" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" letter-spacing="1.5" fill="#e57a52">OPEN FOR ROLES, INTERNSHIPS &amp; PRODUCT BUILDS</text>
-  <text x="600" y="80" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#f3efe6">Observe the problem · Design the flow · Ship the system</text>
-  <text x="600" y="110" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15.5" fill="#b6b1a6">Have an operational workflow, API, or web product to build? Start a direct conversation below.</text>
-  <text x="600" y="136" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#969187">SUTAN ARLIE JOHAN · DEPOK, INDONESIA · sutanarliejohan@gmail.com</text>
+    <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f7a889"/><stop offset="100%" stop-color="#d96c43"/></linearGradient>
+    <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d96c43"/><stop offset="100%" stop-color="#8c3b1e"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8c3b1e"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
+
+    <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f0cb8d"/><stop offset="100%" stop-color="#c48d44"/></linearGradient>
+    <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c48d44"/><stop offset="100%" stop-color="#7c5522"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c5522"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
+
+    <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
+      <stop offset="0%" stop-color="#d9a45b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#d9a45b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <defs>
+    <clipPath id="fc"><rect x="6" y="6" width="1188" height="208" rx="10"/></clipPath>
+    <radialGradient id="h-glow" cx="50%" cy="100%" r="55%">
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="1198.5" height="218.5" rx="16" fill="#0f1217" stroke="#232934" stroke-width="1.4"/><rect x="6" y="6" width="1188" height="208" rx="10" fill="#191719" stroke="#2a313d" stroke-width="1"/><rect x="6" y="6" width="1188" height="208" rx="10" filter="url(#grain)" opacity="0.026"/><line x1="18" y1="7" x2="1182" y2="7" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1"/>
+  <g clip-path="url(#fc)">
+    <rect x="6" y="6" width="1188" height="208" fill="url(#h-glow)"/>
+    <path d="M-40,142.0 Q-40,142.0 10.0,144.0 Q60,146.0 110.0,147.0 Q160,147.9 210.0,147.5 Q260,147.0 310.0,145.3 Q360,143.6 410.0,141.4 Q460,139.3 510.0,137.9 Q560,136.5 610.0,136.4 Q660,136.3 710.0,137.7 Q760,139.0 810.0,141.1 Q860,143.2 910.0,145.0 Q960,146.8 1010.0,147.4 Q1060,148.0 1110.0,147.1 Q1160,146.2 1210.0,144.3 T1260,142.4" fill="none" stroke="#5b6575" stroke-width="1.1" opacity="0.24" class="wave-a"/><path d="M-40,159.7 Q-40,159.7 10.0,161.3 Q60,163.0 110.0,162.6 Q160,162.3 210.0,160.1 Q260,158.0 310.0,155.1 Q360,152.2 410.0,150.0 Q460,147.8 510.0,147.4 Q560,147.0 610.0,148.6 Q660,150.2 710.0,152.9 Q760,155.7 810.0,158.3 Q860,160.9 910.0,162.1 Q960,163.2 1010.0,162.3 Q1060,161.4 1110.0,158.9 Q1160,156.4 1210.0,153.6 T1260,150.7" fill="none" stroke="#5b6575" stroke-width="1.1" opacity="0.37" class="wave-b"/><path d="M-40,177.8 Q-40,177.8 10.0,177.7 Q60,177.7 110.0,175.2 Q160,172.8 210.0,169.1 Q260,165.5 310.0,162.5 Q360,159.5 410.0,158.6 Q460,157.7 510.0,159.3 Q560,161.0 610.0,164.4 Q660,167.8 710.0,171.3 Q760,174.7 810.0,176.5 Q860,178.3 910.0,177.5 Q960,176.8 1010.0,173.8 Q1060,170.9 1110.0,167.2 Q1160,163.6 1210.0,161.0 T1260,158.5" fill="none" stroke="#e57a52" stroke-width="1.9" opacity="0.50" class="wave-a"/><path d="M-40,193.2 Q-40,193.2 10.0,190.6 Q60,188.0 110.0,183.6 Q160,179.3 210.0,175.4 Q260,171.5 310.0,169.9 Q360,168.4 410.0,170.0 Q460,171.6 510.0,175.5 Q560,179.4 610.0,183.7 Q660,188.0 710.0,190.6 Q760,193.2 810.0,192.7 Q860,192.3 910.0,189.0 Q960,185.8 1010.0,181.3 Q1060,176.9 1110.0,173.5 Q1160,170.1 1210.0,169.4 T1260,168.7" fill="none" stroke="#5b6575" stroke-width="1.1" opacity="0.63" class="wave-b"/><path d="M-40,203.5 Q-40,203.5 10.0,198.5 Q60,193.6 110.0,188.8 Q160,184.0 210.0,181.6 Q260,179.3 310.0,180.6 Q360,181.9 410.0,186.2 Q460,190.6 510.0,195.7 Q560,200.9 610.0,204.4 Q660,207.8 710.0,207.9 Q760,207.9 810.0,204.5 Q860,201.1 910.0,195.9 Q960,190.7 1010.0,186.4 Q1060,182.0 1110.0,180.6 Q1160,179.3 1210.0,181.5 T1260,183.8" fill="none" stroke="#d9a45b" stroke-width="1.1" opacity="0.76" class="wave-a"/><path d="M-40,208.4 Q-40,208.4 10.0,202.6 Q60,196.9 110.0,193.6 Q160,190.4 210.0,191.3 Q260,192.1 310.0,196.7 Q360,201.3 410.0,207.3 Q460,213.3 510.0,217.7 Q560,222.1 610.0,222.8 Q660,223.5 710.0,220.1 Q760,216.7 810.0,210.9 Q860,205.0 910.0,199.7 Q960,194.4 1010.0,192.2 Q1060,190.0 1110.0,192.0 Q1160,194.0 1210.0,199.3 T1260,204.5" fill="none" stroke="#5b6575" stroke-width="1.1" opacity="0.89" class="wave-b"/>
+  </g>
+  <text x="600" y="64" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="-0.4" fill="#f3efe6">Observe the problem · Design the flow · Ship the system</text>
+  <text x="600" y="98" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" fill="#b6b1a6">Open to junior backend or full-stack roles, internships, and focused product builds.</text>
+  <text x="600" y="126" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#969187">Sutan Arlie Johan · Depok, Indonesia · sutanarliejohan@gmail.com</text>
 </svg>

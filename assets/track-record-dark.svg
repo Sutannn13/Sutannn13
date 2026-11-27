@@ -1,47 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="316" viewBox="0 0 1200 316" role="img" aria-label="Track record: 2nd Place UBSI West Java IT Bootcamp (Trash Point), Registered HKI Copyright Inventor, SINTA 2 Research Contributor in JITK (SALI App), MikroTik MTCNA and Cisco Networking certifications.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="304" viewBox="0 0 1200 304" role="img" aria-label="Track record: 2nd Place UBSI West Java IT Bootcamp (Trash Point), Registered HKI Copyright Inventor, SINTA 2 Research Contributor in JITK (SALI App), MikroTik MTCNA and Cisco Networking.">
   <style>
     @keyframes emA { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-5px); } }
     @keyframes emB { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-9px); } }
     @keyframes netFlow { from { stroke-dashoffset: 24; } to { stroke-dashoffset: 0; } }
-    .em-float1 { animation: emA 4.6s ease-in-out infinite; }
-    .em-float2 { animation: emB 5.2s ease-in-out 0.4s infinite; }
+    .em-float1 { animation: emA 4.8s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .em-float2 { animation: emB 5.2s cubic-bezier(0.32, 0.72, 0, 1) 0.4s infinite; }
     .net-dash { stroke-dasharray: 4 5; animation: netFlow 2.2s linear infinite; }
-    @media (prefers-reduced-motion: reduce) {
-      .em-float1, .em-float2, .net-dash { animation: none !important; }
-    }
+    @media (prefers-reduced-motion: reduce) { .em-float1, .em-float2, .net-dash { animation: none !important; } }
   </style>
-  <rect x="0.75" y="0.75" width="1198.5" height="314.5" rx="10" fill="#14171c" stroke="#2c323c" stroke-width="1.5"/>
-  <g stroke="#5b6575" stroke-width="1.15" opacity="0.65" fill="none"><path d="M16,26 L16,16 L26,16"/><path d="M1174,16 L1184,16 L1184,26"/><path d="M16,290 L16,300 L26,300"/><path d="M1174,300 L1184,300 L1184,290"/></g>
+  <defs>
+    <filter id="sblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#394252"/><stop offset="100%" stop-color="#262d3a"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#262d3a"/><stop offset="100%" stop-color="#181d26"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#181d26"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
 
-  <!-- Architectural crosshair dividing 4 verified credentials -->
-  <line x1="600" y1="28" x2="600" y2="288" stroke="#2c323c" stroke-width="1" stroke-dasharray="3 5"/>
-  <line x1="36" y1="158" x2="1164" y2="158" stroke="#2c323c" stroke-width="1"/>
+    <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f7a889"/><stop offset="100%" stop-color="#d96c43"/></linearGradient>
+    <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d96c43"/><stop offset="100%" stop-color="#8c3b1e"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8c3b1e"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
 
-  <!-- Cell 1: IT Bootcamp -->
-  <g class="em-float1"><polygon points="59.0,98.0 74.0,105.0 74.0,121.0 59.0,114.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="89.0,98.0 74.0,105.0 74.0,121.0 89.0,114.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="74.0,91.0 89.0,98.0 74.0,105.0 59.0,98.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="83.0,78.0 98.0,85.0 98.0,115.0 83.0,108.0" fill="#d46840" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="113.0,78.0 98.0,85.0 98.0,115.0 113.0,108.0" fill="#9c4727" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="98.0,71.0 113.0,78.0 98.0,85.0 83.0,78.0" fill="#f0936f" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="107.0,106.0 122.0,113.0 122.0,125.0 107.0,118.0" fill="#c28e46" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="137.0,106.0 122.0,113.0 122.0,125.0 137.0,118.0" fill="#8f652c" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="122.0,99.0 137.0,106.0 122.0,113.0 107.0,106.0" fill="#e6b877" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-  <text x="158" y="64" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#e57a52">COMPETITION · 2ND PLACE</text>
-  <text x="158" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#f3efe6">UBSI West Java IT Bootcamp</text>
-  <text x="158" y="118" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">Built the Trash Point web application from</text>
-  <text x="158" y="138" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">concept and data model to working demo.</text>
+    <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f0cb8d"/><stop offset="100%" stop-color="#c48d44"/></linearGradient>
+    <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c48d44"/><stop offset="100%" stop-color="#7c5522"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c5522"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
 
-  <!-- Cell 2: HKI Inventor -->
-  <polygon points="658.0,106.0 684.0,118.0 684.0,128.0 658.0,116.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="710.0,106.0 684.0,118.0 684.0,128.0 710.0,116.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="684.0,94.0 710.0,106.0 684.0,118.0 658.0,106.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><g class="em-float2"><polygon points="667.0,80.0 684.0,88.0 684.0,104.0 667.0,96.0" fill="#c28e46" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="701.0,80.0 684.0,88.0 684.0,104.0 701.0,96.0" fill="#8f652c" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="684.0,72.0 701.0,80.0 684.0,88.0 667.0,80.0" fill="#e6b877" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-  <text x="742" y="64" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#d9a45b">INTELLECTUAL PROPERTY</text>
-  <text x="742" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#f3efe6">Registered HKI Copyright Inventor</text>
-  <text x="742" y="118" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">Officially recorded copyright registration</text>
-  <text x="742" y="138" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">for the Trash Point software application.</text>
+    <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
+      <stop offset="0%" stop-color="#d9a45b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#d9a45b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="1198.5" height="302.5" rx="12" fill="#151920" stroke="#2a313d" stroke-width="1.15"/><line x1="16" y1="1.6" x2="1184" y2="1.6" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1"/>
 
-  <!-- Cell 3: SINTA 2 -->
-  <polygon points="68.0,255.0 96.0,267.0 96.0,274.0 68.0,262.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="124.0,255.0 96.0,267.0 96.0,274.0 124.0,262.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="96.0,243.0 124.0,255.0 96.0,267.0 68.0,255.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><g class="em-float1"><polygon points="68.0,239.0 96.0,251.0 96.0,258.0 68.0,246.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="124.0,239.0 96.0,251.0 96.0,258.0 124.0,246.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="96.0,227.0 124.0,239.0 96.0,251.0 68.0,239.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g><g class="em-float2"><polygon points="68.0,223.0 96.0,235.0 96.0,242.0 68.0,230.0" fill="#d46840" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="124.0,223.0 96.0,235.0 96.0,242.0 124.0,230.0" fill="#9c4727" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="96.0,211.0 124.0,223.0 96.0,235.0 68.0,223.0" fill="#f0936f" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-  <text x="158" y="206" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#e57a52">PEER-REVIEWED PUBLICATION</text>
-  <text x="158" y="234" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#f3efe6">SINTA 2 Research Contributor</text>
-  <text x="158" y="260" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">Co-authored the SALI App research paper</text>
-  <text x="158" y="280" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">published in the accredited JITK journal.</text>
+  <line x1="600" y1="28" x2="600" y2="276" stroke="#2a313d" stroke-width="1" stroke-dasharray="3 5"/>
+  <line x1="36" y1="152" x2="1164" y2="152" stroke="#2a313d" stroke-width="1"/>
 
-  <!-- Cell 4: Networking Certs -->
-  <line x1="664" y1="252" x2="704" y2="234" stroke="#e57a52" stroke-width="1.6" class="net-dash"/><line x1="684" y1="264" x2="704" y2="234" stroke="#d9a45b" stroke-width="1.6" class="net-dash"/><polygon points="651.0,246.0 664.0,252.0 664.0,264.0 651.0,258.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="677.0,246.0 664.0,252.0 664.0,264.0 677.0,258.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="664.0,240.0 677.0,246.0 664.0,252.0 651.0,246.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="671.0,258.0 684.0,264.0 684.0,276.0 671.0,270.0" fill="#c28e46" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="697.0,258.0 684.0,264.0 684.0,276.0 697.0,270.0" fill="#8f652c" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="684.0,252.0 697.0,258.0 684.0,264.0 671.0,258.0" fill="#e6b877" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><g class="em-float1"><polygon points="690.0,226.0 704.0,232.5 704.0,248.5 690.0,242.0" fill="#d46840" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="718.0,226.0 704.0,232.5 704.0,248.5 718.0,242.0" fill="#9c4727" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="704.0,219.5 718.0,226.0 704.0,232.5 690.0,226.0" fill="#f0936f" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-  <text x="742" y="206" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#d9a45b">INFRASTRUCTURE CREDENTIALS</text>
-  <text x="742" y="234" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#f3efe6">MikroTik MTCNA &amp; Cisco</text>
-  <text x="742" y="260" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">Certified in MikroTik network administration</text>
-  <text x="742" y="280" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#b6b1a6">and Cisco Networking fundamentals.</text>
+  <g class="em-float1"><polygon points="57.0,94.0 72.0,101.0 72.0,117.0 57.0,110.0" fill="url(#sl-l)"/><polygon points="87.0,94.0 72.0,101.0 72.0,117.0 87.0,110.0" fill="url(#sl-r)"/><polygon points="72.0,87.0 87.0,94.0 72.0,101.0 57.0,94.0" fill="url(#sl-t)"/><polyline points="57.0,94.0 72.0,101.0 87.0,94.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/><polygon points="81.0,74.0 96.0,81.0 96.0,111.0 81.0,104.0" fill="url(#ac-l)"/><polygon points="111.0,74.0 96.0,81.0 96.0,111.0 111.0,104.0" fill="url(#ac-r)"/><polygon points="96.0,67.0 111.0,74.0 96.0,81.0 81.0,74.0" fill="url(#ac-t)"/><polyline points="81.0,74.0 96.0,81.0 111.0,74.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/><polygon points="105.0,102.0 120.0,109.0 120.0,121.0 105.0,114.0" fill="url(#br-l)"/><polygon points="135.0,102.0 120.0,109.0 120.0,121.0 135.0,114.0" fill="url(#br-r)"/><polygon points="120.0,95.0 135.0,102.0 120.0,109.0 105.0,102.0" fill="url(#br-t)"/><polyline points="105.0,102.0 120.0,109.0 135.0,102.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g>
+  <text x="158" y="70" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.3" fill="#f3efe6">2nd Place, UBSI West Java IT Bootcamp</text>
+  <text x="158" y="98" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">Built the Trash Point web application from data model</text>
+  <text x="158" y="120" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">to deployed competition demo.</text>
+
+  <polygon points="658.0,102.0 684.0,114.0 684.0,124.0 658.0,112.0" fill="url(#sl-l)"/><polygon points="710.0,102.0 684.0,114.0 684.0,124.0 710.0,112.0" fill="url(#sl-r)"/><polygon points="684.0,90.0 710.0,102.0 684.0,114.0 658.0,102.0" fill="url(#sl-t)"/><polyline points="658.0,102.0 684.0,114.0 710.0,102.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/><g class="em-float2"><polygon points="667.0,76.0 684.0,84.0 684.0,100.0 667.0,92.0" fill="url(#br-l)"/><polygon points="701.0,76.0 684.0,84.0 684.0,100.0 701.0,92.0" fill="url(#br-r)"/><polygon points="684.0,68.0 701.0,76.0 684.0,84.0 667.0,76.0" fill="url(#br-t)"/><polyline points="667.0,76.0 684.0,84.0 701.0,76.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g>
+  <text x="742" y="70" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.3" fill="#f3efe6">Registered HKI Copyright Inventor</text>
+  <text x="742" y="98" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">Officially recorded intellectual property registration</text>
+  <text x="742" y="120" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">for the Trash Point software application.</text>
+
+  <polygon points="68.0,247.0 96.0,259.0 96.0,266.0 68.0,254.0" fill="url(#sl-l)"/><polygon points="124.0,247.0 96.0,259.0 96.0,266.0 124.0,254.0" fill="url(#sl-r)"/><polygon points="96.0,235.0 124.0,247.0 96.0,259.0 68.0,247.0" fill="url(#sl-t)"/><polyline points="68.0,247.0 96.0,259.0 124.0,247.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/><g class="em-float1"><polygon points="68.0,231.0 96.0,243.0 96.0,250.0 68.0,238.0" fill="url(#sl-l)"/><polygon points="124.0,231.0 96.0,243.0 96.0,250.0 124.0,238.0" fill="url(#sl-r)"/><polygon points="96.0,219.0 124.0,231.0 96.0,243.0 68.0,231.0" fill="url(#sl-t)"/><polyline points="68.0,231.0 96.0,243.0 124.0,231.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g><g class="em-float2"><polygon points="68.0,215.0 96.0,227.0 96.0,234.0 68.0,222.0" fill="url(#ac-l)"/><polygon points="124.0,215.0 96.0,227.0 96.0,234.0 124.0,222.0" fill="url(#ac-r)"/><polygon points="96.0,203.0 124.0,215.0 96.0,227.0 68.0,215.0" fill="url(#ac-t)"/><polyline points="68.0,215.0 96.0,227.0 124.0,215.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g>
+  <text x="158" y="212" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.3" fill="#f3efe6">SINTA 2 Research Contributor</text>
+  <text x="158" y="240" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">Co-authored the SALI App research publication in the</text>
+  <text x="158" y="262" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">nationally accredited JITK journal.</text>
+
+  <line x1="664" y1="244" x2="704" y2="226" stroke="#e57a52" stroke-width="1.6" class="net-dash"/><line x1="684" y1="256" x2="704" y2="226" stroke="#d9a45b" stroke-width="1.6" class="net-dash"/><polygon points="651.0,238.0 664.0,244.0 664.0,256.0 651.0,250.0" fill="url(#sl-l)"/><polygon points="677.0,238.0 664.0,244.0 664.0,256.0 677.0,250.0" fill="url(#sl-r)"/><polygon points="664.0,232.0 677.0,238.0 664.0,244.0 651.0,238.0" fill="url(#sl-t)"/><polyline points="651.0,238.0 664.0,244.0 677.0,238.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/><polygon points="671.0,250.0 684.0,256.0 684.0,268.0 671.0,262.0" fill="url(#br-l)"/><polygon points="697.0,250.0 684.0,256.0 684.0,268.0 697.0,262.0" fill="url(#br-r)"/><polygon points="684.0,244.0 697.0,250.0 684.0,256.0 671.0,250.0" fill="url(#br-t)"/><polyline points="671.0,250.0 684.0,256.0 697.0,250.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/><g class="em-float1"><polygon points="690.0,218.0 704.0,224.5 704.0,240.5 690.0,234.0" fill="url(#ac-l)"/><polygon points="718.0,218.0 704.0,224.5 704.0,240.5 718.0,234.0" fill="url(#ac-r)"/><polygon points="704.0,211.5 718.0,218.0 704.0,224.5 690.0,218.0" fill="url(#ac-t)"/><polyline points="690.0,218.0 704.0,224.5 718.0,218.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g>
+  <text x="742" y="212" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.3" fill="#f3efe6">MikroTik MTCNA &amp; Cisco Networking</text>
+  <text x="742" y="240" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">Certified in MikroTik network administration and</text>
+  <text x="742" y="262" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#b6b1a6">Cisco Networking fundamentals.</text>
 </svg>

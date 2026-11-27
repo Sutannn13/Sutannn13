@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="428" viewBox="0 0 1200 428" role="img" aria-label="How I build: Sutan Arlie Johan turns manual processes and scattered operational data into dependable backend systems, APIs, and web interfaces across Data and Domain, API and Automation, and Product Interface.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="424" viewBox="0 0 1200 424" role="img" aria-label="How I build: From database schema to deployed product across Data and Domain, API and Automation, and Product Interface.">
   <style>
     @keyframes floatA { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-7px); } }
     @keyframes floatB { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-11px); } }
     @keyframes floatC { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
-    @keyframes shadowPulse { 0%, 100% { opacity: 0.44; } 50% { opacity: 0.28; } }
     @keyframes flowDash { from { stroke-dashoffset: 64; } to { stroke-dashoffset: 0; } }
     @keyframes revDash { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 64; } }
     @keyframes pktFwd {
@@ -22,85 +21,95 @@
       0%, 100% { stroke-dashoffset: 0; opacity: 0.65; }
       50% { stroke-dashoffset: 64; opacity: 1; }
     }
-    .f-a { animation: floatA 4.6s ease-in-out infinite; }
-    .f-b { animation: floatB 5.2s ease-in-out infinite; }
-    .f-c { animation: floatC 4.9s ease-in-out infinite; }
-    .f-b2 { animation: floatA 5.2s ease-in-out 0.6s infinite; }
-    .f-c2 { animation: floatB 4.9s ease-in-out 0.8s infinite; }
-    .sh-p { animation: shadowPulse 4.8s ease-in-out infinite; }
+    .f-a { animation: floatA 4.8s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .f-b { animation: floatB 5.4s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .f-c { animation: floatC 5.0s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .f-b2 { animation: floatA 5.4s cubic-bezier(0.32, 0.72, 0, 1) 0.55s infinite; }
+    .f-c2 { animation: floatB 5.0s cubic-bezier(0.32, 0.72, 0, 1) 0.75s infinite; }
     .conduit { stroke-dasharray: 6 10; animation: flowDash 2.4s linear infinite; }
     .conduit-r { stroke-dasharray: 4 12; animation: revDash 3.2s linear infinite; }
-    .pkt1 { animation: pktFwd 2.6s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-    .pkt2 { animation: pktFwd 2.6s cubic-bezier(0.4, 0, 0.2, 1) 1.3s infinite; }
-    .pkt3 { animation: pktBack 3.4s cubic-bezier(0.4, 0, 0.2, 1) 0.5s infinite; }
-    .pkt4 { animation: pktBack 3.4s cubic-bezier(0.4, 0, 0.2, 1) 2.1s infinite; }
-    .ring { animation: orbitRing 7s linear infinite; }
+    .pkt1 { animation: pktFwd 2.6s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .pkt2 { animation: pktFwd 2.6s cubic-bezier(0.32, 0.72, 0, 1) 1.3s infinite; }
+    .pkt3 { animation: pktBack 3.4s cubic-bezier(0.32, 0.72, 0, 1) 0.5s infinite; }
+    .pkt4 { animation: pktBack 3.4s cubic-bezier(0.32, 0.72, 0, 1) 2.1s infinite; }
+    .ring { animation: orbitRing 7.4s linear infinite; }
     @media (prefers-reduced-motion: reduce) {
-      .f-a, .f-b, .f-c, .f-b2, .f-c2, .sh-p, .conduit, .conduit-r, .pkt1, .pkt2, .pkt3, .pkt4, .ring { animation: none !important; }
+      .f-a, .f-b, .f-c, .f-b2, .f-c2, .conduit, .conduit-r, .pkt1, .pkt2, .pkt3, .pkt4, .ring { animation: none !important; }
     }
   </style>
-  <rect x="0.75" y="0.75" width="1198.5" height="426.5" rx="10" fill="#14171c" stroke="#2c323c" stroke-width="1.5"/>
-  <g stroke="#5b6575" stroke-width="1.15" opacity="0.65" fill="none"><path d="M16,26 L16,16 L26,16"/><path d="M1174,16 L1184,16 L1184,26"/><path d="M16,402 L16,412 L26,412"/><path d="M1174,412 L1184,412 L1184,402"/></g>
+  <defs>
+    <filter id="sblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#394252"/><stop offset="100%" stop-color="#262d3a"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#262d3a"/><stop offset="100%" stop-color="#181d26"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#181d26"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
 
-  <!-- Editorial intro integrated into the architectural stage -->
-  <text x="44" y="42" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" letter-spacing="1.4" fill="#e57a52">01 / ENGINEERING SCOPE</text>
-  <text x="1156" y="42" text-anchor="end" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#969187">DATA MODEL -&gt; API ENGINE -&gt; PRODUCT UI</text>
-  <text x="44" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#f3efe6">From database schema to deployed product.</text>
-  <text x="44" y="108" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15.5" fill="#b6b1a6">Information Technology student and backend-focused full-stack developer in Depok, Indonesia. Turning manual</text>
-  <text x="44" y="130" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15.5" fill="#b6b1a6">processes and scattered operational data into dependable APIs, workflows, and clear web interfaces.</text>
-  <line x1="44" y1="152" x2="1156" y2="152" stroke="#2c323c" stroke-width="1"/>
+    <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f7a889"/><stop offset="100%" stop-color="#d96c43"/></linearGradient>
+    <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d96c43"/><stop offset="100%" stop-color="#8c3b1e"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8c3b1e"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
 
-  <!-- Ground shadows synchronized with vertical elevation -->
-  <ellipse cx="210" cy="316" rx="74" ry="21" fill="#090b0e" class="sh-p"/>
-  <ellipse cx="600" cy="322" rx="86" ry="25" fill="#090b0e" class="sh-p"/>
-  <ellipse cx="990" cy="316" rx="74" ry="21" fill="#090b0e" class="sh-p"/>
+    <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f0cb8d"/><stop offset="100%" stop-color="#c48d44"/></linearGradient>
+    <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c48d44"/><stop offset="100%" stop-color="#7c5522"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c5522"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
 
-  <!-- Bidirectional architectural data bus -->
+    <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
+      <stop offset="0%" stop-color="#d9a45b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#d9a45b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="1198.5" height="422.5" rx="12" fill="#11141a" stroke="#2a313d" stroke-width="1.15"/><line x1="16" y1="1.6" x2="1184" y2="1.6" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1"/>
+
+  <!-- Clean editorial lead without eyebrow bloat -->
+  <text x="48" y="64" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.5" fill="#f3efe6">From database schema to deployed product.</text>
+  <text x="48" y="96" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" fill="#b6b1a6">Information Technology student and backend-focused full-stack developer in Depok, Indonesia. Turning manual</text>
+  <text x="48" y="120" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" fill="#b6b1a6">processes and scattered operational data into dependable APIs, workflows, and clear web interfaces.</text>
+  <line x1="48" y1="146" x2="1152" y2="146" stroke="#2a313d" stroke-width="1"/>
+
+  <!-- Soft Gaussian-blurred tinted studio contact shadows -->
+  <ellipse cx="210" cy="316" rx="74" ry="20" fill="#07090d" opacity="0.58" filter="url(#sblur)"/>
+  <ellipse cx="600" cy="322" rx="86" ry="24" fill="#07090d" opacity="0.62" filter="url(#sblur)"/>
+  <ellipse cx="990" cy="316" rx="74" ry="20" fill="#07090d" opacity="0.58" filter="url(#sblur)"/>
+
+  <!-- Bidirectional studio glass conduits -->
   <g fill="none">
-    <line x1="306" y1="264" x2="494" y2="264" stroke="#2c323c" stroke-width="4" stroke-linecap="round"/>
-    <line x1="306" y1="264" x2="494" y2="264" stroke="#e57a52" stroke-width="1.6" class="conduit"/>
-    <line x1="306" y1="280" x2="494" y2="280" stroke="#2c323c" stroke-width="1.5" class="conduit-r"/>
+    <line x1="306" y1="262" x2="494" y2="262" stroke="#2a313d" stroke-width="4" stroke-linecap="round"/>
+    <line x1="306" y1="262" x2="494" y2="262" stroke="#e57a52" stroke-width="1.6" class="conduit"/>
+    <line x1="306" y1="278" x2="494" y2="278" stroke="#2a313d" stroke-width="1.4" class="conduit-r"/>
 
-    <line x1="706" y1="264" x2="894" y2="264" stroke="#2c323c" stroke-width="4" stroke-linecap="round"/>
-    <line x1="706" y1="264" x2="894" y2="264" stroke="#e57a52" stroke-width="1.6" class="conduit"/>
-    <line x1="706" y1="280" x2="894" y2="280" stroke="#2c323c" stroke-width="1.5" class="conduit-r"/>
+    <line x1="706" y1="262" x2="894" y2="262" stroke="#2a313d" stroke-width="4" stroke-linecap="round"/>
+    <line x1="706" y1="262" x2="894" y2="262" stroke="#e57a52" stroke-width="1.6" class="conduit"/>
+    <line x1="706" y1="278" x2="894" y2="278" stroke="#2a313d" stroke-width="1.4" class="conduit-r"/>
   </g>
-  <g class="pkt1"><polygon points="306,258 318,264 306,270 294,264" fill="#e57a52"/></g>
-  <g class="pkt2"><polygon points="706,258 718,264 706,270 694,264" fill="#e57a52"/></g>
-  <g class="pkt3"><polygon points="306,276 314,280 306,284 298,280" fill="#d9a45b"/></g>
-  <g class="pkt4"><polygon points="706,276 714,280 706,284 698,280" fill="#d9a45b"/></g>
+  <g class="pkt1"><polygon points="306,256 318,262 306,268 294,262" fill="#e57a52"/></g>
+  <g class="pkt2"><polygon points="706,256 718,262 706,268 694,262" fill="#e57a52"/></g>
+  <g class="pkt3"><polygon points="306,274 314,278 306,282 298,278" fill="#d9a45b"/></g>
+  <g class="pkt4"><polygon points="706,274 714,278 706,282 698,278" fill="#d9a45b"/></g>
 
-  <!-- Station 01: Data & Domain -->
+  <g><polygon points="152.0,274.0 210.0,301.0 210.0,317.0 152.0,290.0" fill="url(#sl-l)"/><polygon points="268.0,274.0 210.0,301.0 210.0,317.0 268.0,290.0" fill="url(#sl-r)"/><polygon points="210.0,247.0 268.0,274.0 210.0,301.0 152.0,274.0" fill="url(#sl-t)"/><polyline points="152.0,274.0 210.0,301.0 268.0,274.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/><g class="f-a"><polygon points="152.0,247.0 210.0,274.0 210.0,290.0 152.0,263.0" fill="url(#sl-l)"/><polygon points="268.0,247.0 210.0,274.0 210.0,290.0 268.0,263.0" fill="url(#sl-r)"/><polygon points="210.0,220.0 268.0,247.0 210.0,274.0 152.0,247.0" fill="url(#sl-t)"/><polyline points="152.0,247.0 210.0,274.0 268.0,247.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g><g class="f-b"><polygon points="152.0,220.0 210.0,247.0 210.0,263.0 152.0,236.0" fill="url(#ac-l)"/><polygon points="268.0,220.0 210.0,247.0 210.0,263.0 268.0,236.0" fill="url(#ac-r)"/><polygon points="210.0,193.0 268.0,220.0 210.0,247.0 152.0,220.0" fill="url(#ac-t)"/><polyline points="152.0,220.0 210.0,247.0 268.0,220.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g></g>
   <g>
-    <polygon points="152.0,278.0 210.0,305.0 210.0,321.0 152.0,294.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="268.0,278.0 210.0,305.0 210.0,321.0 268.0,294.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="210.0,251.0 268.0,278.0 210.0,305.0 152.0,278.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/>
-    <g class="f-a"><polygon points="152.0,251.0 210.0,278.0 210.0,294.0 152.0,267.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="268.0,251.0 210.0,278.0 210.0,294.0 268.0,267.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="210.0,224.0 268.0,251.0 210.0,278.0 152.0,251.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-    <g class="f-b"><polygon points="152.0,224.0 210.0,251.0 210.0,267.0 152.0,240.0" fill="#d46840" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="268.0,224.0 210.0,251.0 210.0,267.0 268.0,240.0" fill="#9c4727" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="210.0,197.0 268.0,224.0 210.0,251.0 152.0,224.0" fill="#f0936f" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
+    <polygon points="528.0,281.0 600.0,314.0 600.0,329.0 528.0,296.0" fill="url(#sl-l)"/><polygon points="672.0,281.0 600.0,314.0 600.0,329.0 672.0,296.0" fill="url(#sl-r)"/><polygon points="600.0,248.0 672.0,281.0 600.0,314.0 528.0,281.0" fill="url(#sl-t)"/><polyline points="528.0,281.0 600.0,314.0 672.0,281.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/>
+    <ellipse cx="600" cy="260" rx="88" ry="34" fill="none" stroke="#d9a45b" stroke-width="1.6" stroke-dasharray="10 6" class="ring"/>
+    <g class="f-a"><polygon points="560.0,229.0 600.0,248.0 600.0,296.0 560.0,277.0" fill="url(#ac-l)"/><polygon points="640.0,229.0 600.0,248.0 600.0,296.0 640.0,277.0" fill="url(#ac-r)"/><polygon points="600.0,210.0 640.0,229.0 600.0,248.0 560.0,229.0" fill="url(#ac-t)"/><polyline points="560.0,229.0 600.0,248.0 640.0,229.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g>
+    <g class="f-b2"><polygon points="552.0,209.0 600.0,231.0 600.0,244.0 552.0,222.0" fill="url(#br-l)"/><polygon points="648.0,209.0 600.0,231.0 600.0,244.0 648.0,222.0" fill="url(#br-r)"/><polygon points="600.0,187.0 648.0,209.0 600.0,231.0 552.0,209.0" fill="url(#br-t)"/><polyline points="552.0,209.0 600.0,231.0 648.0,209.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g>
   </g>
+  <g><polygon points="928.0,281.0 990.0,309.0 990.0,320.0 928.0,292.0" fill="url(#sl-l)"/><polygon points="1052.0,281.0 990.0,309.0 990.0,320.0 1052.0,292.0" fill="url(#sl-r)"/><polygon points="990.0,253.0 1052.0,281.0 990.0,309.0 928.0,281.0" fill="url(#sl-t)"/><polyline points="928.0,281.0 990.0,309.0 1052.0,281.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/><g class="f-c"><polygon points="936.0,252.0 990.0,277.0 990.0,288.0 936.0,263.0" fill="url(#sl-l)"/><polygon points="1044.0,252.0 990.0,277.0 990.0,288.0 1044.0,263.0" fill="url(#sl-r)"/><polygon points="990.0,227.0 1044.0,252.0 990.0,277.0 936.0,252.0" fill="url(#sl-t)"/><polyline points="936.0,252.0 990.0,277.0 1044.0,252.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g><g class="f-c2"><polygon points="946.0,223.0 990.0,243.0 990.0,254.0 946.0,234.0" fill="url(#br-l)"/><polygon points="1034.0,223.0 990.0,243.0 990.0,254.0 1034.0,234.0" fill="url(#br-r)"/><polygon points="990.0,203.0 1034.0,223.0 990.0,243.0 946.0,223.0" fill="url(#br-t)"/><polyline points="946.0,223.0 990.0,243.0 1034.0,223.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g></g>
 
-  <!-- Station 02: API & Automation -->
-  <g>
-    <polygon points="528.0,285.0 600.0,318.0 600.0,333.0 528.0,300.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="672.0,285.0 600.0,318.0 600.0,333.0 672.0,300.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="600.0,252.0 672.0,285.0 600.0,318.0 528.0,285.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/>
-    <ellipse cx="600" cy="264" rx="88" ry="34" fill="none" stroke="#d9a45b" stroke-width="1.6" stroke-dasharray="10 6" class="ring"/>
-    <g class="f-a"><polygon points="560.0,233.0 600.0,252.0 600.0,300.0 560.0,281.0" fill="#d46840" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="640.0,233.0 600.0,252.0 600.0,300.0 640.0,281.0" fill="#9c4727" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="600.0,214.0 640.0,233.0 600.0,252.0 560.0,233.0" fill="#f0936f" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-    <g class="f-b2"><polygon points="552.0,213.0 600.0,235.0 600.0,248.0 552.0,226.0" fill="#c28e46" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="648.0,213.0 600.0,235.0 600.0,248.0 648.0,226.0" fill="#8f652c" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="600.0,191.0 648.0,213.0 600.0,235.0 552.0,213.0" fill="#e6b877" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-  </g>
-
-  <!-- Station 03: Product Interface -->
-  <g>
-    <polygon points="928.0,285.0 990.0,313.0 990.0,324.0 928.0,296.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="1052.0,285.0 990.0,313.0 990.0,324.0 1052.0,296.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="990.0,257.0 1052.0,285.0 990.0,313.0 928.0,285.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/>
-    <g class="f-c"><polygon points="936.0,256.0 990.0,281.0 990.0,292.0 936.0,267.0" fill="#202632" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="1044.0,256.0 990.0,281.0 990.0,292.0 1044.0,267.0" fill="#171c24" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="990.0,231.0 1044.0,256.0 990.0,281.0 936.0,256.0" fill="#2c3442" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-    <g class="f-c2"><polygon points="946.0,227.0 990.0,247.0 990.0,258.0 946.0,238.0" fill="#c28e46" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="1034.0,227.0 990.0,247.0 990.0,258.0 1034.0,238.0" fill="#8f652c" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="990.0,207.0 1034.0,227.0 990.0,247.0 946.0,227.0" fill="#e6b877" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-  </g>
-
-  <!-- Station labels -->
-  <g text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif">
-    <text x="210" y="362" font-size="20" font-weight="700" fill="#f3efe6">Data &amp; Domain</text>
+  <g text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif">
+    <text x="210" y="362" font-size="19.5" font-weight="700" letter-spacing="-0.3" fill="#f3efe6">Data &amp; Domain</text>
     <text x="210" y="388" font-size="14.5" fill="#b6b1a6">MySQL · Supabase · Schema Design</text>
 
-    <text x="600" y="362" font-size="20" font-weight="700" fill="#f3efe6">API &amp; Automation</text>
+    <text x="600" y="362" font-size="19.5" font-weight="700" letter-spacing="-0.3" fill="#f3efe6">API &amp; Automation</text>
     <text x="600" y="388" font-size="14.5" fill="#b6b1a6">Laravel · PHP · REST API · Workflows</text>
 
-    <text x="990" y="362" font-size="20" font-weight="700" fill="#f3efe6">Product Interface</text>
+    <text x="990" y="362" font-size="19.5" font-weight="700" letter-spacing="-0.3" fill="#f3efe6">Product Interface</text>
     <text x="990" y="388" font-size="14.5" fill="#b6b1a6">TypeScript · Next.js · Tailwind CSS</text>
   </g>
 </svg>

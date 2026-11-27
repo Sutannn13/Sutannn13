@@ -1,25 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="380" height="252" viewBox="0 0 380 252" role="img" aria-label="Press Release Generator: TypeScript tool converting structured 5W+1H field notes into consistent press release drafts.">
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="232" viewBox="0 0 380 232" role="img" aria-label="Press Release Generator: TypeScript tool converting structured 5W+1H field notes into consistent press release drafts.">
   <style>
     @keyframes sheetA { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-7px); } }
     @keyframes sheetB { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-12px); } }
-    .sa { animation: sheetA 4.4s ease-in-out infinite; }
-    .sb { animation: sheetB 4.4s ease-in-out 0.35s infinite; }
+    .sa { animation: sheetA 4.6s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .sb { animation: sheetB 4.6s cubic-bezier(0.32, 0.72, 0, 1) 0.35s infinite; }
     @media (prefers-reduced-motion: reduce) { .sa, .sb { animation: none !important; } }
   </style>
-  <rect x="0.75" y="0.75" width="378.5" height="250.5" rx="10" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.5"/>
-  <g stroke="#766f64" stroke-width="1.15" opacity="0.65" fill="none"><path d="M14,22 L14,14 L22,14"/><path d="M358,14 L366,14 L366,22"/><path d="M14,230 L14,238 L22,238"/><path d="M358,238 L366,238 L366,230"/></g>
-  <text x="26" y="38" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#5c5850">AUTOMATION</text>
-  <text x="26" y="76" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#161614">Press Release</text>
-  <text x="26" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#161614">Generator</text>
-  <rect x="26" y="114" width="32" height="2.5" fill="#b5451b"/>
-  <text x="26" y="146" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#4a4741">Turns structured 5W+1H field notes</text>
-  <text x="26" y="168" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#4a4741">into consistent press release drafts.</text>
-  <rect x="26" y="182" width="96" height="24" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
-  <text x="74" y="198" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#161614">TypeScript</text>
-  <text x="28" y="227" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#b5451b">VIEW REPOSITORY</text>
+  <defs>
+    <filter id="sblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ede7dc"/><stop offset="100%" stop-color="#dbd3c5"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#dbd3c5"/><stop offset="100%" stop-color="#c2b9a9"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c2b9a9"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
 
-  <ellipse cx="306" cy="126" rx="38" ry="11" fill="#c9c1b2" opacity="0.4"/>
-  <polygon points="272.0,107.0 306.0,122.0 306.0,129.0 272.0,114.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="340.0,107.0 306.0,122.0 306.0,129.0 340.0,114.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="306.0,92.0 340.0,107.0 306.0,122.0 272.0,107.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/>
-  <g class="sa"><polygon points="272.0,87.0 306.0,102.0 306.0,109.0 272.0,94.0" fill="#7d5318" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="340.0,87.0 306.0,102.0 306.0,109.0 340.0,94.0" fill="#5c3c0e" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="306.0,72.0 340.0,87.0 306.0,102.0 272.0,87.0" fill="#9c6d28" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
-  <g class="sb"><polygon points="272.0,67.0 306.0,82.0 306.0,89.0 272.0,74.0" fill="#b5451b" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="340.0,67.0 306.0,82.0 306.0,89.0 340.0,74.0" fill="#873110" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="306.0,52.0 340.0,67.0 306.0,82.0 272.0,67.0" fill="#d46035" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
+    <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#df6b40"/><stop offset="100%" stop-color="#b5451b"/></linearGradient>
+    <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b5451b"/><stop offset="100%" stop-color="#78280b"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#78280b"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
+
+    <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ad7d33"/><stop offset="100%" stop-color="#7d5318"/></linearGradient>
+    <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7d5318"/><stop offset="100%" stop-color="#4f330a"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f330a"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
+
+    <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#b5451b" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#b5451b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
+      <stop offset="0%" stop-color="#7d5318" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7d5318" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="378.5" height="230.5" rx="12" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.15"/><line x1="16" y1="1.6" x2="364" y2="1.6" stroke="#ffffff" stroke-opacity="0.85" stroke-width="1"/>
+  <text x="26" y="54" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#161614">Press Release</text>
+  <text x="26" y="80" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#161614">Generator</text>
+  <text x="26" y="118" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#4a4741">Turns structured 5W+1H field notes</text>
+  <text x="26" y="140" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#4a4741">into consistent press release drafts.</text>
+  <rect x="26" y="164" width="96" height="24" rx="6" fill="#ece6db" stroke="#d6cfc2"/>
+  <text x="74" y="180" text-anchor="middle" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#161614">TypeScript</text>
+  <text x="26" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" fill="#b5451b">Inspect repository</text>
+
+  <ellipse cx="310" cy="122" rx="38" ry="11" fill="#a99f8e" opacity="0.52" filter="url(#sblur)"/>
+  <polygon points="276.0,101.0 310.0,116.0 310.0,123.0 276.0,108.0" fill="url(#sl-l)"/><polygon points="344.0,101.0 310.0,116.0 310.0,123.0 344.0,108.0" fill="url(#sl-r)"/><polygon points="310.0,86.0 344.0,101.0 310.0,116.0 276.0,101.0" fill="url(#sl-t)"/><polyline points="276.0,101.0 310.0,116.0 344.0,101.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/><g class="sa"><polygon points="276.0,81.0 310.0,96.0 310.0,103.0 276.0,88.0" fill="url(#br-l)"/><polygon points="344.0,81.0 310.0,96.0 310.0,103.0 344.0,88.0" fill="url(#br-r)"/><polygon points="310.0,66.0 344.0,81.0 310.0,96.0 276.0,81.0" fill="url(#br-t)"/><polyline points="276.0,81.0 310.0,96.0 344.0,81.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/></g><g class="sb"><polygon points="276.0,61.0 310.0,76.0 310.0,83.0 276.0,68.0" fill="url(#ac-l)"/><polygon points="344.0,61.0 310.0,76.0 310.0,83.0 344.0,68.0" fill="url(#ac-r)"/><polygon points="310.0,46.0 344.0,61.0 310.0,76.0 276.0,61.0" fill="url(#ac-t)"/><polyline points="276.0,61.0 310.0,76.0 344.0,61.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/></g>
 </svg>

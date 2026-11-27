@@ -1,35 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="260" height="74" viewBox="0 0 260 74" role="img" aria-label="Portfolio: sutan.dev">
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="76" viewBox="0 0 260 76" role="img" aria-label="Portfolio: sutan.dev">
   <style>
     @keyframes sweep {
-      0%, 72% { transform: translateX(-290px); opacity: 0; }
-      82% { opacity: 0.45; }
-      94% { opacity: 0.45; }
+      0%, 74% { transform: translateX(-290px); opacity: 0; }
+      84% { opacity: 0.4; }
+      94% { opacity: 0.4; }
       100% { transform: translateX(290px); opacity: 0; }
     }
     @keyframes glyphBob {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-2.5px); }
     }
-    .sheen { animation: sweep 6.4s ease-in-out 0.00s infinite; }
-    .gbob { animation: glyphBob 4.2s ease-in-out 0.00s infinite; }
-    @media (prefers-reduced-motion: reduce) {
-      .sheen, .gbob { animation: none !important; }
-    }
+    .sheen { animation: sweep 7.2s cubic-bezier(0.32, 0.72, 0, 1) 0.00s infinite; }
+    .gbob { animation: glyphBob 4.6s cubic-bezier(0.32, 0.72, 0, 1) 0.00s infinite; }
+    @media (prefers-reduced-motion: reduce) { .sheen, .gbob { animation: none !important; } }
   </style>
   <defs>
-    <clipPath id="tc"><rect x="1" y="1" width="258" height="72" rx="8"/></clipPath>
+    <filter id="sblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#394252"/><stop offset="100%" stop-color="#262d3a"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#262d3a"/><stop offset="100%" stop-color="#181d26"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#181d26"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
+
+    <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f7a889"/><stop offset="100%" stop-color="#d96c43"/></linearGradient>
+    <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d96c43"/><stop offset="100%" stop-color="#8c3b1e"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8c3b1e"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
+
+    <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f0cb8d"/><stop offset="100%" stop-color="#c48d44"/></linearGradient>
+    <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c48d44"/><stop offset="100%" stop-color="#7c5522"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c5522"/><stop offset="100%" stop-color="#07090d"/></linearGradient>
+
+    <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#e57a52" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
+      <stop offset="0%" stop-color="#d9a45b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#d9a45b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <defs>
+    <clipPath id="tc"><rect x="1" y="1" width="258" height="74" rx="12"/></clipPath>
     <linearGradient id="sg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#e57a52" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#e57a52" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#e57a52" stop-opacity="0.20"/>
       <stop offset="100%" stop-color="#e57a52" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="0.75" y="0.75" width="258.5" height="72.5" rx="8" fill="#14171c" stroke="#2c323c" stroke-width="1.5"/>
-  <g clip-path="url(#tc)">
-    <rect x="0" y="0" width="96" height="74" fill="url(#sg)" class="sheen"/>
-  </g>
-  <rect x="18" y="13" width="24" height="2.5" fill="#e57a52"/>
-  <g class="gbob"><polygon points="24.5,38.0 37.0,43.8 37.0,57.8 24.5,52.0" fill="#d46840" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="49.5,38.0 37.0,43.8 37.0,57.8 49.5,52.0" fill="#9c4727" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/><polygon points="37.0,32.2 49.5,38.0 37.0,43.8 24.5,38.0" fill="#f0936f" stroke="#2c323c" stroke-width="0.9" stroke-linejoin="round"/></g>
-  <text x="68" y="37" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#f3efe6">Portfolio</text>
-  <text x="68" y="57" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#969187">sutan.dev</text>
+  <rect x="0.75" y="0.75" width="258.5" height="74.5" rx="12" fill="#151920" stroke="#2a313d" stroke-width="1.15"/><line x1="16" y1="1.6" x2="244" y2="1.6" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1"/>
+  <g clip-path="url(#tc)"><rect x="0" y="0" width="96" height="76" fill="url(#sg)" class="sheen"/></g>
+  <g class="gbob"><polygon points="24.5,36.0 37.0,41.8 37.0,55.8 24.5,50.0" fill="url(#ac-l)"/><polygon points="49.5,36.0 37.0,41.8 37.0,55.8 49.5,50.0" fill="url(#ac-r)"/><polygon points="37.0,30.2 49.5,36.0 37.0,41.8 24.5,36.0" fill="url(#ac-t)"/><polyline points="24.5,36.0 37.0,41.8 49.5,36.0" fill="none" stroke="#fff4e6" stroke-opacity="0.26" stroke-width="1.15" stroke-linejoin="round"/></g>
+  <text x="68" y="36" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.2" fill="#f3efe6">Portfolio</text>
+  <text x="68" y="56" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#969187">sutan.dev</text>
+  <!-- Button-in-Button trailing architectural indicator island -->
+  <circle cx="228" cy="38" r="14" fill="#1d222c" stroke="#2a313d" stroke-width="1"/>
+  <path d="M225,33 L231,38 L225,43" fill="none" stroke="#e57a52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

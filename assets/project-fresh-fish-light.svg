@@ -1,31 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="380" height="252" viewBox="0 0 380 252" role="img" aria-label="Fresh Fish E-Commerce: PHP, Laravel, Blade, and MySQL storefront and order transaction workflow.">
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="232" viewBox="0 0 380 232" role="img" aria-label="Fresh Fish E-Commerce: PHP, Laravel, Blade, and MySQL storefront and order transaction workflow.">
   <style>
     @keyframes lidLift { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
     @keyframes tokenRise { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-12px); } }
-    .ll { animation: lidLift 4.8s ease-in-out infinite; }
-    .tr { animation: tokenRise 4.8s ease-in-out 0.3s infinite; }
+    .ll { animation: lidLift 4.8s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    .tr { animation: tokenRise 4.8s cubic-bezier(0.32, 0.72, 0, 1) 0.3s infinite; }
     @media (prefers-reduced-motion: reduce) { .ll, .tr { animation: none !important; } }
   </style>
-  <rect x="0.75" y="0.75" width="378.5" height="250.5" rx="10" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.5"/>
-  <g stroke="#766f64" stroke-width="1.15" opacity="0.65" fill="none"><path d="M14,22 L14,14 L22,14"/><path d="M358,14 L366,14 L366,22"/><path d="M14,230 L14,238 L22,238"/><path d="M358,238 L366,238 L366,230"/></g>
-  <text x="26" y="38" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#5c5850">COMMERCE · LARAVEL</text>
-  <text x="26" y="76" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#161614">Fresh Fish</text>
-  <text x="26" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#161614">E-Commerce</text>
-  <rect x="26" y="114" width="32" height="2.5" fill="#b5451b"/>
-  <text x="26" y="146" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#4a4741">Online storefront and order workflow</text>
-  <text x="26" y="168" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="14.5" fill="#4a4741">built with Laravel, Blade, and MySQL.</text>
-  <g font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#161614">
-    <rect x="26" y="182" width="76" height="24" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
-    <text x="64" y="198" text-anchor="middle">Laravel</text>
-    <rect x="110" y="182" width="66" height="24" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
-    <text x="143" y="198" text-anchor="middle">MySQL</text>
-    <rect x="184" y="182" width="64" height="24" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
-    <text x="216" y="198" text-anchor="middle">Blade</text>
-  </g>
-  <text x="28" y="227" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#b5451b">VIEW REPOSITORY</text>
+  <defs>
+    <filter id="sblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ede7dc"/><stop offset="100%" stop-color="#dbd3c5"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#dbd3c5"/><stop offset="100%" stop-color="#c2b9a9"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c2b9a9"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
 
-  <ellipse cx="306" cy="126" rx="38" ry="11" fill="#c9c1b2" opacity="0.4"/>
-  <polygon points="276.0,84.0 306.0,98.0 306.0,128.0 276.0,114.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="336.0,84.0 306.0,98.0 306.0,128.0 336.0,114.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="306.0,70.0 336.0,84.0 306.0,98.0 276.0,84.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/>
-  <g class="ll"><polygon points="274.0,71.0 306.0,86.0 306.0,95.0 274.0,80.0" fill="#b5451b" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="338.0,71.0 306.0,86.0 306.0,95.0 338.0,80.0" fill="#873110" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="306.0,56.0 338.0,71.0 306.0,86.0 274.0,71.0" fill="#d46035" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
-  <g class="tr"><polygon points="293.0,52.0 306.0,58.0 306.0,68.0 293.0,62.0" fill="#7d5318"/><polygon points="319.0,52.0 306.0,58.0 306.0,68.0 319.0,62.0" fill="#5c3c0e"/><polygon points="306.0,46.0 319.0,52.0 306.0,58.0 293.0,52.0" fill="#9c6d28"/></g>
+    <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#df6b40"/><stop offset="100%" stop-color="#b5451b"/></linearGradient>
+    <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b5451b"/><stop offset="100%" stop-color="#78280b"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#78280b"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
+
+    <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ad7d33"/><stop offset="100%" stop-color="#7d5318"/></linearGradient>
+    <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7d5318"/><stop offset="100%" stop-color="#4f330a"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f330a"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
+
+    <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#b5451b" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#b5451b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
+      <stop offset="0%" stop-color="#7d5318" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7d5318" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="378.5" height="230.5" rx="12" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.15"/><line x1="16" y1="1.6" x2="364" y2="1.6" stroke="#ffffff" stroke-opacity="0.85" stroke-width="1"/>
+  <text x="26" y="54" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#161614">Fresh Fish</text>
+  <text x="26" y="80" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#161614">E-Commerce</text>
+  <text x="26" y="118" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#4a4741">Online storefront and order workflow</text>
+  <text x="26" y="140" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" fill="#4a4741">built with Laravel, Blade, and MySQL.</text>
+  <g font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="11.5" fill="#161614">
+    <rect x="26" y="164" width="76" height="24" rx="6" fill="#ece6db" stroke="#d6cfc2"/>
+    <text x="64" y="180" text-anchor="middle">Laravel</text>
+    <rect x="110" y="164" width="66" height="24" rx="6" fill="#ece6db" stroke="#d6cfc2"/>
+    <text x="143" y="180" text-anchor="middle">MySQL</text>
+    <rect x="184" y="164" width="64" height="24" rx="6" fill="#ece6db" stroke="#d6cfc2"/>
+    <text x="216" y="180" text-anchor="middle">Blade</text>
+  </g>
+  <text x="26" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" fill="#b5451b">Inspect repository</text>
+
+  <ellipse cx="310" cy="122" rx="38" ry="11" fill="#a99f8e" opacity="0.52" filter="url(#sblur)"/>
+  <polygon points="280.0,78.0 310.0,92.0 310.0,122.0 280.0,108.0" fill="url(#sl-l)"/><polygon points="340.0,78.0 310.0,92.0 310.0,122.0 340.0,108.0" fill="url(#sl-r)"/><polygon points="310.0,64.0 340.0,78.0 310.0,92.0 280.0,78.0" fill="url(#sl-t)"/><polyline points="280.0,78.0 310.0,92.0 340.0,78.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/><g class="ll"><polygon points="278.0,65.0 310.0,80.0 310.0,89.0 278.0,74.0" fill="url(#ac-l)"/><polygon points="342.0,65.0 310.0,80.0 310.0,89.0 342.0,74.0" fill="url(#ac-r)"/><polygon points="310.0,50.0 342.0,65.0 310.0,80.0 278.0,65.0" fill="url(#ac-t)"/><polyline points="278.0,65.0 310.0,80.0 342.0,65.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/></g><g class="tr"><polygon points="297.0,46.0 310.0,52.0 310.0,62.0 297.0,56.0" fill="url(#br-l)"/><polygon points="323.0,46.0 310.0,52.0 310.0,62.0 323.0,56.0" fill="url(#br-r)"/><polygon points="310.0,40.0 323.0,46.0 310.0,52.0 297.0,46.0" fill="url(#br-t)"/><polyline points="297.0,46.0 310.0,52.0 323.0,46.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/></g>
 </svg>

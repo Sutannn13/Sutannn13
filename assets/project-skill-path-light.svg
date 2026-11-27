@@ -1,43 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="580" height="286" viewBox="0 0 580 286" role="img" aria-label="Skill Path AI: maps an existing profile into a practical skill roadmap and career direction. Open source TypeScript repository with 3 stars.">
+<svg xmlns="http://www.w3.org/2000/svg" width="684" height="296" viewBox="0 0 684 296" role="img" aria-label="Skill Path AI: highest-starred repository (3 stars), turning an existing profile into a practical skill roadmap and career direction.">
   <style>
     @keyframes climb {
       0%, 10% { transform: translate(0px, 0px); }
-      26%, 32% { transform: translate(30px, -32px); }
-      48%, 54% { transform: translate(60px, -66px); }
-      70%, 76% { transform: translate(90px, -100px); }
-      90%, 100% { transform: translate(120px, -136px); }
+      26%, 32% { transform: translate(34px, -34px); }
+      48%, 54% { transform: translate(68px, -70px); }
+      70%, 76% { transform: translate(102px, -106px); }
+      90%, 100% { transform: translate(136px, -144px); }
     }
     @keyframes towerFloat {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-4px); }
     }
-    .beacon { animation: climb 5.2s cubic-bezier(0.45, 0, 0.25, 1) infinite alternate; }
-    .tfloat { animation: towerFloat 6s ease-in-out infinite; }
+    .beacon { animation: climb 5.4s cubic-bezier(0.32, 0.72, 0, 1) infinite alternate; }
+    .tfloat { animation: towerFloat 6s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
     @media (prefers-reduced-motion: reduce) {
-      .beacon { animation: none !important; transform: translate(120px, -136px); }
+      .beacon { animation: none !important; transform: translate(136px, -144px); }
       .tfloat { animation: none !important; }
     }
   </style>
-  <rect x="0.75" y="0.75" width="578.5" height="284.5" rx="10" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.5"/>
-  <g stroke="#766f64" stroke-width="1.15" opacity="0.65" fill="none"><path d="M16,26 L16,16 L26,16"/><path d="M554,16 L564,16 L564,26"/><path d="M16,260 L16,270 L26,270"/><path d="M554,270 L564,270 L564,260"/></g>
+  <defs>
+    <filter id="sblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ede7dc"/><stop offset="100%" stop-color="#dbd3c5"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#dbd3c5"/><stop offset="100%" stop-color="#c2b9a9"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c2b9a9"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
 
-  <text x="32" y="42" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#5c5850">OPEN SOURCE · 3 STARS</text>
-  <text x="32" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#161614">Skill Path AI</text>
-  <rect x="32" y="102" width="38" height="2.5" fill="#b5451b"/>
+    <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#df6b40"/><stop offset="100%" stop-color="#b5451b"/></linearGradient>
+    <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b5451b"/><stop offset="100%" stop-color="#78280b"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#78280b"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
 
-  <text x="32" y="138" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#4a4741">Turns an existing profile into</text>
-  <text x="32" y="162" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#4a4741">a practical skill roadmap and</text>
-  <text x="32" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#4a4741">clear career direction.</text>
+    <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ad7d33"/><stop offset="100%" stop-color="#7d5318"/></linearGradient>
+    <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7d5318"/><stop offset="100%" stop-color="#4f330a"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f330a"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
 
-  <g font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#161614">
-    <rect x="32" y="204" width="100" height="26" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
-    <text x="82" y="221" text-anchor="middle">TypeScript</text>
-    <rect x="142" y="204" width="102" height="26" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
-    <text x="193" y="221" text-anchor="middle">Roadmap AI</text>
+    <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#b5451b" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#b5451b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
+      <stop offset="0%" stop-color="#7d5318" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7d5318" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="682.5" height="294.5" rx="12" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.15"/><rect x="1" y="1" width="682" height="294" rx="12" fill="url(#spot-brass)"/><line x1="16" y1="1.6" x2="668" y2="1.6" stroke="#ffffff" stroke-opacity="0.85" stroke-width="1"/>
+
+  <text x="36" y="72" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="32" font-weight="700" letter-spacing="-0.7" fill="#161614">Skill Path AI</text>
+  <text x="36" y="100" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#b5451b">3 stars on GitHub · TypeScript</text>
+
+  <text x="36" y="142" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" fill="#4a4741">Turns an existing developer profile into</text>
+  <text x="36" y="166" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" fill="#4a4741">a structured skill roadmap, portfolio guide,</text>
+  <text x="36" y="190" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" fill="#4a4741">and clear career direction.</text>
+
+  <g font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#161614">
+    <rect x="36" y="216" width="102" height="26" rx="6" fill="#ece6db" stroke="#d6cfc2"/>
+    <text x="87" y="233" text-anchor="middle">TypeScript</text>
+    <rect x="148" y="216" width="112" height="26" rx="6" fill="#ece6db" stroke="#d6cfc2"/>
+    <text x="204" y="233" text-anchor="middle">Career Engine</text>
   </g>
-  <text x="34" y="256" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" font-weight="700" fill="#b5451b">VIEW REPOSITORY</text>
+  <text x="36" y="268" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#b5451b">Inspect repository</text>
 
-  <ellipse cx="458" cy="230" rx="96" ry="23" fill="#c9c1b2" opacity="0.42"/>
-  <g class="tfloat"><polygon points="377.0,200.0 398.0,210.0 398.0,232.0 377.0,222.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="419.0,200.0 398.0,210.0 398.0,232.0 419.0,222.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="398.0,190.0 419.0,200.0 398.0,210.0 377.0,200.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="407.0,168.0 428.0,178.0 428.0,220.0 407.0,210.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="449.0,168.0 428.0,178.0 428.0,220.0 449.0,210.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="428.0,158.0 449.0,168.0 428.0,178.0 407.0,168.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="437.0,134.0 458.0,144.0 458.0,208.0 437.0,198.0" fill="#7d5318" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="479.0,134.0 458.0,144.0 458.0,208.0 479.0,198.0" fill="#5c3c0e" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="458.0,124.0 479.0,134.0 458.0,144.0 437.0,134.0" fill="#9c6d28" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="467.0,100.0 488.0,110.0 488.0,196.0 467.0,186.0" fill="#d9d2c4" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="509.0,100.0 488.0,110.0 488.0,196.0 509.0,186.0" fill="#c7bfb0" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="488.0,90.0 509.0,100.0 488.0,110.0 467.0,100.0" fill="#e7e1d5" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="497.0,64.0 518.0,74.0 518.0,184.0 497.0,174.0" fill="#b5451b" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="539.0,64.0 518.0,74.0 518.0,184.0 539.0,174.0" fill="#873110" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/><polygon points="518.0,54.0 539.0,64.0 518.0,74.0 497.0,64.0" fill="#d46035" stroke="#d6cfc2" stroke-width="0.9" stroke-linejoin="round"/></g>
-  <g class="beacon"><polygon points="386.0,182.0 398.0,188.0 398.0,200.0 386.0,194.0" fill="#b5451b"/><polygon points="410.0,182.0 398.0,188.0 398.0,200.0 410.0,194.0" fill="#873110"/><polygon points="398.0,176.0 410.0,182.0 398.0,188.0 386.0,182.0" fill="#d46035"/></g>
+  <ellipse cx="536" cy="242" rx="108" ry="24" fill="#a99f8e" opacity="0.58" filter="url(#sblur)"/>
+  <g class="tfloat"><polygon points="443.0,208.0 466.0,219.0 466.0,243.0 443.0,232.0" fill="url(#sl-l)"/><polygon points="489.0,208.0 466.0,219.0 466.0,243.0 489.0,232.0" fill="url(#sl-r)"/><polygon points="466.0,197.0 489.0,208.0 466.0,219.0 443.0,208.0" fill="url(#sl-t)"/><polyline points="443.0,208.0 466.0,219.0 489.0,208.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/><polygon points="477.0,174.0 500.0,185.0 500.0,231.0 477.0,220.0" fill="url(#sl-l)"/><polygon points="523.0,174.0 500.0,185.0 500.0,231.0 523.0,220.0" fill="url(#sl-r)"/><polygon points="500.0,163.0 523.0,174.0 500.0,185.0 477.0,174.0" fill="url(#sl-t)"/><polyline points="477.0,174.0 500.0,185.0 523.0,174.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/><polygon points="511.0,138.0 534.0,149.0 534.0,219.0 511.0,208.0" fill="url(#br-l)"/><polygon points="557.0,138.0 534.0,149.0 534.0,219.0 557.0,208.0" fill="url(#br-r)"/><polygon points="534.0,127.0 557.0,138.0 534.0,149.0 511.0,138.0" fill="url(#br-t)"/><polyline points="511.0,138.0 534.0,149.0 557.0,138.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/><polygon points="545.0,102.0 568.0,113.0 568.0,207.0 545.0,196.0" fill="url(#sl-l)"/><polygon points="591.0,102.0 568.0,113.0 568.0,207.0 591.0,196.0" fill="url(#sl-r)"/><polygon points="568.0,91.0 591.0,102.0 568.0,113.0 545.0,102.0" fill="url(#sl-t)"/><polyline points="545.0,102.0 568.0,113.0 591.0,102.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/><polygon points="579.0,64.0 602.0,75.0 602.0,195.0 579.0,184.0" fill="url(#ac-l)"/><polygon points="625.0,64.0 602.0,75.0 602.0,195.0 625.0,184.0" fill="url(#ac-r)"/><polygon points="602.0,53.0 625.0,64.0 602.0,75.0 579.0,64.0" fill="url(#ac-t)"/><polyline points="579.0,64.0 602.0,75.0 625.0,64.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/></g>
+  <g class="beacon"><polygon points="453.0,187.0 466.0,193.2 466.0,206.2 453.0,200.0" fill="url(#ac-l)"/><polygon points="479.0,187.0 466.0,193.2 466.0,206.2 479.0,200.0" fill="url(#ac-r)"/><polygon points="466.0,180.8 479.0,187.0 466.0,193.2 453.0,187.0" fill="url(#ac-t)"/><polyline points="453.0,187.0 466.0,193.2 479.0,187.0" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="1.15" stroke-linejoin="round"/></g>
 </svg>

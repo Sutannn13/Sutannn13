@@ -1,74 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="580" height="286" viewBox="0 0 580 286" role="img" aria-label="Solar System AR: interactive browser learning combining product UI and WebAR with A-Frame and AR.js.">
+<svg xmlns="http://www.w3.org/2000/svg" width="498" height="296" viewBox="0 0 498 296" role="img" aria-label="Solar System AR: interactive WebAR learning experience combining product UI and 3D augmented reality with A-Frame and AR.js.">
   <style>
     @keyframes spinA { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     @keyframes spinB { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
-    @keyframes sunPulse { 0%, 100% { opacity: 0.22; } 50% { opacity: 0.42; } }
+    @keyframes sunPulse { 0%, 100% { opacity: 0.20; } 50% { opacity: 0.42; } }
     .orb1 { animation: spinA 6.4s linear infinite; }
     .orb2 { animation: spinA 11s linear infinite; }
     .orb3 { animation: spinB 16s linear infinite; }
-    .halo { animation: sunPulse 4.6s ease-in-out infinite; }
-    @media (prefers-reduced-motion: reduce) {
-      .orb1, .orb2, .orb3, .halo { animation: none !important; }
-    }
+    .halo { animation: sunPulse 4.8s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+    @media (prefers-reduced-motion: reduce) { .orb1, .orb2, .orb3, .halo { animation: none !important; } }
   </style>
-  <rect x="0.75" y="0.75" width="578.5" height="284.5" rx="10" fill="#f7f4ee" stroke="#d6cfc2" stroke-width="1.5"/>
-  <g stroke="#766f64" stroke-width="1.15" opacity="0.65" fill="none"><path d="M16,26 L16,16 L26,16"/><path d="M554,16 L564,16 L564,26"/><path d="M16,260 L16,270 L26,270"/><path d="M554,270 L564,270 L564,260"/></g>
-
-  <text x="32" y="42" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#5c5850">IMMERSIVE WEB AR</text>
-  <text x="32" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#161614">Solar System AR</text>
-  <rect x="32" y="102" width="38" height="2.5" fill="#b5451b"/>
-
-  <text x="32" y="138" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#4a4741">Interactive browser learning</text>
-  <text x="32" y="162" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#4a4741">experience uniting product UI</text>
-  <text x="32" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="16" fill="#4a4741">with 3D augmented reality.</text>
-
-  <g font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#161614">
-    <rect x="32" y="204" width="100" height="26" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
-    <text x="82" y="221" text-anchor="middle">TypeScript</text>
-    <rect x="142" y="204" width="132" height="26" rx="4" fill="#eee9df" stroke="#d6cfc2"/>
-    <text x="208" y="221" text-anchor="middle">A-Frame / AR.js</text>
-  </g>
-  <text x="34" y="256" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" font-weight="700" fill="#b5451b">VIEW REPOSITORY</text>
-
   <defs>
-    <radialGradient id="sunGrad" cx="35%" cy="32%" r="65%">
-      <stop offset="0%" stop-color="#9c6d28"/>
-      <stop offset="55%" stop-color="#b5451b"/>
-      <stop offset="100%" stop-color="#873110"/>
+    <filter id="sblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+    <linearGradient id="sl-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ede7dc"/><stop offset="100%" stop-color="#dbd3c5"/></linearGradient>
+    <linearGradient id="sl-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#dbd3c5"/><stop offset="100%" stop-color="#c2b9a9"/></linearGradient>
+    <linearGradient id="sl-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c2b9a9"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
+
+    <linearGradient id="ac-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#df6b40"/><stop offset="100%" stop-color="#b5451b"/></linearGradient>
+    <linearGradient id="ac-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b5451b"/><stop offset="100%" stop-color="#78280b"/></linearGradient>
+    <linearGradient id="ac-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#78280b"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
+
+    <linearGradient id="br-t" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ad7d33"/><stop offset="100%" stop-color="#7d5318"/></linearGradient>
+    <linearGradient id="br-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7d5318"/><stop offset="100%" stop-color="#4f330a"/></linearGradient>
+    <linearGradient id="br-r" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f330a"/><stop offset="100%" stop-color="#a99f8e"/></linearGradient>
+
+    <radialGradient id="spot-warm" cx="78%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#b5451b" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#b5451b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spot-brass" cx="76%" cy="50%" r="46%">
+      <stop offset="0%" stop-color="#7d5318" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7d5318" stop-opacity="0"/>
     </radialGradient>
   </defs>
+  <defs>
+    <radialGradient id="sunGrad" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#ad7d33"/>
+      <stop offset="55%" stop-color="#b5451b"/>
+      <stop offset="100%" stop-color="#78280b"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="496.5" height="294.5" rx="12" fill="#f1ece3" stroke="#d6cfc2" stroke-width="1.15"/><rect x="1" y="1" width="496" height="294" rx="12" fill="url(#spot-warm)"/><line x1="16" y1="1.6" x2="482" y2="1.6" stroke="#ffffff" stroke-opacity="0.85" stroke-width="1"/>
 
-  <!-- Subtle AR viewfinder reticle framing the 3D orrery -->
-  <g stroke="#766f64" stroke-width="1.1" opacity="0.55" fill="none">
-    <path d="M356,74 L356,62 L368,62"/>
-    <path d="M540,62 L552,62 L552,74"/>
-    <path d="M356,226 L356,238 L368,238"/>
-    <path d="M540,238 L552,238 L552,226"/>
+  <text x="32" y="72" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.6" fill="#161614">Solar System AR</text>
+  <text x="32" y="100" font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12.5" fill="#7d5318">WebAR · A-Frame · AR.js</text>
+
+  <text x="32" y="142" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" fill="#4a4741">Browser learning tool</text>
+  <text x="32" y="166" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" fill="#4a4741">uniting product UI with</text>
+  <text x="32" y="190" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" fill="#4a4741">3D augmented reality.</text>
+
+  <g font-family="'Cascadia Mono', Consolas, ui-monospace, monospace" font-size="12" fill="#161614">
+    <rect x="32" y="216" width="102" height="26" rx="6" fill="#ece6db" stroke="#d6cfc2"/>
+    <text x="83" y="233" text-anchor="middle">TypeScript</text>
   </g>
+  <text x="32" y="268" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#b5451b">Inspect repository</text>
 
-  <ellipse cx="454" cy="230" rx="76" ry="17" fill="#c9c1b2" opacity="0.35"/>
+  <ellipse cx="376" cy="238" rx="76" ry="17" fill="#a99f8e" opacity="0.52" filter="url(#sblur)"/>
 
-  <g transform="translate(454,146) rotate(-18) scale(1, 0.44)">
-    <circle cx="0" cy="0" r="98" fill="none" stroke="#766f64" stroke-width="1.6" stroke-dasharray="6 6"/>
+  <g transform="translate(376,150) rotate(-18) scale(1, 0.44)">
+    <circle cx="0" cy="0" r="96" fill="none" stroke="#766f64" stroke-width="1.5" stroke-dasharray="6 6"/>
     <g class="orb3">
-      <circle cx="98" cy="0" r="9.5" fill="#7d5318"/>
-      <circle cx="95" cy="-3" r="3" fill="#9c6d28"/>
+      <circle cx="96" cy="0" r="9.5" fill="#7d5318"/>
+      <circle cx="93" cy="-3" r="3" fill="#ad7d33"/>
     </g>
   </g>
-
-  <g transform="translate(454,146) rotate(12) scale(1, 0.46)">
-    <circle cx="0" cy="0" r="70" fill="none" stroke="#766f64" stroke-width="1.5"/>
+  <g transform="translate(376,150) rotate(12) scale(1, 0.46)">
+    <circle cx="0" cy="0" r="68" fill="none" stroke="#766f64" stroke-width="1.4"/>
     <g class="orb2">
-      <circle cx="-70" cy="0" r="11" fill="#b5451b"/>
-      <circle cx="-73" cy="-3" r="3.5" fill="#d46035"/>
+      <circle cx="-68" cy="0" r="10.5" fill="#b5451b"/>
+      <circle cx="-71" cy="-3" r="3.5" fill="#df6b40"/>
     </g>
   </g>
 
-  <circle cx="454" cy="146" r="30" fill="#b5451b" class="halo"/>
-  <circle cx="454" cy="146" r="22" fill="url(#sunGrad)"/>
+  <circle cx="376" cy="150" r="32" fill="#b5451b" class="halo" filter="url(#sblur)"/>
+  <circle cx="376" cy="150" r="22" fill="url(#sunGrad)"/>
 
-  <g transform="translate(454,146) rotate(-8) scale(1, 0.42)">
-    <circle cx="0" cy="0" r="45" fill="none" stroke="#b5451b" stroke-width="1.4" opacity="0.85"/>
-    <g class="orb1"><circle cx="45" cy="0" r="7.5" fill="#161614"/></g>
+  <g transform="translate(376,150) rotate(-8) scale(1, 0.42)">
+    <circle cx="0" cy="0" r="44" fill="none" stroke="#b5451b" stroke-width="1.4" opacity="0.85"/>
+    <g class="orb1"><circle cx="44" cy="0" r="7.5" fill="#161614"/></g>
   </g>
 </svg>
